@@ -1,0 +1,344 @@
+/* Fonts */
+
+
+/* vt323-regular - latin */
+
+@font-face {
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/vt323-v15-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/vt323-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/vt323-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/vt323-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/vt323-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/vt323-v15-latin-regular.svg#VT323') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* Page */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: VT323;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFD4D4;
+    cursor: default;
+}
+
+
+/* Card */
+
+#card {
+    width: 814.62px;
+    height: 310px;
+    border-radius: 71px 0 0 117px;
+    display: flex;
+    align-items: center;
+    background-color: #2B2121;
+}
+
+#card::before {
+    content: '';
+    background-image: url(../images/pokeball.png);
+    background-size: contain;
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    z-index: -1;
+    margin-left: -74px;
+    margin-top: -10px;
+}
+
+#dual-panels {
+    display: flex;
+}
+
+#dual-panels::before {
+    margin-left: 24px;
+    content: '';
+    position: absolute;
+    width: 790px;
+    border-top: 0.2px solid #878787;
+    z-index: 2;
+}
+
+#dual-panels::after {
+    margin-top: 273px;
+    margin-left: 54px;
+    content: '';
+    position: absolute;
+    width: 760px;
+    border-top: 0.2px solid #878787;
+    z-index: 2;
+}
+
+
+/* Main Panes */
+
+#left {
+    width: 366px;
+    height: 274px;
+}
+
+#right {
+    width: 449px;
+    height: 274px;
+    border-left: 0.2px solid #878787;
+}
+
+
+/* Font Sizes */
+
+li,
+#viewer-name,
+#search,
+#select-list-info {
+    font-size: 27.92px;
+}
+
+#viewer-name {
+    margin-top: 7px;
+}
+
+.make-grey {
+    color: #878787;
+}
+
+
+/* Left Pane */
+
+#search,
+#select-list-info {
+    margin-left: 48px
+}
+
+#search {
+    margin-top: 11px;
+    margin-bottom: 4px;
+    width: 303.69px;
+    height: 28.51px;
+    color: white;
+    text-align: center;
+    font-family: 'VT323';
+    background: #000000;
+    border: 1px solid #878787;
+}
+
+#search:focus::placeholder {
+    color: transparent;
+}
+
+#poke-select-number {
+    margin-left: 14px;
+}
+
+#poke-select-name {
+    margin-left: 34px;
+}
+
+
+/* Scroll Bar */
+
+.simplebar-offset {
+    left: 48px;
+}
+
+
+/* Prevents thumb fade out on inactivity */
+
+.simplebar-scrollbar::before {
+    opacity: 100%;
+}
+
+
+/* Keeps thumb color consistently black */
+
+.simplebar-track {
+    overflow: visible;
+}
+
+.simplebar-scrollbar {
+    border-radius: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: black;
+    box-sizing: border-box;
+    width: 8.5px;
+}
+
+.simplebar-scrollbar.simplebar-visible::before {
+    opacity: 100%;
+}
+
+.simplebar-vertical {
+    margin-left: 30px;
+    height: 100px;
+    width: 9px;
+    border: .4px solid #878787;
+    border-radius: 45px;
+}
+
+.simplebar-content-wrapper {
+    scroll-snap-type: y mandatory;
+}
+
+
+/* Changes track width, but also changes thumb's*/
+
+.simplebar-track.simplebar-vertical {
+    width: 8.5px;
+}
+
+
+/* Listing of Pokemon  */
+
+#poke-select {
+    list-style: none;
+    height: 203px;
+}
+
+li {
+    width: 303.69px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    background: #000000;
+    border: 2px solid #878787;
+    border-radius: 33px;
+    text-align: left;
+    padding-left: 13px;
+    scroll-snap-align: start;
+}
+
+li:hover {
+    border-color: #bababa;
+}
+
+li:focus {
+    outline: none;
+    border-color: #bababa;
+}
+
+.poke-item-name {
+    margin-left: 57px;
+}
+
+
+/* Right Pane */
+
+#poke-visual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: .5;
+    /* line-height removes unneeded margin-esque space in #viewer-name */
+}
+
+#viewer-id-number {
+    margin-top: 11px;
+}
+
+#cry-btn {
+    width: 15px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#viewer-image {
+    width: 85.36px;
+    margin-top: 8px;
+}
+
+#poke-info,
+#dex-text {
+    padding: 0px 18px;
+}
+
+#poke-info {
+    display: flex;
+    gap: 16px;
+}
+
+#dex-text::before {
+    content: '';
+    position: absolute;
+    width: 413px;
+    border-top: 0.2px solid;
+}
+
+#dex-text {
+    font-size: 18px;
+}
+
+
+/* JavaScript Functions */
+
+.make-hidden {
+    display: none;
+}
+
+.make-visible {
+    display: block;
+}
+
+.make-white {
+    border-color: white !important;
+}
+
+
+/* Responsiveness */
+
+#toggle-button {
+    display: none;
+    width: 21px;
+    margin-top: 11px;
+    filter: invert(1);
+    margin-left: 29px;
+    position: absolute;
+    cursor: pointer;
+}
+
+@media(max-width: 814px) {
+    #left {
+        width: 442.62px;
+        border-radius: 36px 0 0 46px;
+        position: absolute;
+        background-color: #2B2121;
+        z-index: 1;
+    }
+    #toggle-button {
+        z-index: 2;
+        display: inline-block;
+    }
+    #select-list-info,
+    #search {
+        margin-left: 83px;
+    }
+    #dual-panels::before {
+        margin-left: 5px;
+        width: 437px;
+    }
+    #dual-panels::after {
+        margin-left: 23px;
+        width: 420px;
+    }
+    #poke-select {
+        margin-left: 35px;
+    }
+    #right {
+        border-left: none;
+    }
+    #card {
+        width: 442.62px;
+        border-radius: 36px 0 0 70px;
+    }
+}

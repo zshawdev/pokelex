@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+    <link rel="stylesheet" href="css/clear.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div id="card">
+        <div id="dual-panels">
+
+            <div id="left">
+                <input id="search" class="make-grey" type="search" placeholder="SEARCH" autocomplete="off">
+                <div id="select-list-info" class="make-grey">
+                    <span id="poke-select-number">DEX #</span>
+                    <span id="poke-select-name">POK&#233;MON</span>
+                </div>
+                <ol id="poke-select" data-simplebar data-simplebar-direction='rtl'>
+
+                </ol>
+
+            </div>
+
+            <div id="right">
+                <img id="toggle-button" src="icons/bars-solid.svg">
+                <div id="poke-visual">
+                    <span id="viewer-id-number" class="make-grey"></span>
+                    <span id="viewer-name"></span>
+                    <img id="viewer-image"></img>
+                    <img id="cry-btn" src="icons/speaker.png"></button>
+                </div>
+                <div id="poke-info">
+                    <span id="viewer-species"></span>
+                    <span id="viewer-ht"></span>
+                    <span id="viewer-wt"></span>
+                </div>
+                <p id="dex-text"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
