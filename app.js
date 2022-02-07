@@ -6,12 +6,31 @@ const viewerImage = document.querySelector('#viewer-image');
 const viewerHT = document.querySelector('#viewer-ht');
 const viewerWT = document.querySelector('#viewer-wt');
 const viewerSpecies = document.querySelector('#viewer-species');
+const card = document.querySelector('#card');
 const cryBtn = document.querySelector('#cry-btn');
 const viewerDexEntry = document.querySelector('#dex-text');
 const speaker = document.querySelector('#speaker');
 const toggleButton = document.querySelector('#toggle-button');
 const left = document.querySelector('#left');
 let mainArray, liAll, cry;
+// card.style.display = 'none';
+
+// let isAssetsLoaded = false;
+
+// window.addEventListener('DOMContentLoaded', () => {
+//     toggleCardDisplay();
+// });
+
+// const toggleCardDisplay = () => {
+//     if (!isAssetsLoaded) {
+//         card.style.display = 'none';
+//         //spinner.style.display
+
+//     } else {
+//         card.style.display = 'flex';
+//         //spinner.style.display = 'none';
+//     }
+// }
 
 
 //Endgoal: create a single array of objects (mainArray), whose desired key:value pairs are spread across two separate objects-containing API endpoints
@@ -65,6 +84,9 @@ const arrayAB = ((arrayA, arrayB) => {
     generateList(mainArray);
     listInteractivity();
     selectActive(mainArray[25 - 1]);
+    let isAssetsLoaded = true;
+    // toggleCardDisplay();
+    // card.style.display = 'flex';
 })
 
 //Unit Conversion
@@ -191,11 +213,11 @@ let prevWidth = window.innerWidth;
 window.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', () => {
         currentWidth = window.innerWidth
-        if (currentWidth <= 814) {
-            if (prevWidth >= 814) {
+        if (currentWidth <= 769) {
+            if (prevWidth >= 769) {
                 left.classList.add('make-hidden');
             }
-            if (prevWidth <= 814) {
+            if (prevWidth <= 769) {
                 return prevWidth = currentWidth;
             }
         } else {
@@ -206,7 +228,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 const mobileResponsivePane = (width) => {
-    if (width <= 814) {
+    if (width <= 769) {
         left.classList.add('make-hidden');
     }
 }

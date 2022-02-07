@@ -307,7 +307,7 @@ li:focus {
     cursor: pointer;
 }
 
-@media(max-width: 814px) {
+@media(max-width: 769px) {
     #left {
         width: 442.62px;
         border-radius: 36px 0 0 46px;
