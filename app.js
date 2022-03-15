@@ -12,6 +12,8 @@ const speaker = document.querySelector('#speaker');
 const toggleButton = document.querySelector('#toggle-button');
 const left = document.querySelector('#left');
 let mainArray, liAll, cry;
+// let mainArray = [];
+// Typing is important, just be consistent with it
 
 
 //Endgoal: create a single array of objects (mainArray), whose desired key:value pairs are spread across two separate objects-containing API endpoints
@@ -35,7 +37,7 @@ const arrayAB = ((arrayA, arrayB) => {
         }
     });
     mainArray = arrayA.map(poke => ({
-        id: digitPlace(poke.id),
+        id: `${poke.id}`.padStart(3, '0'),
         name: poke.name.toUpperCase(),
         image: `images/${arrayA.indexOf(poke) + 1}.png`,
         cry: `cries/${arrayA.indexOf(poke) + 1}.wav`,
@@ -68,17 +70,6 @@ const arrayAB = ((arrayA, arrayB) => {
 })
 
 //Unit Conversion
-
-const digitPlace = (number) => {
-    if (number < 10) {
-        return `00${number}`
-    }
-    if (number < 100) {
-        return `0${number}`
-    } else {
-        return number
-    }
-}
 
 const toPounds = weight => {
     const raw = (weight / 10) * 2.2046; //weight's value: kg albeit misplaced (stored: 69, desired: 6.9), is converted to kg (via / 10) then kg-to-pounds
