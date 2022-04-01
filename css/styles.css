@@ -25,38 +25,38 @@ html {
 }
 
 body {
-    font-family: VT323;
-    color: white;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: #DFD4D4;
+    color: white;
     cursor: default;
+    display: flex;
+    font-family: VT323;
+    min-height: 100vh;
+    justify-content: center;
 }
 
 
 /* Card */
 
 #card {
-    width: 814.62px;
-    height: 310px;
-    border-radius: 71px 0 0 117px;
-    display: flex;
     align-items: center;
     background-color: #2B2121;
+    border-radius: 71px 0 0 117px;
+    display: flex;
+    height: 310px;
+    width: 814.62px;
 }
 
 #card::before {
-    content: '';
     background-image: url(../images/pokeball.png);
     background-size: contain;
-    position: fixed;
-    width: 400px;
+    content: '';
     height: 400px;
-    z-index: -1;
     margin-left: -74px;
     margin-top: -10px;
+    position: fixed;
+    width: 400px;
+    z-index: -1;
 }
 
 #dual-panels {
@@ -64,21 +64,21 @@ body {
 }
 
 #dual-panels::before {
-    margin-left: 24px;
+    border-top: 0.2px solid #878787;
     content: '';
+    margin-left: 24px;
     position: absolute;
     width: 790px;
-    border-top: 0.2px solid #878787;
     z-index: 2;
 }
 
 #dual-panels::after {
+    border-top: 0.2px solid #878787;
+    content: '';
     margin-top: 273px;
     margin-left: 54px;
-    content: '';
     position: absolute;
     width: 760px;
-    border-top: 0.2px solid #878787;
     z-index: 2;
 }
 
@@ -86,14 +86,14 @@ body {
 /* Main Panes */
 
 #left {
-    width: 366px;
     height: 274px;
+    width: 366px;
 }
 
 #right {
-    width: 449px;
-    height: 274px;
     border-left: 0.2px solid #878787;
+    height: 274px;
+    width: 449px;
 }
 
 
@@ -123,15 +123,15 @@ li,
 }
 
 #search {
-    margin-top: 11px;
-    margin-bottom: 4px;
-    width: 303.69px;
-    height: 28.51px;
-    color: white;
-    text-align: center;
-    font-family: 'VT323';
     background: #000000;
     border: 1px solid #878787;
+    color: white;
+    font-family: 'VT323';
+    height: 28.51px;
+    margin-top: 11px;
+    margin-bottom: 4px;
+    text-align: center;
+    width: 303.69px;
 }
 
 #search:focus::placeholder {
@@ -168,9 +168,9 @@ li,
 }
 
 .simplebar-scrollbar {
-    border-radius: 45px;
-    border: 1px solid rgba(255, 255, 255, 0.6);
     background: black;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 45px;
     box-sizing: border-box;
     width: 8.5px;
 }
@@ -180,11 +180,11 @@ li,
 }
 
 .simplebar-vertical {
-    margin-left: 30px;
-    height: 100px;
-    width: 9px;
     border: .4px solid #878787;
     border-radius: 45px;
+    height: 100px;
+    margin-left: 30px;
+    width: 9px;
 }
 
 .simplebar-content-wrapper {
@@ -202,20 +202,20 @@ li,
 /* Listing of Pokemon  */
 
 #poke-select {
-    list-style: none;
     height: 203px;
+    list-style: none;
 }
 
 li {
-    width: 303.69px;
-    margin: 2px 0;
-    box-sizing: border-box;
     background: #000000;
     border: 2px solid #878787;
     border-radius: 33px;
-    text-align: left;
+    box-sizing: border-box;
+    margin: 2px 0;
     padding-left: 13px;
     scroll-snap-align: start;
+    text-align: left;
+    width: 303.69px;
 }
 
 li:hover {
@@ -223,8 +223,8 @@ li:hover {
 }
 
 li:focus {
-    outline: none;
     border-color: #bababa;
+    outline: none;
 }
 
 .poke-item-name {
@@ -235,9 +235,9 @@ li:focus {
 /* Right Pane */
 
 #poke-visual {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     line-height: .5;
     /* line-height removes unneeded margin-esque space in #viewer-name */
 }
@@ -247,15 +247,15 @@ li:focus {
 }
 
 #cry-btn {
-    width: 15px;
-    margin-top: 8px;
-    margin-bottom: 10px;
     cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    width: 15px;
 }
 
 #viewer-image {
-    width: 85.36px;
     margin-top: 8px;
+    width: 85.36px;
 }
 
 #poke-info,
@@ -270,9 +270,9 @@ li:focus {
 
 #dex-text::before {
     content: '';
+    border-top: 0.2px solid;
     position: absolute;
     width: 413px;
-    border-top: 0.2px solid;
 }
 
 #dex-text {
@@ -298,26 +298,26 @@ li:focus {
 /* Responsiveness */
 
 #toggle-button {
+    cursor: pointer;
     display: none;
-    width: 21px;
-    margin-top: 11px;
     filter: invert(1);
     margin-left: 29px;
+    margin-top: 11px;
     position: absolute;
-    cursor: pointer;
+    width: 21px;
 }
 
 @media(max-width: 814px) {
     #left {
-        width: 442.62px;
+        background-color: #2B2121;
         border-radius: 36px 0 0 46px;
         position: absolute;
-        background-color: #2B2121;
+        width: 442.62px;
         z-index: 1;
     }
     #toggle-button {
-        z-index: 2;
         display: inline-block;
+        z-index: 2;
     }
     #select-list-info,
     #search {
@@ -338,7 +338,7 @@ li:focus {
         border-left: none;
     }
     #card {
-        width: 442.62px;
         border-radius: 36px 0 0 70px;
+        width: 442.62px;
     }
 }
