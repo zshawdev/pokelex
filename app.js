@@ -1,22 +1,18 @@
-const pokeSelect = () => document.querySelector('.simplebar-content');
-const search = document.querySelector('#search');
-const viewerIDNumber = document.querySelector('#viewer-id-number');
-const viewerName = document.querySelector('#viewer-name');
-const viewerImage = document.querySelector('#viewer-image');
-const viewerHT = document.querySelector('#viewer-ht');
-const viewerWT = document.querySelector('#viewer-wt');
-const viewerSpecies = document.querySelector('#viewer-species');
-const cryBtn = document.querySelector('#cry-btn');
-const viewerDexEntry = document.querySelector('#dex-text');
-const speaker = document.querySelector('#speaker');
-const toggleButton = document.querySelector('#toggle-button');
-const left = document.querySelector('#left');
-let mainArray, liAll, cry;
-// let mainArray = [];
-// Typing is important, just be consistent with it
+const pokeSelect = () => document.querySelector(".simplebar-content");
+const toggleButton = document.querySelector("#toggle-button");
+const searchPane = document.querySelector("#search-pane");
+const entryPane = document.querySelector("#entry-pane");
+const search = document.querySelector("#search");
+const entryNumber = document.querySelector("#entry-number");
+const entryName = document.querySelector("#entry-name");
+const entrySprite = document.querySelector("#entry-sprite");
+const entryHeight = document.querySelector("#entry-height");
+const entryWeight = document.querySelector("#entry-weight");
+const entrySpecies = document.querySelector("#entry-species");
+const entryAudioButton = document.querySelector("#entry-audio-button");
+const entryFlavorText = document.querySelector("#entry-flavor-text");
+let mainArray, liAll, entryAudioFile;
 
-
-//Endgoal: create a single array of objects (mainArray), whose desired key:value pairs are spread across two separate objects-containing API endpoints
 const fetchJson = url => fetch(url).then(r => r.json()).catch(console.log);
 (async() => {
     [arrayA, arrayB] = await Promise.all([
@@ -26,7 +22,8 @@ const fetchJson = url => fetch(url).then(r => r.json()).catch(console.log);
 
     arrayAB(arrayA, arrayB);
 
-})();
+}
+)();
 
 const arrayAB = ((arrayA, arrayB) => {
     arrayA.forEach(function(n) {
@@ -34,35 +31,36 @@ const arrayAB = ((arrayA, arrayB) => {
         arrayA[index] = {
             ...arrayA[index],
             ...arrayB[index]
-        }
+        };
     });
+    
     mainArray = arrayA.map(poke => ({
-        id: `${poke.id}`.padStart(3, '0'),
+        id: `${poke.id}`.padStart(3, "0"),
         name: poke.name.toUpperCase(),
         image: `images/${arrayA.indexOf(poke) + 1}.png`,
-        cry: `cries/${arrayA.indexOf(poke) + 1}.wav`,
+        audioFile: `cries/${arrayA.indexOf(poke) + 1}.wav`,
         ht: toFeet(poke.height),
         wt: toPounds(poke.weight),
-        species: poke.genera[7].genus.replace(' Pokémon', '').toUpperCase(),
-        entry: poke.flavor_text_entries[6].flavor_text.replaceAll('\n', ' ').replaceAll('\f', ' '),
+        species: poke.genera[7].genus.replace(" Pokémon", "").toUpperCase(),
+        entry: poke.flavor_text_entries[6].flavor_text.replaceAll("\n", " ").replaceAll("\f", " ")
     }));
 
-    mainArray[121].name = 'MR. MIME';
-    mainArray[28].name = 'NIDORAN (F)';
-    mainArray[31].name = 'NIRDON (M)';
-    mainArray[82].name = `FARFETCH'D`;
+    mainArray[121].name = "MR. MIME";
+    mainArray[28].name = "NIDORAN (F)";
+    mainArray[31].name = "NIDORAN (M)";
+    mainArray[82].name = `FARFETCH"D`;
 
-    mainArray[18].entry = mainArray[18].entry.replace(' ity', 'ity');
-    mainArray[19].entry = mainArray[19].entry.replace(' es', 'es');
-    mainArray[20].entry = mainArray[20].entry.replace(' pi', 'pi');
-    mainArray[53].entry = mainArray[53].entry.replace(' ch', 'ch');
-    mainArray[53].entry = mainArray[53].entry.replace(' ch', 'ch');
-    mainArray[64].entry = mainArray[64].entry.replace(' l', 'l');
-    mainArray[68].entry = mainArray[68].entry.replace(' te', 'te').replace(' cap', 'cap');
-    mainArray[72].entry = mainArray[72].entry.replace(' er', 'er');
-    mainArray[74].entry = mainArray[74].entry.replace(' l', 'l');
-    mainArray[130].entry = mainArray[130].entry.replace(' ry', 'ry');
-    mainArray[137].entry = mainArray[137].entry.replace(' s', 's');
+    mainArray[18].entry = mainArray[18].entry.replace(" ity", "ity");
+    mainArray[19].entry = mainArray[19].entry.replace(" es", "es");
+    mainArray[20].entry = mainArray[20].entry.replace(" pi", "pi");
+    mainArray[53].entry = mainArray[53].entry.replace(" ch", "ch");
+    mainArray[53].entry = mainArray[53].entry.replace(" ch", "ch");
+    mainArray[64].entry = mainArray[64].entry.replace(" l", "l");
+    mainArray[68].entry = mainArray[68].entry.replace(" te", "te").replace(" cap", "cap");
+    mainArray[72].entry = mainArray[72].entry.replace(" er", "er");
+    mainArray[74].entry = mainArray[74].entry.replace(" l", "l");
+    mainArray[130].entry = mainArray[130].entry.replace(" ry", "ry");
+    mainArray[137].entry = mainArray[137].entry.replace(" s", "s");
 
     generateList(mainArray);
     listInteractivity();
@@ -72,132 +70,132 @@ const arrayAB = ((arrayA, arrayB) => {
 //Unit Conversion
 
 const toPounds = weight => {
-    const raw = (weight / 10) * 2.2046; //weight's value: kg albeit misplaced (stored: 69, desired: 6.9), is converted to kg (via / 10) then kg-to-pounds
+    const raw = (weight / 10) * 2.2046; //weight"s value: kg albeit misplaced (stored: 69, desired: 6.9), is converted to kg (via / 10) then kg-to-pounds
     let pounds = Math.floor(raw);
     let decimal = Math.round((raw - pounds) * 10);
     if (decimal === 10) {
         pounds++;
         decimal = 0;
-    }
-    return `<span class="make-grey">WT</span> ${pounds}.${decimal}lbs`;
+    };
+    return `<span class="u-color-gray">WT</span> ${pounds}.${decimal}lbs`;
 }
 
 const toFeet = height => {
-    const raw = (height / 10) * 3.28084; //height's value: meters albeit misplaced (stored: 69, desired: 6.9), is converted to meters (via / 10) then meters-to-feet
+    const raw = (height / 10) * 3.28084; //height"s value: meters albeit misplaced (stored: 69, desired: 6.9), is converted to meters (via / 10) then meters-to-feet
     let feet = Math.floor(raw);
     let inches = Math.round((raw - feet) * 12);
     if (inches === 12) {
         feet++;
         inches = 0;
-        return `<span class="make-grey">HT</span> ${feet}'0${inches}"`;
+        return `<span class="u-color-gray">HT</span> ${feet}"0${inches}"`;
     }
     if (inches < 10) {
-        return `<span class="make-grey">HT</span> ${feet}'0${inches}"`
+        return `<span class="u-color-gray">HT</span> ${feet}"0${inches}"`;
     } else {
-        return `<span class="make-grey">HT</span> ${feet}'${inches}"`
+        return `<span class="u-color-gray">HT</span> ${feet}"${inches}"`;
     }
 }
 
-// add all li to ol
 const generateList = array => {
     array.forEach(({
         id,
         name
     }) => {
-        const newPoke = document.createElement('li');
-        newPoke.innerHTML = `<span>${id}</span> <span class="poke-item-name">${name}</span>`;
+        const newPoke = document.createElement("li");
+        newPoke.innerHTML = `<span>${id}</span> <span class="pokedex__list-item--name-of-pokemon">${name}</span>`;
         pokeSelect().append(newPoke);
         newPoke.tabIndex = -1;
     })
 };
 
-
-// search filter
-search.addEventListener('input', () => {
+search.addEventListener("input", () => {
     for (let li of liAll) {
         if (!li.innerText.includes(search.value.toUpperCase())) {
-            li.classList.add('make-hidden');
+            li.classList.add("u-display-none");
         } else {
-            li.classList.remove('make-hidden')
+            li.classList.remove("u-display-none");
         }
     }
 });
 
-
 // print clicked-li to viewer pane
 const listInteractivity = () => {
-    let liAll = document.querySelectorAll('li')
+    let liAll = document.querySelectorAll("li");
     for (let li of liAll) {
-        li.addEventListener('click', () => {
-            num = parseInt(li.innerText) - 1;
+        li.addEventListener("click", () => {
+            num = parseInt(li.innerText, 10) - 1;
             selectActive(mainArray[num]);
         });
     }
 }
 
-
-// printing of clicked-li to viewer pane
 const selectActive = poke => {
-    viewerIDNumber.textContent = `No.${poke.id}`;
-    viewerName.textContent = poke.name;
-    viewerImage.src = poke.image;
-    viewerSpecies.innerHTML = `<span class="make-grey">SPECIES</span> ${poke.species}`;
-    viewerHT.innerHTML = poke.ht;
-    viewerWT.innerHTML = poke.wt;
-    viewerDexEntry.innerText = poke.entry;
-    cry = new Audio(poke.cry);
+    entryNumber.textContent = `No.${poke.id}`;
+    entryName.textContent = poke.name;
+    entrySprite.src = poke.image;
+    entrySpecies.innerHTML = `<span class="u-color-gray">SPECIES</span> ${poke.species}`;
+    entryHeight.innerHTML = poke.ht;
+    entryWeight.innerHTML = poke.wt;
+    entryFlavorText.innerText = poke.entry;
+    entryAudioFile = new Audio(poke.audioFile);
     focusPoke(poke);
 };
 
-// focus selected Poke's card
+// focus selected Poke"s card
 const focusPoke = poke => {
-    search.value = '';
-    liAll = document.querySelectorAll('li');
+    search.value = "";
+    liAll = document.querySelectorAll("li");
     for (let li of liAll) {
-        li.classList.remove('make-hidden');
-        li.classList.remove('make-white');
+        li.classList.remove("u-display-none");
+        li.classList.remove("u-border-color-white");
     };
     const focusedPoke = pokeSelect().children[parseInt(poke.id, 10) - 1];
-    focusedPoke.classList.add('make-white');
+    focusedPoke.classList.add("u-border-color-white");
     focusedPoke.focus();
-    mobileResponsivePane(window.innerWidth);
+    resetPokedexPaneDisplay(window.innerWidth);
 };
 
-window.addEventListener('DOMContentLoaded', () => {
-    cryBtn.addEventListener('click', () => {
-        cry.play()
+window.addEventListener("DOMContentLoaded", () => {
+    entryAudioButton.addEventListener("click", () => {
+        entryAudioFile.play()
     });
 });
 
 //Responsiveness
 
-window.addEventListener('DOMContentLoaded', () => {
-    toggleButton.addEventListener('click', () => {
-        left.classList.toggle('make-hidden');
+window.addEventListener("DOMContentLoaded", () => {
+    toggleButton.addEventListener("click", () => {
+        searchPane.classList.toggle("u-display-block");
+        entryPane.classList.toggle("u-display-none");
     });
 });
 
+tabPortMediaQuery = 900;
+
+const resetPokedexPaneDisplay = (width) => {
+    if (width <= tabPortMediaQuery) {
+        searchPane.classList.remove("u-display-block");
+        entryPane.classList.remove("u-display-none");
+    }
+}
+
 let prevWidth = window.innerWidth;
 
-window.addEventListener('DOMContentLoaded', () => {
-    window.addEventListener('resize', () => {
+window.addEventListener("DOMContentLoaded", () => {
+    window.addEventListener("resize", () => {
         currentWidth = window.innerWidth
-        if (currentWidth <= 814) {
-            if (prevWidth >= 814) {
-                left.classList.add('make-hidden');
+        if (currentWidth <= tabPortMediaQuery) { //To small...
+            if (prevWidth >= tabPortMediaQuery) { //...from big
+                searchPane.classList.remove("u-display-block");
+                entryPane.classList.remove("u-display-none");
             }
-            if (prevWidth <= 814) {
+            if (prevWidth <= tabPortMediaQuery) { //...from small
                 return prevWidth = currentWidth;
             }
-        } else {
-            left.classList.remove('make-hidden');
+        } else { //To big from big & from small to big
+            searchPane.classList.remove("u-display-block");
+            entryPane.classList.remove("u-display-none");
         }
         prevWidth = currentWidth;
     })
 });
-
-const mobileResponsivePane = (width) => {
-    if (width <= 814) {
-        left.classList.add('make-hidden');
-    }
-}

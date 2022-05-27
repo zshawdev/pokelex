@@ -4,54 +4,47 @@
 <head>
     <title>Pok&#233;dex</title>
     <meta charset="utf-8">
-    <meta name="description" content="Learn about the various mythical creatures found throughout the world of Pok&#233;mon via this interactive encyclopedia!">
-    <meta name="keywords" content="web developer, web development, Zane Shaw, portfolio, front end">
-    <meta name="title" property="og:title" content="Pok&#233;dex by Zane Shaw">
-    <meta property="og:type" content="Website">
-    <meta property="og-url" content="https://zshawdev.github.io/pokedex/">
-    <meta name="image" property="og:image" content="https://i.ibb.co/cbxrkkN/og-img-pokedex.png">
-    <meta name="description" property="og:description" content="Learn about the various mythical creatures found throughout the world of Pok&#233;mon via this interactive encyclopedia!">
-    <link href="icons/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
     <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
-    <link rel="stylesheet" href="css/clear.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <main>
+        <span class="pokeball">&nbsp;</span>
+        <div class="pokedex">
+            <span class="pokedex__toggle-button" id="toggle-button">
+                <span class="pokedex__icon">&nbsp;</span>
+            </span>
 
-    <div id="card">
-        <div id="dual-panels">
-
-            <div id="left">
-                <input id="search" class="make-grey" type="search" placeholder="SEARCH" autocomplete="off">
-                <div id="select-list-info" class="make-grey">
-                    <span id="poke-select-number">DEX #</span>
-                    <span id="poke-select-name">POK&#233;MON</span>
+            <div class="pokedex__select-pane" id="search-pane">
+                <input class="pokedex__search" id="search" type="search" placeholder="SEARCH" autocomplete="off">
+                <div class="pokedex__list-heading-group">
+                    <span class="pokedex__list-heading">DEX #</span>
+                    <span class="pokedex__list-heading pokedex__list-heading--name-of-pokemon">POK&#233;MON</span>
                 </div>
-                <ol id="poke-select" data-simplebar data-simplebar-direction='rtl'>
+                <ol class="pokedex__list-of-pokemon" data-simplebar data-simplebar-direction='rtl'>
 
                 </ol>
 
             </div>
 
-            <div id="right">
-                <img id="toggle-button" src="icons/bars-solid.svg">
-                <div id="poke-visual">
-                    <span id="viewer-id-number" class="make-grey"></span>
-                    <span id="viewer-name"></span>
-                    <img id="viewer-image"></img>
-                    <img id="cry-btn" src="icons/speaker.png"></button>
+            <div class="pokedex__entry-pane" id="entry-pane">
+                <div class="pokedex__entry-top-info">
+                    <span class="pokedex__entry-number" id="entry-number"></span>
+                    <span class="pokedex__entry-name" id="entry-name"></span>
+                    <img class="pokedex__entry-sprite" id="entry-sprite"></img>
+                    <img class="pokedex__entry-audio-button" id="entry-audio-button" src="icons/speaker.png"></img>
                 </div>
-                <div id="poke-info">
-                    <span id="viewer-species"></span>
-                    <span id="viewer-ht"></span>
-                    <span id="viewer-wt"></span>
+                <div class="pokedex__entry-stats">
+                    <span class="pokedex__entry-species" id="entry-species"></span>
+                    <span class="pokedex__entry-height" id="entry-height"></span>
+                    <span class="pokedex__entry-weight" id="entry-weight"></span>
                 </div>
-                <p id="dex-text"></p>
+                <p class="pokedex__entry-flavor-text" id="entry-flavor-text"></p>
             </div>
         </div>
-    </div>
+    </main>
 
     <script src="app.js"></script>
 </body>

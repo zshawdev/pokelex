@@ -1,0 +1,219 @@
+.pokeball {
+    @include absolute-center;
+
+    &::after {
+        @include absolute-center;
+        left: -28rem;
+
+        content: "";
+        background-image: url(../icons/pokeball.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        height: 40rem;
+        width: 40rem;
+    }
+}
+
+.pokedex {
+    @include absolute-center;
+    display: flex;
+
+    width: 81.5rem;
+    height: 31rem;
+    padding: 1.5rem 0 1.5rem 0;
+    border-radius: 7.1rem 1rem 1rem 11.7rem;
+    overflow: hidden;
+
+    background-color: rgba($color-gray-dark, .8);
+    color: $color-white;
+
+    &__select-pane,
+    &__entry-pane {
+        height: 100%;
+        border-top: $border-pane;
+        border-bottom: $border-pane;
+        z-index: -1;
+    }
+
+    &__select-pane {
+        width: 45%;
+        margin-left: calc(4.8rem - #{$select-pane-children-offset}); 
+    }
+
+    &__entry-pane {
+        width: 55%;
+        border-left: $border-pane;
+    }
+
+    &__search, &__list-heading-group {
+        margin-left: $select-pane-children-offset
+    }
+
+    &__search {
+        background-color: $color-black;
+        border: 1px solid $color-gray;
+        font-family: inherit;
+        color: inherit;
+        font-size: $font-size-large;
+        height: 2.85rem;
+        margin-top: $margin-top;
+        margin-bottom: .4rem;
+        text-align: center;
+        width: 30.4rem;
+
+        &:focus::placeholder {
+            color: transparent;
+        }
+    }
+
+    &__list-heading-group {
+        font-size: $font-size-large;
+        color: $color-gray;
+        position: relative;
+        padding-left: calc(#{$list-item-border-width} + #{$list-item-padding-left})
+    }
+
+    &__list-heading,
+    &__list-item {
+        &--name-of-pokemon {
+            position: absolute;
+            left: 11.5rem;
+        }
+    }
+
+    &__list-of-pokemon {
+        height: 74%;
+        list-style: none;
+
+        li {
+            background-color: $color-black;
+            border: $list-item-border-width solid $color-gray;
+            border-radius: 3.3rem;
+            cursor: pointer;
+            font-size: $font-size-large;
+            margin: 2px 0;
+            padding-left: $list-item-padding-left;
+            scroll-snap-align: start;
+            text-align: left;
+            width: 30.3rem;
+        
+            &:hover {
+                border-color: $color-gray-light;
+            }
+        
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &__entry {
+        &-top-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-number {
+            color: $color-gray;
+            margin-top: 0.5rem;
+        }
+
+        &-name {
+            font-size: $font-size-large;
+            margin-top: -0.5rem;
+        }
+
+        &-sprite {
+            margin-top: .8rem;
+            width: 8.536rem;
+        }
+
+        &-audio-button {
+            cursor: pointer;
+            margin-bottom: 1rem;
+            margin-top: .8rem;
+            width: 1.5rem;
+        }
+
+        &-stats, &-flavor-text {
+            margin: 0px 1.8rem;
+        }
+
+        &-stats {
+            display: flex;
+            gap: 1.6rem;
+        }
+
+        &-flavor-text {
+            font-size: $font-size-medium;
+            border-top: $border-pane;
+        }
+    }
+
+    &__toggle-button {
+        display: none;
+    }
+
+
+    //Responsiveness
+
+    @include respond(tab-port) {
+        & {
+            width: 44.825rem; //55% of card's normal width
+            border-radius: 3.6rem 1rem 1rem 7rem;
+        }
+    
+        &__select-pane {
+            display: none;
+            width: 100%;
+            background-color: transparent;
+            margin-left: 0;
+            padding-left: 5.1125rem; //71.125 from testing 0 auto margin on search heading, minus 2rem from heading margin
+        }
+    
+        &__entry-pane {
+            width: 100%;
+            border-left: none;
+        }
+    
+        &__toggle-button {
+            display: block;
+            position: absolute;
+            height: $icon-height;
+            top: 2.8rem; //pokedex pad-top + search margin-top
+            left: 2rem;
+            cursor: pointer;
+        }
+    
+        &__icon {
+            position: relative;
+            top: 50%; //to vertically center in container
+    
+            &,
+            &::before,
+            &::after {
+                width: 3rem;
+                height: $icon-line-height;
+                background-color: $color-white;
+                display: inline-block;
+            }
+    
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+            }
+    
+            &::before { 
+                top: -($icon-line-vertical-displacement);
+            }
+    
+            &::after { 
+                top: $icon-line-vertical-displacement;
+            }
+        }
+    }
+}
