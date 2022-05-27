@@ -38,23 +38,9 @@ body {
 .u-display-none {
   display: none !important; }
 
-.pokeball {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-  .pokeball::after {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    left: -28rem;
-    content: "";
-    background-image: url(../icons/pokeball.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 40rem;
-    width: 40rem; }
+/* Page */
+:root {
+  --deg: 0deg; }
 
 .pokedex {
   position: absolute;
@@ -147,6 +133,24 @@ body {
   .pokedex__entry-flavor-text {
     font-size: 1.8rem;
     border-top: 1px solid #fff; }
+  .pokedex__pokeball {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .pokedex__pokeball::after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      left: -28rem;
+      content: "";
+      background-image: url(../icons/pokeball.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      transform: translate(-50%, -50%) rotate(var(--deg));
+      height: 40rem;
+      width: 40rem; }
   .pokedex__toggle-button {
     display: none; }
   @media (max-width: 56.25em) {

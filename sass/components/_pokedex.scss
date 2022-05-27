@@ -1,18 +1,6 @@
-.pokeball {
-    @include absolute-center;
-
-    &::after {
-        @include absolute-center;
-        left: -28rem;
-
-        content: "";
-        background-image: url(../icons/pokeball.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-
-        height: 40rem;
-        width: 40rem;
-    }
+/* Page */
+:root {
+    --deg: 0deg;
 }
 
 .pokedex {
@@ -149,6 +137,24 @@
         &-flavor-text {
             font-size: $font-size-medium;
             border-top: $border-pane;
+        }
+    }
+
+    &__pokeball {
+        @include absolute-center;
+    
+        &::after {
+            @include absolute-center;
+            left: -28rem;
+    
+            content: "";
+            background-image: url(../icons/pokeball.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            transform: translate(-50%, -50%) rotate(var(--deg));
+    
+            height: 40rem;
+            width: 40rem;
         }
     }
 

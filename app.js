@@ -13,6 +13,19 @@ const entryAudioButton = document.querySelector("#entry-audio-button");
 const entryFlavorText = document.querySelector("#entry-flavor-text");
 let mainArray, liAll, entryAudioFile;
 
+window.addEventListener('DOMContentLoaded', () => {
+    const pokeSelect = document.querySelector('.simplebar-content-wrapper');
+
+    function transformCardBall (scrollTop) {
+        const degrees = Math.round((scrollTop / 8) % 360);
+        document.documentElement.style.setProperty('--deg', `${ degrees }deg`);
+    }
+    
+    pokeSelect.addEventListener('scroll', e => {
+        transformCardBall(e.target.scrollTop);
+    });
+});
+
 const fetchJson = url => fetch(url).then(r => r.json()).catch(console.log);
 (async() => {
     [arrayA, arrayB] = await Promise.all([
