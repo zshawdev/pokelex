@@ -11,8 +11,12 @@ $font-size-large: 2.8rem;
 $font-size-medium: 1.8rem;
 $font-size-default: 1.6rem;
 
-// Margin
+// Dimension
+$main-body-width: 81.5rem;
+$pane-width-wide-half: 55%;
+$pane-width-thin-half: 45%;
 $margin-top: 1.1rem;
+
 
 // Border
 $border-pane: 1px solid $color-white;
@@ -29,4 +33,8 @@ $icon-line-vertical-displacement: .8rem;
 $icon-line-height: .2rem;
 $icon-height: calc((#{$icon-line-vertical-displacement} * 2) + (#{$icon-line-height} * 3));
 
-$deg: 0deg;
+// Pokeball
+
+:root {
+    --deg: 0deg;
+}

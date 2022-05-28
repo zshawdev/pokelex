@@ -100,12 +100,12 @@ const toFeet = height => {
     if (inches === 12) {
         feet++;
         inches = 0;
-        return `<span class="u-color-gray">HT</span> ${feet}"0${inches}"`;
+        return `<span class="u-color-gray">HT</span> ${feet}'0${inches}"`;
     }
     if (inches < 10) {
-        return `<span class="u-color-gray">HT</span> ${feet}"0${inches}"`;
+        return `<span class="u-color-gray">HT</span> ${feet}'0${inches}"`;
     } else {
-        return `<span class="u-color-gray">HT</span> ${feet}"${inches}"`;
+        return `<span class="u-color-gray">HT</span> ${feet}'${inches}"`;
     }
 }
 
