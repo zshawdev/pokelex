@@ -4,17 +4,20 @@
 }
 
 .pokedex {
-    @include absolute-center;
-    display: flex;
 
-    width: 81.5rem;
-    height: 31rem;
-    padding: 1.5rem 0 1.5rem 0;
-    border-radius: 7.1rem 1rem 1rem 11.7rem;
-    overflow: hidden;
-
-    background-color: rgba($color-gray-dark, .8);
-    color: $color-white;
+    &__body {
+        @include absolute-center;
+        display: flex;
+    
+        width: 81.5rem;
+        height: 31rem;
+        padding: 1.5rem 0 1.5rem 0;
+        border-radius: 7.1rem 1rem 1rem 11.7rem;
+        overflow: hidden;
+    
+        background-color: rgba($color-gray-dark, .8);
+        color: $color-white;
+    }
 
     &__select-pane,
     &__entry-pane {
