@@ -74,7 +74,7 @@
     }
 
     &__list-of-pokemon {
-        height: 74%;
+        height: 20.6rem;
         list-style: none;
 
         li {
@@ -157,7 +157,7 @@
             transform: translate(-50%, -50%) rotate(var(--deg));
     
             height: 40rem;
-            width: 40rem;
+            aspect-ratio: 1;
         }
     }
 

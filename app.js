@@ -13,16 +13,20 @@ const entryAudioButton = document.querySelector("#entry-audio-button");
 const entryFlavorText = document.querySelector("#entry-flavor-text");
 let mainArray, liAll, entryAudioFile;
 
+
+
+let test = document.querySelector('.simplebar-content-wrapper');
+
 window.addEventListener('DOMContentLoaded', () => {
     const pokeSelect = document.querySelector('.simplebar-content-wrapper');
 
-    function transformCardBall (scrollTop) {
-        const degrees = Math.round((scrollTop / 8) % 360);
+    function transformCardBall (scrollTop, scrollHeight, clientHeight) {
+        const degrees = Math.round((scrollTop / (scrollHeight - clientHeight)) * 360);
         document.documentElement.style.setProperty('--deg', `${ degrees }deg`);
     }
-    
+    const scrollHeight = 5136;
     pokeSelect.addEventListener('scroll', e => {
-        transformCardBall(e.target.scrollTop);
+        transformCardBall(e.target.scrollTop, scrollHeight, e.target.clientHeight);
     });
 });
 
@@ -154,7 +158,7 @@ const selectActive = poke => {
     focusPoke(poke);
 };
 
-// focus selected Poke"s card
+// focus selected Poke's card
 const focusPoke = poke => {
     search.value = "";
     liAll = document.querySelectorAll("li");
