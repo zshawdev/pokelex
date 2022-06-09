@@ -92,11 +92,7 @@ body {
     position: absolute;
     left: 11.5rem; }
   .pokedex__list-of-pokemon {
-<<<<<<< Updated upstream
     height: 74%;
-=======
-    height: 20.6rem;
->>>>>>> Stashed changes
     list-style: none; }
     .pokedex__list-of-pokemon li {
       background-color: #000;
@@ -139,8 +135,6 @@ body {
   .pokedex__entry-flavor-text {
     font-size: 1.8rem;
     border-top: 1px solid #fff; }
-<<<<<<< Updated upstream
-=======
   .pokedex__pokeball {
     position: absolute;
     top: 50%;
@@ -159,7 +153,6 @@ body {
       transform: translate(-50%, -50%) rotate(var(--deg));
       height: 40rem;
       aspect-ratio: 1; }
->>>>>>> Stashed changes
   .pokedex__toggle-button {
     display: none; }
   @media (max-width: 56.25em) {
