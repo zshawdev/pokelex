@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Pok&#233;dex</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <article class="pokedex">
+            <span class="pokedex__pokeball">&nbsp;</span>
+
+            <div class="pokedex__body">
+                <span class="pokedex__toggle-button" id="toggle-button">
+                    <span class="pokedex__icon">&nbsp;</span>
+                </span>
+    
+                <div class="pokedex__select-pane" id="search-pane">
+                    <input class="pokedex__search" id="search" type="search" placeholder="SEARCH" autocomplete="off">
+                    <div class="pokedex__list-heading-group">
+                        <span class="pokedex__list-heading">DEX #</span>
+                        <span class="pokedex__list-heading pokedex__list-heading--name-of-pokemon">POK&#233;MON</span>
+                    </div>
+                    <ol class="pokedex__list-of-pokemon" data-simplebar data-simplebar-direction='rtl'>
+    
+                    </ol>
+    
+                </div>
+    
+                <div class="pokedex__entry-pane" id="entry-pane">
+                    <div class="pokedex__entry-top-info">
+                        <span class="pokedex__entry-number" id="entry-number"></span>
+                        <span class="pokedex__entry-name" id="entry-name"></span>
+                        <img class="pokedex__entry-sprite" id="entry-sprite"></img>
+                        <img class="pokedex__entry-audio-button" id="entry-audio-button" src="assets/img/icons/speaker.png"></img>
+                    </div>
+                    <div class="pokedex__entry-stats">
+                        <span class="pokedex__entry-species" id="entry-species"></span>
+                        <span class="pokedex__entry-height" id="entry-height"></span>
+                        <span class="pokedex__entry-weight" id="entry-weight"></span>
+                    </div>
+                    <p class="pokedex__entry-flavor-text" id="entry-flavor-text"></p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
