@@ -1,9 +1,6 @@
 /* Page */
-:root {
-    --deg: 0deg;
-}
-
 .pokedex {
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 69%);
 
     &__body {
         @include absolute-center;
@@ -15,7 +12,7 @@
         border-radius: 7.1rem 1rem 1rem 11.7rem;
         overflow: hidden;
     
-        background-color: rgba($color-gray-dark, .8);
+        background-color: rgba($color-gray-dark, .9);
         color: $color-white;
     }
 
@@ -151,7 +148,7 @@
             left: -28rem;
     
             content: "";
-            background-image: url(../icons/pokeball.png);
+            background-image: url(../assets/img/icons/pokeball.png);
             background-repeat: no-repeat;
             background-size: contain;
             transform: translate(-50%, -50%) rotate(var(--deg));

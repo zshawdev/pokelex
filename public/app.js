@@ -13,8 +13,11 @@ const entryAudioButton = document.querySelector("#entry-audio-button");
 const entryFlavorText = document.querySelector("#entry-flavor-text");
 let mainArray, liAll, entryAudioFile;
 
+<<<<<<< HEAD:app.js
 
 
+=======
+>>>>>>> backend:public/app.js
 let test = document.querySelector('.simplebar-content-wrapper');
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -54,8 +57,8 @@ const arrayAB = ((arrayA, arrayB) => {
     mainArray = arrayA.map(poke => ({
         id: `${poke.id}`.padStart(3, "0"),
         name: poke.name.toUpperCase(),
-        image: `images/${arrayA.indexOf(poke) + 1}.png`,
-        audioFile: `cries/${arrayA.indexOf(poke) + 1}.wav`,
+        image: `assets/img/sprites/${arrayA.indexOf(poke) + 1}.png`,
+        audioFile: `assets/audio/cries/${arrayA.indexOf(poke) + 1}.wav`,
         ht: toFeet(poke.height),
         wt: toPounds(poke.weight),
         species: poke.genera[7].genus.replace(" Pokémon", "").toUpperCase(),

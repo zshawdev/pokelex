@@ -1,3 +1,5 @@
 body {
-    background-color: $color-body-background;
+    background-image: url(../assets/img/bg/bg-viridian-forest.jpg);
+    background-size: cover;
+    backdrop-filter: brightness(0.84) blur(5px);
 }
