@@ -13,11 +13,6 @@ const entryAudioButton = document.querySelector("#entry-audio-button");
 const entryFlavorText = document.querySelector("#entry-flavor-text");
 let mainArray, liAll, entryAudioFile;
 
-<<<<<<< HEAD:app.js
-
-
-=======
->>>>>>> backend:public/app.js
 let test = document.querySelector('.simplebar-content-wrapper');
 
 window.addEventListener('DOMContentLoaded', () => {
