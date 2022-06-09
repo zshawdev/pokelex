@@ -1,3 +1,6 @@
+:root {
+  --deg: 0deg; }
+
 *,
 *::after,
 *::before {
@@ -21,9 +24,9 @@ body {
   font-family: 'VT323';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/vt323-v15-latin-regular.eot");
+  src: url("../assets/font/vt323-v15-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/vt323-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/vt323-v15-latin-regular.woff2") format("woff2"), url("../fonts/vt323-v15-latin-regular.woff") format("woff"), url("../fonts/vt323-v15-latin-regular.ttf") format("truetype"), url("../fonts/vt323-v15-latin-regular.svg#VT323") format("svg");
+  src: local(""), url("../assets/font/vt323-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/vt323-v15-latin-regular.woff2") format("woff2"), url("../assets/font/vt323-v15-latin-regular.woff") format("woff"), url("../assets/font/vt323-v15-latin-regular.ttf") format("truetype"), url("../assets/font/vt323-v15-latin-regular.svg#VT323") format("svg");
   /* Legacy iOS */ }
 
 .u-border-color-white {
@@ -38,37 +41,22 @@ body {
 .u-display-none {
   display: none !important; }
 
-.pokeball {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-  .pokeball::after {
+/* Page */
+.pokedex {
+  box-shadow: 0 1.5rem 4rem black; }
+  .pokedex__body {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    left: -28rem;
-    content: "";
-    background-image: url(../icons/pokeball.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 40rem;
-    width: 40rem; }
-
-.pokedex {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  width: 81.5rem;
-  height: 31rem;
-  padding: 1.5rem 0 1.5rem 0;
-  border-radius: 7.1rem 1rem 1rem 11.7rem;
-  overflow: hidden;
-  background-color: rgba(43, 33, 33, 0.8);
-  color: #fff; }
+    display: flex;
+    width: 81.5rem;
+    height: 31rem;
+    padding: 1.5rem 0 1.5rem 0;
+    border-radius: 7.1rem 1rem 1rem 11.7rem;
+    overflow: hidden;
+    background-color: rgba(43, 33, 33, 0.9);
+    color: #fff; }
   .pokedex__select-pane, .pokedex__entry-pane {
     height: 100%;
     border-top: 1px solid #fff;
@@ -104,7 +92,11 @@ body {
     position: absolute;
     left: 11.5rem; }
   .pokedex__list-of-pokemon {
+<<<<<<< Updated upstream
     height: 74%;
+=======
+    height: 20.6rem;
+>>>>>>> Stashed changes
     list-style: none; }
     .pokedex__list-of-pokemon li {
       background-color: #000;
@@ -147,6 +139,27 @@ body {
   .pokedex__entry-flavor-text {
     font-size: 1.8rem;
     border-top: 1px solid #fff; }
+<<<<<<< Updated upstream
+=======
+  .pokedex__pokeball {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .pokedex__pokeball::after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      left: -28rem;
+      content: "";
+      background-image: url(../assets/img/icons/pokeball.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      transform: translate(-50%, -50%) rotate(var(--deg));
+      height: 40rem;
+      aspect-ratio: 1; }
+>>>>>>> Stashed changes
   .pokedex__toggle-button {
     display: none; }
   @media (max-width: 56.25em) {
@@ -187,7 +200,9 @@ body {
         top: 0.8rem; } }
 
 body {
-  background-color: #DFD4D4; }
+  background-image: url(../assets/img/bg/bg-viridian-forest.jpg);
+  background-size: cover;
+  backdrop-filter: brightness(0.84) blur(5px); }
 
 .simplebar-wrapper {
   height: 100%; }
