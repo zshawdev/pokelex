@@ -202,20 +202,12 @@ let prevWidth = window.innerWidth;
 window.addEventListener("DOMContentLoaded", () => {
     window.addEventListener("resize", () => {
         currentWidth = window.innerWidth
-<<<<<<< HEAD
-        if (currentWidth <= 769) {
-            if (prevWidth >= 769) {
-                left.classList.add('make-hidden');
-            }
-            if (prevWidth <= 769) {
-=======
         if (currentWidth <= tabPortMediaQuery) { //To small...
             if (prevWidth >= tabPortMediaQuery) { //...from big
                 searchPane.classList.remove("u-display-block");
                 entryPane.classList.remove("u-display-none");
             }
             if (prevWidth <= tabPortMediaQuery) { //...from small
->>>>>>> master
                 return prevWidth = currentWidth;
             }
         } else { //To big from big & from small to big
@@ -224,14 +216,4 @@ window.addEventListener("DOMContentLoaded", () => {
         }
         prevWidth = currentWidth;
     })
-<<<<<<< HEAD
 });
-
-const mobileResponsivePane = (width) => {
-    if (width <= 769) {
-        left.classList.add('make-hidden');
-    }
-}
-=======
-});
->>>>>>> master

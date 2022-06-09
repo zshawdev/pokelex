@@ -156,7 +156,7 @@ body {
   .pokedex__toggle-button {
     display: none; }
   @media (max-width: 56.25em) {
-    .pokedex {
+    .pokedex__body {
       width: 44.825rem;
       border-radius: 3.6rem 1rem 1rem 7rem; }
     .pokedex__select-pane {
@@ -190,12 +190,15 @@ body {
       .pokedex__icon::before {
         top: -0.8rem; }
       .pokedex__icon::after {
-        top: 0.8rem; } }
+        top: 0.8rem; }
+    .pokedex__pokeball::after {
+      left: -10rem; } }
 
 body {
   background-image: url(../assets/img/bg/bg-viridian-forest.jpg);
   background-size: cover;
-  backdrop-filter: brightness(0.84) blur(5px); }
+  backdrop-filter: brightness(0.84) blur(5px);
+  background-repeat: no-repeat; }
 
 .simplebar-wrapper {
   height: 100%; }

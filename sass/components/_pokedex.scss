@@ -166,7 +166,7 @@
     //Responsiveness
 
     @include respond(tab-port) {
-        & {
+        &__body {
             width: 44.825rem; //55% of card's normal width
             border-radius: 3.6rem 1rem 1rem 7rem;
         }
@@ -220,6 +220,10 @@
             &::after { 
                 top: $icon-line-vertical-displacement;
             }
+        }
+
+        &__pokeball::after {
+            left: -10rem;
         }
     }
 }
