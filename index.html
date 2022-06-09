@@ -2,55 +2,66 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <title>Pok&#233;dex</title>
-    <meta charset="utf-8">
-    <meta name="description" content="Learn about the various mythical creatures found throughout the world of Pok&#233;mon via this interactive encyclopedia!">
-    <meta name="keywords" content="web developer, web development, Zane Shaw, portfolio, front end">
-    <meta name="title" property="og:title" content="Pok&#233;dex by Zane Shaw">
-    <meta property="og:type" content="Website">
-    <meta name="image" property="og:image" content="https://i.ibb.co/frYjnJ6/og-meta-img.png">
-    <meta name="description" property="og:description" content="Learn about the various mythical creatures found throughout the world of Pok&#233;mon via this interactive encyclopedia!">
-    <link href="icons/favicon.ico" rel="icon" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta property="og:title" content="Pok&#233;dex" />
+    <meta property="og:description" content="Learn about the various mythical creatures found throughout the world of Pokémon via this interactive encyclopedia!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/img/og-tag/og-tag-pokedex.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Pok&#233;dex main page" />
+    <meta property="og:site_name" content="Pok&#233;dex" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
     <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
-    <link rel="stylesheet" href="css/clear.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Pok&#233;dex</title>
 </head>
 
 <body>
+    <main>
+        <article class="pokedex">
+            <span class="pokedex__pokeball">&nbsp;</span>
 
-    <div id="card">
-        <div id="dual-panels">
-
-            <div id="left">
-                <input id="search" class="make-grey" type="search" placeholder="SEARCH" autocomplete="off">
-                <div id="select-list-info" class="make-grey">
-                    <span id="poke-select-number">DEX #</span>
-                    <span id="poke-select-name">POK&#233;MON</span>
+            <div class="pokedex__body">
+                <span class="pokedex__toggle-button" id="toggle-button">
+                    <span class="pokedex__icon">&nbsp;</span>
+                </span>
+    
+                <div class="pokedex__select-pane" id="search-pane">
+                    <input class="pokedex__search" id="search" type="search" placeholder="SEARCH" autocomplete="off">
+                    <div class="pokedex__list-heading-group">
+                        <span class="pokedex__list-heading">DEX #</span>
+                        <span class="pokedex__list-heading pokedex__list-heading--name-of-pokemon">POK&#233;MON</span>
+                    </div>
+                    <ol class="pokedex__list-of-pokemon" data-simplebar data-simplebar-direction='rtl'>
+    
+                    </ol>
+    
                 </div>
-                <ol id="poke-select" data-simplebar data-simplebar-direction='rtl'>
-
-                </ol>
-
+    
+                <div class="pokedex__entry-pane" id="entry-pane">
+                    <div class="pokedex__entry-top-info">
+                        <span class="pokedex__entry-number" id="entry-number"></span>
+                        <span class="pokedex__entry-name" id="entry-name"></span>
+                        <img class="pokedex__entry-sprite" id="entry-sprite"></img>
+                        <img class="pokedex__entry-audio-button" id="entry-audio-button" src="assets/img/icons/speaker.png"></img>
+                    </div>
+                    <div class="pokedex__entry-stats">
+                        <span class="pokedex__entry-species" id="entry-species"></span>
+                        <span class="pokedex__entry-height" id="entry-height"></span>
+                        <span class="pokedex__entry-weight" id="entry-weight"></span>
+                    </div>
+                    <p class="pokedex__entry-flavor-text" id="entry-flavor-text"></p>
+                </div>
             </div>
-
-            <div id="right">
-                <img id="toggle-button" src="icons/bars-solid.svg">
-                <div id="poke-visual">
-                    <span id="viewer-id-number" class="make-grey"></span>
-                    <span id="viewer-name"></span>
-                    <img id="viewer-image"></img>
-                    <img id="cry-btn" src="icons/speaker.png"></button>
-                </div>
-                <div id="poke-info">
-                    <span id="viewer-species"></span>
-                    <span id="viewer-ht"></span>
-                    <span id="viewer-wt"></span>
-                </div>
-                <p id="dex-text"></p>
-            </div>
-        </div>
-    </div>
+        </article>
+    </main>
 
     <script src="app.js"></script>
 </body>

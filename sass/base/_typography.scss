@@ -1,0 +1,20 @@
+body {
+    font-family: VT323;
+    font-size: $font-size-default;
+}
+
+/* vt323-regular - latin */
+
+@font-face {
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/font/vt323-v15-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../assets/font/vt323-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../assets/font/vt323-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../assets/font/vt323-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../assets/font/vt323-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../assets/font/vt323-v15-latin-regular.svg#VT323') format('svg');
+    /* Legacy iOS */
+}
