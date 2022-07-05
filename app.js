@@ -1,16 +1,5 @@
 const pokeSelect = () => document.querySelector(".simplebar-content");
-const toggleButton = document.querySelector("#toggle-button");
-const searchPane = document.querySelector("#search-pane");
-const entryPane = document.querySelector("#entry-pane");
 const search = document.querySelector("#search");
-const entryNumber = document.querySelector("#entry-number");
-const entryName = document.querySelector("#entry-name");
-const entrySprite = document.querySelector("#entry-sprite");
-const entryHeight = document.querySelector("#entry-height");
-const entryWeight = document.querySelector("#entry-weight");
-const entrySpecies = document.querySelector("#entry-species");
-const entryAudioButton = document.querySelector("#entry-audio-button");
-const entryFlavorText = document.querySelector("#entry-flavor-text");
 let mainArray, liAll, entryAudioFile;
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -139,6 +128,14 @@ const listInteractivity = () => {
     }
 }
 
+const entryNumber = document.querySelector("#entry-number");
+const entryName = document.querySelector("#entry-name");
+const entrySprite = document.querySelector("#entry-sprite");
+const entrySpecies = document.querySelector("#entry-species");
+const entryHeight = document.querySelector("#entry-height");
+const entryWeight = document.querySelector("#entry-weight");
+const entryFlavorText = document.querySelector("#entry-flavor-text");
+
 const selectActive = poke => {
     entryNumber.textContent = `No.${poke.id}`;
     entryName.textContent = poke.name;
@@ -165,6 +162,8 @@ const focusPoke = poke => {
     resetPokedexPaneDisplay(window.innerWidth);
 };
 
+const entryAudioButton = document.querySelector("#entry-audio-button");
+
 window.addEventListener("DOMContentLoaded", () => {
     entryAudioButton.addEventListener("click", () => {
         entryAudioFile.play()
@@ -172,6 +171,10 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 //Responsiveness
+
+const toggleButton = document.querySelector("#toggle-button");
+const searchPane = document.querySelector("#search-pane");
+const entryPane = document.querySelector("#entry-pane");
 
 window.addEventListener("DOMContentLoaded", () => {
     toggleButton.addEventListener("click", () => {
