@@ -65,17 +65,23 @@ const arrayAB = ((arrayA, arrayB) => {
     mainArray[31].name = "NIDORAN (M)";
     mainArray[82].name = `FARFETCH"D`;
 
-    mainArray[18].entry = mainArray[18].entry.replace(" ity", "ity");
-    mainArray[19].entry = mainArray[19].entry.replace(" es", "es");
-    mainArray[20].entry = mainArray[20].entry.replace(" pi", "pi");
-    mainArray[53].entry = mainArray[53].entry.replace(" ch", "ch");
-    mainArray[53].entry = mainArray[53].entry.replace(" ch", "ch");
-    mainArray[64].entry = mainArray[64].entry.replace(" l", "l");
-    mainArray[68].entry = mainArray[68].entry.replace(" te", "te").replace(" cap", "cap");
-    mainArray[72].entry = mainArray[72].entry.replace(" er", "er");
-    mainArray[74].entry = mainArray[74].entry.replace(" l", "l");
-    mainArray[130].entry = mainArray[130].entry.replace(" ry", "ry");
-    mainArray[137].entry = mainArray[137].entry.replace(" s", "s");
+    const removeEntrySpace = (index, text) => {
+        console.log(index, text);
+        mainArray[index].entry = mainArray[index].entry.replace(` ${text}`, `${text}`);
+    }
+
+    removeEntrySpace(18, "ity");
+    removeEntrySpace(19, "es");
+    removeEntrySpace(20, "pi");
+    removeEntrySpace(25, "cit");
+    removeEntrySpace(53, "ch");
+    removeEntrySpace(64, "l");
+    removeEntrySpace(68, "te");
+    removeEntrySpace(68, "cap");
+    removeEntrySpace(72, "er");
+    removeEntrySpace(74, "l");
+    removeEntrySpace(130, "ry");
+    removeEntrySpace(137, "s");
 
     generateList(mainArray);
     listInteractivity();
