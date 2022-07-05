@@ -13,8 +13,6 @@ const entryAudioButton = document.querySelector("#entry-audio-button");
 const entryFlavorText = document.querySelector("#entry-flavor-text");
 let mainArray, liAll, entryAudioFile;
 
-let test = document.querySelector('.simplebar-content-wrapper');
-
 window.addEventListener('DOMContentLoaded', () => {
     const pokeSelect = document.querySelector('.simplebar-content-wrapper');
 
@@ -23,6 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
         document.documentElement.style.setProperty('--deg', `${ degrees }deg`);
     }
     const scrollHeight = 5136;
+    // const scrollHeight = document.querySelector('.simplebar-content').clientHeight;
     pokeSelect.addEventListener('scroll', e => {
         transformCardBall(e.target.scrollTop, scrollHeight, e.target.clientHeight);
     });
@@ -103,13 +102,8 @@ const toFeet = height => {
     if (inches === 12) {
         feet++;
         inches = 0;
-        return `<span class="u-color-gray">HT</span> ${feet}'0${inches}"`;
     }
-    if (inches < 10) {
-        return `<span class="u-color-gray">HT</span> ${feet}'0${inches}"`;
-    } else {
-        return `<span class="u-color-gray">HT</span> ${feet}'${inches}"`;
-    }
+    return `<span class="u-color-gray">HT</span> ${feet}'${String(inches).padStart(2, "0")}"`;
 }
 
 const generateList = array => {
