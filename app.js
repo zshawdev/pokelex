@@ -80,22 +80,14 @@ const arrayAB = ((arrayA, arrayB) => {
     generateList(mainArray);
     listInteractivity();
     selectActive(mainArray[25 - 1]);
-    let isAssetsLoaded = true;
-    // toggleCardDisplay();
-    // card.style.display = 'flex';
 })
 
 //Unit Conversion
 
 const toPounds = weight => {
     const raw = (weight / 10) * 2.2046; //weight"s value: kg albeit misplaced (stored: 69, desired: 6.9), is converted to kg (via / 10) then kg-to-pounds
-    let pounds = Math.floor(raw);
-    let decimal = Math.round((raw - pounds) * 10);
-    if (decimal === 10) {
-        pounds++;
-        decimal = 0;
-    };
-    return `<span class="u-color-gray">WT</span> ${pounds}.${decimal}lbs`;
+    let pounds = raw.toFixed(1);
+    return `<span class="u-color-gray">WT</span> ${pounds}lbs`;
 }
 
 const toFeet = height => {
