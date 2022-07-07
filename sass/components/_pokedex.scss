@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 .pokedex {
+=======
+/* Page */
+.pokedex {
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 69%);
+
+>>>>>>> master
     &__body {
         @include absolute-center;
         display: flex;
@@ -9,7 +16,7 @@
         border-radius: 7.1rem 1rem 1rem 11.7rem;
         overflow: hidden;
     
-        background-color: rgba($color-gray-dark, .8);
+        background-color: rgba($color-gray-dark, .9);
         color: $color-white;
     }
 
@@ -68,7 +75,7 @@
     }
 
     &__list-of-pokemon {
-        height: 74%;
+        height: 20.6rem;
         list-style: none;
 
         li {
@@ -144,7 +151,7 @@
             left: -28rem;
     
             content: "";
-            background-image: url(../icons/pokeball.png);
+            background-image: url(../assets/img/icons/pokeball.png);
             background-repeat: no-repeat;
             background-size: contain;
             transform: translate(-50%, -50%) rotate(var(--deg));
@@ -163,7 +170,11 @@
 
     @include respond(tab-port) {
         &__body {
+<<<<<<< HEAD
             width: 44.825rem;
+=======
+            width: 44.825rem; //55% of card's normal width
+>>>>>>> master
             border-radius: 3.6rem 1rem 1rem 7rem;
         }
     
@@ -219,7 +230,11 @@
         }
 
         &__pokeball::after {
+<<<<<<< HEAD
             left: -15.4rem;
+=======
+            left: -10rem;
+>>>>>>> master
         }
     }
 }

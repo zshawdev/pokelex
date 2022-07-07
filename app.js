@@ -1,28 +1,18 @@
 const pokeSelect = () => document.querySelector(".simplebar-content");
-const toggleButton = document.querySelector("#toggle-button");
-const searchPane = document.querySelector("#search-pane");
-const entryPane = document.querySelector("#entry-pane");
 const search = document.querySelector("#search");
-const entryNumber = document.querySelector("#entry-number");
-const entryName = document.querySelector("#entry-name");
-const entrySprite = document.querySelector("#entry-sprite");
-const entryHeight = document.querySelector("#entry-height");
-const entryWeight = document.querySelector("#entry-weight");
-const entrySpecies = document.querySelector("#entry-species");
-const entryAudioButton = document.querySelector("#entry-audio-button");
-const entryFlavorText = document.querySelector("#entry-flavor-text");
 let mainArray, liAll, entryAudioFile;
 
 window.addEventListener('DOMContentLoaded', () => {
     const pokeSelect = document.querySelector('.simplebar-content-wrapper');
 
-    function transformCardBall (scrollTop) {
-        const degrees = Math.round((scrollTop / 8) % 360);
+    function transformCardBall (scrollTop, scrollHeight, clientHeight) {
+        const degrees = Math.round((scrollTop / (scrollHeight - clientHeight)) * 360);
         document.documentElement.style.setProperty('--deg', `${ degrees }deg`);
     }
-    
+    const scrollHeight = 5136;
+    // const scrollHeight = document.querySelector('.simplebar-content').clientHeight;
     pokeSelect.addEventListener('scroll', e => {
-        transformCardBall(e.target.scrollTop);
+        transformCardBall(e.target.scrollTop, scrollHeight, e.target.clientHeight);
     });
 });
 
@@ -50,8 +40,8 @@ const arrayAB = ((arrayA, arrayB) => {
     mainArray = arrayA.map(poke => ({
         id: `${poke.id}`.padStart(3, "0"),
         name: poke.name.toUpperCase(),
-        image: `images/${arrayA.indexOf(poke) + 1}.png`,
-        audioFile: `cries/${arrayA.indexOf(poke) + 1}.wav`,
+        image: `assets/img/sprites/${arrayA.indexOf(poke) + 1}.png`,
+        audioFile: `assets/audio/cries/${arrayA.indexOf(poke) + 1}.wav`,
         ht: toFeet(poke.height),
         wt: toPounds(poke.weight),
         species: poke.genera[7].genus.replace(" Pokémon", "").toUpperCase(),
@@ -63,17 +53,23 @@ const arrayAB = ((arrayA, arrayB) => {
     mainArray[31].name = "NIDORAN (M)";
     mainArray[82].name = `FARFETCH"D`;
 
-    mainArray[18].entry = mainArray[18].entry.replace(" ity", "ity");
-    mainArray[19].entry = mainArray[19].entry.replace(" es", "es");
-    mainArray[20].entry = mainArray[20].entry.replace(" pi", "pi");
-    mainArray[53].entry = mainArray[53].entry.replace(" ch", "ch");
-    mainArray[53].entry = mainArray[53].entry.replace(" ch", "ch");
-    mainArray[64].entry = mainArray[64].entry.replace(" l", "l");
-    mainArray[68].entry = mainArray[68].entry.replace(" te", "te").replace(" cap", "cap");
-    mainArray[72].entry = mainArray[72].entry.replace(" er", "er");
-    mainArray[74].entry = mainArray[74].entry.replace(" l", "l");
-    mainArray[130].entry = mainArray[130].entry.replace(" ry", "ry");
-    mainArray[137].entry = mainArray[137].entry.replace(" s", "s");
+    const removeEntrySpace = (index, text) => {
+        console.log(index, text);
+        mainArray[index].entry = mainArray[index].entry.replace(` ${text}`, `${text}`);
+    }
+
+    removeEntrySpace(18, "ity");
+    removeEntrySpace(19, "es");
+    removeEntrySpace(20, "pi");
+    removeEntrySpace(25, "cit");
+    removeEntrySpace(53, "ch");
+    removeEntrySpace(64, "l");
+    removeEntrySpace(68, "te");
+    removeEntrySpace(68, "cap");
+    removeEntrySpace(72, "er");
+    removeEntrySpace(74, "l");
+    removeEntrySpace(130, "ry");
+    removeEntrySpace(137, "s");
 
     generateList(mainArray);
     listInteractivity();
@@ -84,13 +80,8 @@ const arrayAB = ((arrayA, arrayB) => {
 
 const toPounds = weight => {
     const raw = (weight / 10) * 2.2046; //weight"s value: kg albeit misplaced (stored: 69, desired: 6.9), is converted to kg (via / 10) then kg-to-pounds
-    let pounds = Math.floor(raw);
-    let decimal = Math.round((raw - pounds) * 10);
-    if (decimal === 10) {
-        pounds++;
-        decimal = 0;
-    };
-    return `<span class="u-color-gray">WT</span> ${pounds}.${decimal}lbs`;
+    let pounds = raw.toFixed(1);
+    return `<span class="u-color-gray">WT</span> ${pounds}lbs`;
 }
 
 const toFeet = height => {
@@ -100,13 +91,8 @@ const toFeet = height => {
     if (inches === 12) {
         feet++;
         inches = 0;
-        return `<span class="u-color-gray">HT</span> ${feet}'0${inches}"`;
     }
-    if (inches < 10) {
-        return `<span class="u-color-gray">HT</span> ${feet}'0${inches}"`;
-    } else {
-        return `<span class="u-color-gray">HT</span> ${feet}'${inches}"`;
-    }
+    return `<span class="u-color-gray">HT</span> ${feet}'${String(inches).padStart(2, "0")}"`;
 }
 
 const generateList = array => {
@@ -142,6 +128,14 @@ const listInteractivity = () => {
     }
 }
 
+const entryNumber = document.querySelector("#entry-number");
+const entryName = document.querySelector("#entry-name");
+const entrySprite = document.querySelector("#entry-sprite");
+const entrySpecies = document.querySelector("#entry-species");
+const entryHeight = document.querySelector("#entry-height");
+const entryWeight = document.querySelector("#entry-weight");
+const entryFlavorText = document.querySelector("#entry-flavor-text");
+
 const selectActive = poke => {
     entryNumber.textContent = `No.${poke.id}`;
     entryName.textContent = poke.name;
@@ -154,7 +148,7 @@ const selectActive = poke => {
     focusPoke(poke);
 };
 
-// focus selected Poke"s card
+// focus selected Poke's card
 const focusPoke = poke => {
     search.value = "";
     liAll = document.querySelectorAll("li");
@@ -168,6 +162,8 @@ const focusPoke = poke => {
     resetPokedexPaneDisplay(window.innerWidth);
 };
 
+const entryAudioButton = document.querySelector("#entry-audio-button");
+
 window.addEventListener("DOMContentLoaded", () => {
     entryAudioButton.addEventListener("click", () => {
         entryAudioFile.play()
@@ -175,6 +171,10 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 //Responsiveness
+
+const toggleButton = document.querySelector("#toggle-button");
+const searchPane = document.querySelector("#search-pane");
+const entryPane = document.querySelector("#entry-pane");
 
 window.addEventListener("DOMContentLoaded", () => {
     toggleButton.addEventListener("click", () => {

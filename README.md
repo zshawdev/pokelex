@@ -4,7 +4,7 @@ An interactive encyclopedia encompassing data on the various mythical creatures 
 
 [Try it out here!](https://zshawdev.github.io/pokedex/)
 
-![Pokédex Preview](https://i.ibb.co/hFQkytq/demo-gif.gif)
+![Pokédex Preview](assets/img/readme/pokedex-demo.gif)
 
 See their might, hear them roar, and ultimately learn more about each of the beasts that reside throughout the region.
 
