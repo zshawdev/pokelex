@@ -36,8 +36,8 @@
                 <div class="pokedex__select-pane" id="search-pane">
                     <input class="pokedex__search" id="search" type="search" placeholder="SEARCH" autocomplete="off">
                     <div class="pokedex__list-heading-group">
-                        <span class="pokedex__list-heading">DEX #</span>
-                        <span class="pokedex__list-heading pokedex__list-heading--name-of-pokemon">POK&#233;MON</span>
+                        <span class="pokedex__list-heading" id="dex-number-heading">No.</span>
+                        <span class="pokedex__list-heading pokedex__list-heading--name-of-pokemon" id="name-of-pokemon-heading">POK&#233;MON</span>
                     </div>
                     <ol class="pokedex__list-of-pokemon" data-simplebar data-simplebar-direction='rtl'>
     
@@ -47,15 +47,27 @@
     
                 <div class="pokedex__entry-pane" id="entry-pane">
                     <div class="pokedex__entry-top-info">
-                        <span class="pokedex__entry-number" id="entry-number"></span>
+                        <span class="pokedex__entry-number" id="entry-number">
+                            <span id="entry-number-heading">No.</span>
+
+                        </span>
                         <span class="pokedex__entry-name" id="entry-name"></span>
                         <img class="pokedex__entry-sprite" id="entry-sprite"></img>
                         <img class="pokedex__entry-audio-button" id="entry-audio-button" src="assets/img/icons/speaker.png"></img>
                     </div>
                     <div class="pokedex__entry-stats">
-                        <span class="pokedex__entry-species" id="entry-species"></span>
-                        <span class="pokedex__entry-height" id="entry-height"></span>
-                        <span class="pokedex__entry-weight" id="entry-weight"></span>
+                        <span class="pokedex__entry-species" id="entry-species">
+                            <span class="u-color-gray" id="entry-species-heading">SPECIES</span>
+
+                        </span>
+                        <span class="pokedex__entry-height" id="entry-height">
+                            <span class="u-color-gray" id="entry-height-heading">HT</span>
+
+                        </span>
+                        <span class="pokedex__entry-weight" id="entry-weight">
+                            <span class="u-color-gray" id="entry-weight-heading">WT</span> 
+
+                        </span>
                     </div>
                     <p class="pokedex__entry-flavor-text" id="entry-flavor-text"></p>
                 </div>

@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-.pokedex {
-=======
 /* Page */
 .pokedex {
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 69%);
 
->>>>>>> master
     &__body {
         @include absolute-center;
         display: flex;
@@ -170,11 +166,7 @@
 
     @include respond(tab-port) {
         &__body {
-<<<<<<< HEAD
-            width: 44.825rem;
-=======
             width: 44.825rem; //55% of card's normal width
->>>>>>> master
             border-radius: 3.6rem 1rem 1rem 7rem;
         }
     
@@ -230,11 +222,7 @@
         }
 
         &__pokeball::after {
-<<<<<<< HEAD
-            left: -15.4rem;
-=======
             left: -10rem;
->>>>>>> master
         }
     }
 }
