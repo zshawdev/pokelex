@@ -67,28 +67,6 @@ const arrayAB = ((arrayA, arrayB) => {
         }
     }));
 
-    // mainArray[121].name = "MR. MIME";
-    // mainArray[28].name = "NIDORAN (F)";
-    // mainArray[31].name = "NIDORAN (M)";
-    // mainArray[82].name = `FARFETCH"D`;
-
-    // const removeEntrySpace = (index, text) => {
-    //     mainArray[index].entry = mainArray[index].entry.replace(` ${text}`, `${text}`);
-    // }
-
-    // removeEntrySpace(18, "ity");
-    // removeEntrySpace(19, "es");
-    // removeEntrySpace(20, "pi");
-    // removeEntrySpace(25, "cit");
-    // removeEntrySpace(53, "ch");
-    // removeEntrySpace(64, "l");
-    // removeEntrySpace(68, "te");
-    // removeEntrySpace(68, "cap");
-    // removeEntrySpace(72, "er");
-    // removeEntrySpace(74, "l");
-    // removeEntrySpace(130, "ry");
-    // removeEntrySpace(137, "s");
-
     generateList(mainArray);
     listInteractivity();
     selectActive(mainArray[25 - 1]);
@@ -116,7 +94,7 @@ const formatWeight = (unit, weight) => {
     if (unit === "imperial") {
         const raw = (weight / 10) * 2.2046; //weight"s value: kg albeit misplaced (stored: 69, desired: 6.9), is converted to kg (via / 10) then kg-to-pounds
         let pounds = raw.toFixed(1);
-        return `${pounds}lbs`;
+        return `${pounds}lb`;
     } else if (unit === "metric") {
         const metricWeight = weight / 10; //height"s value: meters albeit misplaced (stored: 69, desired: 6.9), is converted to meters (via / 10) then meters-to-feet
         return `${metricWeight.toFixed(1).replace(".", ",")}kg`;
