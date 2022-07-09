@@ -1,0 +1,4230 @@
+[
+    {
+      "id": "001",
+      "name": {
+        "de": "BISASAM",
+        "en": "BULBASAUR",
+        "fr": "BULBIZARRE"
+      },
+      "image": "assets/img/sprites/1.png",
+      "audioFile": "assets/audio/cries/1.wav",
+      "height": {
+        "imperial": "2'04\"",
+        "metric": "0,7m"
+      },
+      "weight": {
+        "imperial": "15.2lb",
+        "metric": "6,9kg"
+      },
+      "species": {
+        "de": "SAMEN",
+        "en": "SEED",
+        "fr": "GRAINE"
+      },
+      "entry": {
+        "de": "Dieses Pokémon trägt von Geburt an einen Samen auf dem Rücken, der mit ihm keimt und wächst.",
+        "en": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+        "fr": "Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis sa naissance."
+      }
+    },
+    {
+      "id": "002",
+      "name": {
+        "de": "BISAKNOSP",
+        "en": "IVYSAUR",
+        "fr": "HERBIZARRE"
+      },
+      "image": "assets/img/sprites/2.png",
+      "audioFile": "assets/audio/cries/2.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "28.7lb",
+        "metric": "13,0kg"
+      },
+      "species": {
+        "de": "SAMEN",
+        "en": "SEED",
+        "fr": "GRAINE"
+      },
+      "entry": {
+        "de": "Es trägt eine Knospe auf seinem Rücken. Nimmt es Nahrung zu sich, soll aus der Knospe eine große blühende Blume werden.",
+        "en": "There is a plant bulb on its back. When it absorbs nutrients, the bulb is said to blossom into a large flower.",
+        "fr": "Il y a un bulbe sur son dos. On dit que s’il absorbe assez de nutriments, ce bulbe se transforme en une jolie fleur."
+      }
+    },
+    {
+      "id": "003",
+      "name": {
+        "de": "BISAFLOR",
+        "en": "VENUSAUR",
+        "fr": "FLORIZARRE"
+      },
+      "image": "assets/img/sprites/3.png",
+      "audioFile": "assets/audio/cries/3.wav",
+      "height": {
+        "imperial": "6'07\"",
+        "metric": "2,0m"
+      },
+      "weight": {
+        "imperial": "220.5lb",
+        "metric": "100,0kg"
+      },
+      "species": {
+        "de": "SAMEN",
+        "en": "SEED",
+        "fr": "GRAINE"
+      },
+      "entry": {
+        "de": "Es spreizt die breiten Blätter seiner Blüte, um seinen Körper mit Sonnenenergie zu durchfluten.",
+        "en": "By spreading the broad petals of its flower and catching the sun’s rays, it fills its body with power.",
+        "fr": "Ses pétales lui servent à capter la lumière du soleil. Il peut ainsi en canaliser l’énergie."
+      }
+    },
+    {
+      "id": "004",
+      "name": {
+        "de": "GLUMANDA",
+        "en": "CHARMANDER",
+        "fr": "SALAMÈCHE"
+      },
+      "image": "assets/img/sprites/4.png",
+      "audioFile": "assets/audio/cries/4.wav",
+      "height": {
+        "imperial": "2'00\"",
+        "metric": "0,6m"
+      },
+      "weight": {
+        "imperial": "18.7lb",
+        "metric": "8,5kg"
+      },
+      "species": {
+        "de": "ECHSEN",
+        "en": "LIZARD",
+        "fr": "LÉZARD"
+      },
+      "entry": {
+        "de": "Die Flamme auf seiner Schweifspitze zeigt die Lebensenergie an. Ist es gesund, leuchtet sie hell.",
+        "en": "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly.",
+        "fr": "La flamme sur sa queue représente l’énergie vitale de Salamèche. Quand il est vigoureux, elle brûle plus fort."
+      }
+    },
+    {
+      "id": "005",
+      "name": {
+        "de": "GLUTEXO",
+        "en": "CHARMELEON",
+        "fr": "REPTINCEL"
+      },
+      "image": "assets/img/sprites/5.png",
+      "audioFile": "assets/audio/cries/5.wav",
+      "height": {
+        "imperial": "3'07\"",
+        "metric": "1,1m"
+      },
+      "weight": {
+        "imperial": "41.9lb",
+        "metric": "19,0kg"
+      },
+      "species": {
+        "de": "FLAMMEN",
+        "en": "FLAME",
+        "fr": "FLAMME"
+      },
+      "entry": {
+        "de": "Es schlägt im Kampf mit seinem Schwanz nach seinen Gegnern. Anschließend zerfetzt es die Gegner mit seinen scharfen Klauen.",
+        "en": "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+        "fr": "Il se sert de sa queue pour faire tomber ses adversaires. Une fois qu’ils sont au sol, il les lacère de ses griffes acérées."
+      }
+    },
+    {
+      "id": "006",
+      "name": {
+        "de": "GLURAK",
+        "en": "CHARIZARD",
+        "fr": "DRACAUFEU"
+      },
+      "image": "assets/img/sprites/6.png",
+      "audioFile": "assets/audio/cries/6.wav",
+      "height": {
+        "imperial": "5'07\"",
+        "metric": "1,7m"
+      },
+      "weight": {
+        "imperial": "199.5lb",
+        "metric": "90,5kg"
+      },
+      "species": {
+        "de": "FLAMMEN",
+        "en": "FLAME",
+        "fr": "FLAMME"
+      },
+      "entry": {
+        "de": "Wenn dieses Pokémon einen Strahl glühenden Feuers speit, leuchtet seine Schwanzspitze auf.",
+        "en": "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+        "fr": "Quand il crache son souffle brûlant, la flamme au bout de sa queue s’embrase."
+      }
+    },
+    {
+      "id": "007",
+      "name": {
+        "de": "SCHIGGY",
+        "en": "SQUIRTLE",
+        "fr": "CARAPUCE"
+      },
+      "image": "assets/img/sprites/7.png",
+      "audioFile": "assets/audio/cries/7.wav",
+      "height": {
+        "imperial": "1'08\"",
+        "metric": "0,5m"
+      },
+      "weight": {
+        "imperial": "19.8lb",
+        "metric": "9,0kg"
+      },
+      "species": {
+        "de": "MINIKRÖTEN",
+        "en": "TINY TURTLE",
+        "fr": "MINITORTUE"
+      },
+      "entry": {
+        "de": "Es zieht sich in seinen Panzer zurück und greift dann mit Wasserstrahlen seine Gegner an.",
+        "en": "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+        "fr": "Il se réfugie dans sa carapace et réplique en éclaboussant l’ennemi à la première occasion."
+      }
+    },
+    {
+      "id": "008",
+      "name": {
+        "de": "SCHILLOK",
+        "en": "WARTORTLE",
+        "fr": "CARABAFFE"
+      },
+      "image": "assets/img/sprites/8.png",
+      "audioFile": "assets/audio/cries/8.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "49.6lb",
+        "metric": "22,5kg"
+      },
+      "species": {
+        "de": "KRÖTEN",
+        "en": "TURTLE",
+        "fr": "TORTUE"
+      },
+      "entry": {
+        "de": "Bei Gefahr zieht dieses Pokémon seinen Kopf ein. Die Schwanzspitze ragt jedoch aus dem Panzer heraus.",
+        "en": "When tapped, this Pokémon will pull in its head, but its tail will still stick out a little bit.",
+        "fr": "Attaqué, il cache sa tête dans sa carapace, mais son corps trop gros ne peut y tenir en entier."
+      }
+    },
+    {
+      "id": "009",
+      "name": {
+        "de": "TURTOK",
+        "en": "BLASTOISE",
+        "fr": "TORTANK"
+      },
+      "image": "assets/img/sprites/9.png",
+      "audioFile": "assets/audio/cries/9.wav",
+      "height": {
+        "imperial": "5'03\"",
+        "metric": "1,6m"
+      },
+      "weight": {
+        "imperial": "188.5lb",
+        "metric": "85,5kg"
+      },
+      "species": {
+        "de": "PANZERTIER",
+        "en": "SHELLFISH",
+        "fr": "CARAPACE"
+      },
+      "entry": {
+        "de": "Es begräbt seine Gegner mit seinem enormen Körpergewicht. Wenn es in einer aussichtslosen Lage steckt, zieht es sich in seinen Panzer zurück.",
+        "en": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+        "fr": "Il écrase ses adversaires de tout son poids pour leur faire perdre connaissance. Il rentre dans sa carapace s’il se sent en danger."
+      }
+    },
+    {
+      "id": "010",
+      "name": {
+        "de": "RAUPY",
+        "en": "CATERPIE",
+        "fr": "CHENIPAN"
+      },
+      "image": "assets/img/sprites/10.png",
+      "audioFile": "assets/audio/cries/10.wav",
+      "height": {
+        "imperial": "1'00\"",
+        "metric": "0,3m"
+      },
+      "weight": {
+        "imperial": "6.4lb",
+        "metric": "2,9kg"
+      },
+      "species": {
+        "de": "WURM",
+        "en": "WORM",
+        "fr": "VER"
+      },
+      "entry": {
+        "de": "Pour se protéger, il émet un gaz puant par ses antennes, qui fait fuir ses ennemis audacieux.",
+        "en": "Per proteggersi emette un puzzo terribile dall’antenna sul capo, tenendo lontani i nemici.",
+        "fr": "머리의 더듬이로부터 강렬한 냄새를 내어 적을 물리치고 몸을 보호한다."
+      }
+    },
+    {
+      "id": "011",
+      "name": {
+        "de": "SAFCON",
+        "en": "METAPOD",
+        "fr": "CHRYSACIER"
+      },
+      "image": "assets/img/sprites/11.png",
+      "audioFile": "assets/audio/cries/11.wav",
+      "height": {
+        "imperial": "2'04\"",
+        "metric": "0,7m"
+      },
+      "weight": {
+        "imperial": "21.8lb",
+        "metric": "9,9kg"
+      },
+      "species": {
+        "de": "KOKON",
+        "en": "COCOON",
+        "fr": "COCON"
+      },
+      "entry": {
+        "de": "Der stahlharte Panzer schützt seinen zarten Körper. Es wartet geduldig auf seine Entwicklung.",
+        "en": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+        "fr": "Son corps frêle est protégé par sa carapace d’acier. Il encaisse les coups durs en attendant d’évoluer."
+      }
+    },
+    {
+      "id": "012",
+      "name": {
+        "de": "SMETTBO",
+        "en": "BUTTERFREE",
+        "fr": "PAPILUSION"
+      },
+      "image": "assets/img/sprites/12.png",
+      "audioFile": "assets/audio/cries/12.wav",
+      "height": {
+        "imperial": "3'07\"",
+        "metric": "1,1m"
+      },
+      "weight": {
+        "imperial": "70.5lb",
+        "metric": "32,0kg"
+      },
+      "species": {
+        "de": "FALTER",
+        "en": "BUTTERFLY",
+        "fr": "PAPILLON"
+      },
+      "entry": {
+        "de": "Es liebt Blütenhonig. Es findet selbst Blumen, die sehr wenig Pollen haben.",
+        "en": "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+        "fr": "Il raffole du nectar des fleurs. Il est capable de repérer la plus petite quantité de pollen."
+      }
+    },
+    {
+      "id": "013",
+      "name": {
+        "de": "HORNLIU",
+        "en": "WEEDLE",
+        "fr": "ASPICOT"
+      },
+      "image": "assets/img/sprites/13.png",
+      "audioFile": "assets/audio/cries/13.wav",
+      "height": {
+        "imperial": "1'00\"",
+        "metric": "0,3m"
+      },
+      "weight": {
+        "imperial": "7.1lb",
+        "metric": "3,2kg"
+      },
+      "species": {
+        "de": "RAUPE",
+        "en": "HAIRY BUG",
+        "fr": "INSECTOPIC"
+      },
+      "entry": {
+        "de": "Es lebt bevorzugt in Wäldern und in hohem Gras. Auf dem Kopf trägt es einen circa 5 cm langen, spitzen, giftigen Stachel.",
+        "en": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+        "fr": "On trouve souvent ce Pokémon dans les forêts et les hautes herbes. L’aiguillon de 5 cm sur sa tête contient un venin très toxique."
+      }
+    },
+    {
+      "id": "014",
+      "name": {
+        "de": "KOKUNA",
+        "en": "KAKUNA",
+        "fr": "COCONFORT"
+      },
+      "image": "assets/img/sprites/14.png",
+      "audioFile": "assets/audio/cries/14.wav",
+      "height": {
+        "imperial": "2'00\"",
+        "metric": "0,6m"
+      },
+      "weight": {
+        "imperial": "22.0lb",
+        "metric": "10,0kg"
+      },
+      "species": {
+        "de": "KOKON",
+        "en": "COCOON",
+        "fr": "COCON"
+      },
+      "entry": {
+        "de": "Dieses Pokémon kann sich kaum bewegen. Bei drohender Gefahr verhärtet es seinen Panzer.",
+        "en": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+        "fr": "Incapable de se déplacer de lui-même, il se défend en durcissant sa carapace."
+      }
+    },
+    {
+      "id": "015",
+      "name": {
+        "de": "BIBOR",
+        "en": "BEEDRILL",
+        "fr": "DARDARGNAN"
+      },
+      "image": "assets/img/sprites/15.png",
+      "audioFile": "assets/audio/cries/15.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "65.0lb",
+        "metric": "29,5kg"
+      },
+      "species": {
+        "de": "GIFTBIENE",
+        "en": "POISON BEE",
+        "fr": "GUÊPOISON"
+      },
+      "entry": {
+        "de": "Il se sert de ses trois aiguillons empoisonnés pour attaquer sans relâche ses adversaires.",
+        "en": "Possiede tre aculei velenosi sulle zampe anteriori e sull’addome con cui punge i nemici ripetutamente.",
+        "fr": "양손과 엉덩이에 있는 3개의 독침으로 상대를 찌르고 찌르고 또 찌르며 공격한다."
+      }
+    },
+    {
+      "id": "016",
+      "name": {
+        "de": "TAUBSI",
+        "en": "PIDGEY",
+        "fr": "ROUCOOL"
+      },
+      "image": "assets/img/sprites/16.png",
+      "audioFile": "assets/audio/cries/16.wav",
+      "height": {
+        "imperial": "1'00\"",
+        "metric": "0,3m"
+      },
+      "weight": {
+        "imperial": "4.0lb",
+        "metric": "1,8kg"
+      },
+      "species": {
+        "de": "KLEINVOGEL",
+        "en": "TINY BIRD",
+        "fr": "MINOISEAU"
+      },
+      "entry": {
+        "de": "Ein vorwiegend in Wäldern lebendes Pokémon, das zur Verteidigung mit den Flügeln Sand aufwirbelt.",
+        "en": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+        "fr": "On l’aperçoit souvent dans les forêts. Avec ses ailes, il brasse l’air près du sol pour projeter du sable."
+      }
+    },
+    {
+      "id": "017",
+      "name": {
+        "de": "TAUBOGA",
+        "en": "PIDGEOTTO",
+        "fr": "ROUCOUPS"
+      },
+      "image": "assets/img/sprites/17.png",
+      "audioFile": "assets/audio/cries/17.wav",
+      "height": {
+        "imperial": "3'07\"",
+        "metric": "1,1m"
+      },
+      "weight": {
+        "imperial": "66.1lb",
+        "metric": "30,0kg"
+      },
+      "species": {
+        "de": "VOGEL",
+        "en": "BIRD",
+        "fr": "OISEAU"
+      },
+      "entry": {
+        "de": "Die Krallen an seinen Füßen sind sehr ausgeprägt. Es kann sogar ein Owei zu seinem Nest in 100 km Entfernung tragen.",
+        "en": "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away.",
+        "fr": "Grâce à ses griffes très puissantes, il est capable de transporter des Noeunoeuf vers un nid éloigné de plus de 100 km."
+      }
+    },
+    {
+      "id": "018",
+      "name": {
+        "de": "TAUBOSS",
+        "en": "PIDGEOT",
+        "fr": "ROUCARNAGE"
+      },
+      "image": "assets/img/sprites/18.png",
+      "audioFile": "assets/audio/cries/18.wav",
+      "height": {
+        "imperial": "4'11\"",
+        "metric": "1,5m"
+      },
+      "weight": {
+        "imperial": "87.1lb",
+        "metric": "39,5kg"
+      },
+      "species": {
+        "de": "VOGEL",
+        "en": "BIRD",
+        "fr": "OISEAU"
+      },
+      "entry": {
+        "de": "Dieses Pokémon schnellt bei der Jagd blitzschnell unter Wasser, um seine ahnungslose Beute zu fangen.",
+        "en": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+        "fr": "Il survole la surface de l’eau pour repérer une proie et plonge en piqué pour l’attraper."
+      }
+    },
+    {
+      "id": "019",
+      "name": {
+        "de": "RATTFRATZ",
+        "en": "RATTATA",
+        "fr": "RATTATA"
+      },
+      "image": "assets/img/sprites/19.png",
+      "audioFile": "assets/audio/cries/19.wav",
+      "height": {
+        "imperial": "1'00\"",
+        "metric": "0,3m"
+      },
+      "weight": {
+        "imperial": "7.7lb",
+        "metric": "3,5kg"
+      },
+      "species": {
+        "de": "MAUS",
+        "en": "MOUSE",
+        "fr": "SOURIS"
+      },
+      "entry": {
+        "de": "Vivant là où se trouve la nourriture, ce charognard passe ses journées à la rechercher.",
+        "en": "Vive ovunque si trovi del cibo, cercando incessantemente qualsiasi cosa sia commestibile.",
+        "fr": "먹을 것이 있는 곳이라면 어디서든 서식한다. 온종일 먹이를 찾아다닌다."
+      }
+    },
+    {
+      "id": "020",
+      "name": {
+        "de": "RATTIKARL",
+        "en": "RATICATE",
+        "fr": "RATTATAC"
+      },
+      "image": "assets/img/sprites/20.png",
+      "audioFile": "assets/audio/cries/20.wav",
+      "height": {
+        "imperial": "2'04\"",
+        "metric": "0,7m"
+      },
+      "weight": {
+        "imperial": "40.8lb",
+        "metric": "18,5kg"
+      },
+      "species": {
+        "de": "MAUS",
+        "en": "MOUSE",
+        "fr": "SOURIS"
+      },
+      "entry": {
+        "de": "Il grignote sans cesse pour apaiser la poussée de ses crocs. Il peut transpercer un mur de parpaings.",
+        "en": "Si affila le zanne in perenne crescita rosicchiando cose dure. Riesce a frantumare persino i muri.",
+        "fr": "계속 자라는 앞니를 갈아내려고 딱딱한 것을 갉는 습성이 있다. 벽돌로 된 벽도 갉아서 부순다."
+      }
+    },
+    {
+      "id": "021",
+      "name": {
+        "de": "HABITAK",
+        "en": "SPEAROW",
+        "fr": "PIAFABEC"
+      },
+      "image": "assets/img/sprites/21.png",
+      "audioFile": "assets/audio/cries/21.wav",
+      "height": {
+        "imperial": "1'00\"",
+        "metric": "0,3m"
+      },
+      "weight": {
+        "imperial": "4.4lb",
+        "metric": "2,0kg"
+      },
+      "species": {
+        "de": "KLEINVOGEL",
+        "en": "TINY BIRD",
+        "fr": "MINOISEAU"
+      },
+      "entry": {
+        "de": "Es beschützt sein Gebiet stets vor Eindringlingen. Daher fliegt es ständig wild umher.",
+        "en": "Very protective of its territory, it flaps its short wings busily to dart around at high speed.",
+        "fr": "Très protecteur de son territoire, il bat vite des ailes pour se déplacer à toute allure."
+      }
+    },
+    {
+      "id": "022",
+      "name": {
+        "de": "IBITAK",
+        "en": "FEAROW",
+        "fr": "RAPASDEPIC"
+      },
+      "image": "assets/img/sprites/22.png",
+      "audioFile": "assets/audio/cries/22.wav",
+      "height": {
+        "imperial": "3'11\"",
+        "metric": "1,2m"
+      },
+      "weight": {
+        "imperial": "83.8lb",
+        "metric": "38,0kg"
+      },
+      "species": {
+        "de": "PICKVOGEL",
+        "en": "BEAK",
+        "fr": "BEC-OISEAU"
+      },
+      "entry": {
+        "de": "Mit seinen riesigen Flügeln kann dieses Pokémon nahezu pausenlos in der Luft bleiben.",
+        "en": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+        "fr": "Ses ailes géantes lui permettent de voler sur de longues distances sans qu’il ait besoin de se reposer."
+      }
+    },
+    {
+      "id": "023",
+      "name": {
+        "de": "RETTAN",
+        "en": "EKANS",
+        "fr": "ABO"
+      },
+      "image": "assets/img/sprites/23.png",
+      "audioFile": "assets/audio/cries/23.wav",
+      "height": {
+        "imperial": "6'07\"",
+        "metric": "2,0m"
+      },
+      "weight": {
+        "imperial": "15.2lb",
+        "metric": "6,9kg"
+      },
+      "species": {
+        "de": "SCHLANGE",
+        "en": "SNAKE",
+        "fr": "SERPENT"
+      },
+      "entry": {
+        "de": "Mit dem Alter wird der Körper dieses Pokémon immer länger. Es schläft um Äste gewickelt.",
+        "en": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+        "fr": "Plus il est âgé, plus son corps est long. Il se love autour des arbres pour se reposer."
+      }
+    },
+    {
+      "id": "024",
+      "name": {
+        "de": "ARBOK",
+        "en": "ARBOK",
+        "fr": "ARBOK"
+      },
+      "image": "assets/img/sprites/24.png",
+      "audioFile": "assets/audio/cries/24.wav",
+      "height": {
+        "imperial": "11'06\"",
+        "metric": "3,5m"
+      },
+      "weight": {
+        "imperial": "143.3lb",
+        "metric": "65,0kg"
+      },
+      "species": {
+        "de": "KOBRA",
+        "en": "COBRA",
+        "fr": "COBRA"
+      },
+      "entry": {
+        "de": "Das Muster auf seinem Bauch ähnelt einer Fratze. Schwache Gegner nehmen bereits beim Anblick Reißaus.",
+        "en": "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
+        "fr": "Les motifs sur son corps ressemblent à un visage menaçant. Les adversaires les plus craintifs fuient à la seule vue de ce Pokémon."
+      }
+    },
+    {
+      "id": "025",
+      "name": {
+        "de": "PIKACHU",
+        "en": "PIKACHU",
+        "fr": "PIKACHU"
+      },
+      "image": "assets/img/sprites/25.png",
+      "audioFile": "assets/audio/cries/25.wav",
+      "height": {
+        "imperial": "1'04\"",
+        "metric": "0,4m"
+      },
+      "weight": {
+        "imperial": "13.2lb",
+        "metric": "6,0kg"
+      },
+      "species": {
+        "de": "MAUS",
+        "en": "MOUSE",
+        "fr": "SOURIS"
+      },
+      "entry": {
+        "de": "Es streckt seinen Schweif nach oben, um seine Umgebung zu prüfen. Häufig fährt ein Blitz hinein.",
+        "en": "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
+        "fr": "Il élève sa queue pour surveiller les environs. Elle attire souvent la foudre dans cette position."
+      }
+    },
+    {
+      "id": "026",
+      "name": {
+        "de": "RAICHU",
+        "en": "RAICHU",
+        "fr": "RAICHU"
+      },
+      "image": "assets/img/sprites/26.png",
+      "audioFile": "assets/audio/cries/26.wav",
+      "height": {
+        "imperial": "2'07\"",
+        "metric": "0,8m"
+      },
+      "weight": {
+        "imperial": "66.1lb",
+        "metric": "30,0kg"
+      },
+      "species": {
+        "de": "MAUS",
+        "en": "MOUSE",
+        "fr": "SOURIS"
+      },
+      "entry": {
+        "de": "Quand il se charge en électricité, ses muscles se contractent et il devient plus agressif.",
+        "en": "Se l’elettricità aumenta, i muscoli sono sollecitati e diventa più aggressivo del solito.",
+        "fr": "전기가 모이면 근육이 자극되어 여느 때보다 공격적이 된다."
+      }
+    },
+    {
+      "id": "027",
+      "name": {
+        "de": "SANDAN",
+        "en": "SANDSHREW",
+        "fr": "SABELETTE"
+      },
+      "image": "assets/img/sprites/27.png",
+      "audioFile": "assets/audio/cries/27.wav",
+      "height": {
+        "imperial": "2'00\"",
+        "metric": "0,6m"
+      },
+      "weight": {
+        "imperial": "26.5lb",
+        "metric": "12,0kg"
+      },
+      "species": {
+        "de": "MAUS",
+        "en": "MOUSE",
+        "fr": "SOURIS"
+      },
+      "entry": {
+        "de": "Es gräbt und lebt im Erdboden. Bei Gefahr rollt es sich zum Schutz zu einem Ball zusammen.",
+        "en": "It burrows and lives underground. If threatened, it curls itself up into a ball for protection.",
+        "fr": "Il s’enterre et vit dans les sous-sols. S’il se sent menacé, il se met en boule pour se protéger."
+      }
+    },
+    {
+      "id": "028",
+      "name": {
+        "de": "SANDAMER",
+        "en": "SANDSLASH",
+        "fr": "SABLAIREAU"
+      },
+      "image": "assets/img/sprites/28.png",
+      "audioFile": "assets/audio/cries/28.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "65.0lb",
+        "metric": "29,5kg"
+      },
+      "species": {
+        "de": "MAUS",
+        "en": "MOUSE",
+        "fr": "SOURIS"
+      },
+      "entry": {
+        "de": "Wenn es schnell gräbt, können seine Stacheln und Krallen abbrechen. Sie wachsen binnen eines Tages nach.",
+        "en": "If it digs at an incredible pace, it may snap off its spikes and claws. They grow back in a day.",
+        "fr": "Il creuse si vite qu’il peut briser ses épines et ses griffes. Mais elles repoussent en une journée."
+      }
+    },
+    {
+      "id": "029",
+      "name": {
+        "de": "NIDORAN♀",
+        "en": "NIDORAN♀",
+        "fr": "NIDORAN♀"
+      },
+      "image": "assets/img/sprites/29.png",
+      "audioFile": "assets/audio/cries/29.wav",
+      "height": {
+        "imperial": "1'04\"",
+        "metric": "0,4m"
+      },
+      "weight": {
+        "imperial": "15.4lb",
+        "metric": "7,0kg"
+      },
+      "species": {
+        "de": "GIFTDORN",
+        "en": "POISON PIN",
+        "fr": "VÉNÉPIC"
+      },
+      "entry": {
+        "de": "Dieses Pokémon ist sehr klein, verfügt aber über starke Gifte. Das Weibchen hat ein kleineres Horn.",
+        "en": "Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns.",
+        "fr": "Ce Pokémon est hérissé de dards empoisonnés. Les femelles ont une corne plus petite."
+      }
+    },
+    {
+      "id": "030",
+      "name": {
+        "de": "NIDORINA",
+        "en": "NIDORINA",
+        "fr": "NIDORINA"
+      },
+      "image": "assets/img/sprites/30.png",
+      "audioFile": "assets/audio/cries/30.wav",
+      "height": {
+        "imperial": "2'07\"",
+        "metric": "0,8m"
+      },
+      "weight": {
+        "imperial": "44.1lb",
+        "metric": "20,0kg"
+      },
+      "species": {
+        "de": "GIFTDORN",
+        "en": "POISON PIN",
+        "fr": "VÉNÉPIC"
+      },
+      "entry": {
+        "de": "Das Weibchen ist ausgeglichener. Es stößt Schreie im Ultraschallwellenbereich aus, die den Gegner verwirren können.",
+        "en": "The female has a gentle temperament. It emits ultrasonic cries that have the power to befuddle foes.",
+        "fr": "La femelle a un tempérament doux. Elle émet des cris ultrasoniques capables de déstabiliser ses ennemis."
+      }
+    },
+    {
+      "id": "031",
+      "name": {
+        "de": "NIDOQUEEN",
+        "en": "NIDOQUEEN",
+        "fr": "NIDOQUEEN"
+      },
+      "image": "assets/img/sprites/31.png",
+      "audioFile": "assets/audio/cries/31.wav",
+      "height": {
+        "imperial": "4'03\"",
+        "metric": "1,3m"
+      },
+      "weight": {
+        "imperial": "132.3lb",
+        "metric": "60,0kg"
+      },
+      "species": {
+        "de": "BOHRER",
+        "en": "DRILL",
+        "fr": "PERCEUR"
+      },
+      "entry": {
+        "de": "Es benutzt seinen schuppigen Körper, um den Höhleneingang als Schutz für seine Jungen zu sperren.",
+        "en": "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators.",
+        "fr": "Il se sert de son corps lourdement protégé pour empêcher les prédateurs d’accéder à son nid."
+      }
+    },
+    {
+      "id": "032",
+      "name": {
+        "de": "NIDORAN♂",
+        "en": "NIDORAN♂",
+        "fr": "NIDORAN♂"
+      },
+      "image": "assets/img/sprites/32.png",
+      "audioFile": "assets/audio/cries/32.wav",
+      "height": {
+        "imperial": "1'08\"",
+        "metric": "0,5m"
+      },
+      "weight": {
+        "imperial": "19.8lb",
+        "metric": "9,0kg"
+      },
+      "species": {
+        "de": "GIFTDORN",
+        "en": "POISON PIN",
+        "fr": "VÉNÉPIC"
+      },
+      "entry": {
+        "de": "Es untersucht die Umgebung, indem es die Ohren spitzt und lauscht. Sein giftiges Horn schützt es.",
+        "en": "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
+        "fr": "Il jauge le terrain en laissant ses oreilles dépasser de l’herbe. Il se défend avec sa corne toxique."
+      }
+    },
+    {
+      "id": "033",
+      "name": {
+        "de": "NIDORINO",
+        "en": "NIDORINO",
+        "fr": "NIDORINO"
+      },
+      "image": "assets/img/sprites/33.png",
+      "audioFile": "assets/audio/cries/33.wav",
+      "height": {
+        "imperial": "2'11\"",
+        "metric": "0,9m"
+      },
+      "weight": {
+        "imperial": "43.0lb",
+        "metric": "19,5kg"
+      },
+      "species": {
+        "de": "GIFTDORN",
+        "en": "POISON PIN",
+        "fr": "VÉNÉPIC"
+      },
+      "entry": {
+        "de": "발달한 귀를 세워 주위의 낌새를 살핀다. 무슨 일이 생기면 바로 덤벼든다.",
+        "en": "Levanta sus grandes orejas para vigilar. Si detecta algo, atacará de inmediato.",
+        "fr": "はったつした　みみを　たてて まわりの　けはいを　さぐる。 なにかあると　すぐに　とびかかる。"
+      }
+    },
+    {
+      "id": "034",
+      "name": {
+        "de": "NIDOKING",
+        "en": "NIDOKING",
+        "fr": "NIDOKING"
+      },
+      "image": "assets/img/sprites/34.png",
+      "audioFile": "assets/audio/cries/34.wav",
+      "height": {
+        "imperial": "4'07\"",
+        "metric": "1,4m"
+      },
+      "weight": {
+        "imperial": "136.7lb",
+        "metric": "62,0kg"
+      },
+      "species": {
+        "de": "BOHRER",
+        "en": "DRILL",
+        "fr": "PERCEUR"
+      },
+      "entry": {
+        "de": "Seine steinharte Haut und sein ausgeprägtes Horn sind seine Markenzeichen. Achte auf das Horn, denn es enthält Gift.",
+        "en": "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn, as it contains venom.",
+        "fr": "On le reconnaît facilement grâce à sa peau dure comme de la pierre ainsi qu’à sa grosse corne pleine de poison."
+      }
+    },
+    {
+      "id": "035",
+      "name": {
+        "de": "PIEPI",
+        "en": "CLEFAIRY",
+        "fr": "MÉLOFÉE"
+      },
+      "image": "assets/img/sprites/35.png",
+      "audioFile": "assets/audio/cries/35.wav",
+      "height": {
+        "imperial": "2'00\"",
+        "metric": "0,6m"
+      },
+      "weight": {
+        "imperial": "16.5lb",
+        "metric": "7,5kg"
+      },
+      "species": {
+        "de": "FEEN",
+        "en": "FAIRY",
+        "fr": "FÉE"
+      },
+      "entry": {
+        "de": "Eine Ansammlung von Piepi bei Vollmond tanzen zu sehen, soll Freude verheißen.",
+        "en": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+        "fr": "On dit que ceux qui voient danser un groupe de Mélofée sous la pleine lune connaîtront un grand bonheur."
+      }
+    },
+    {
+      "id": "036",
+      "name": {
+        "de": "PIXI",
+        "en": "CLEFABLE",
+        "fr": "MÉLODELFE"
+      },
+      "image": "assets/img/sprites/36.png",
+      "audioFile": "assets/audio/cries/36.wav",
+      "height": {
+        "imperial": "4'03\"",
+        "metric": "1,3m"
+      },
+      "weight": {
+        "imperial": "88.2lb",
+        "metric": "40,0kg"
+      },
+      "species": {
+        "de": "FEEN",
+        "en": "FAIRY",
+        "fr": "FÉE"
+      },
+      "entry": {
+        "de": "Es kann eine Nadel hören, die in 1 km Entfernung zu Boden fällt. Es lebt in der Stille der Berge.",
+        "en": "Its hearing is so acute it can hear a pin drop over half a mile away. It lives on quiet mountains.",
+        "fr": "Il aime le calme des montagnes. Son ouïe exceptionnelle entendrait une aiguille tomber à 1 km."
+      }
+    },
+    {
+      "id": "037",
+      "name": {
+        "de": "VULPIX",
+        "en": "VULPIX",
+        "fr": "GOUPIX"
+      },
+      "image": "assets/img/sprites/37.png",
+      "audioFile": "assets/audio/cries/37.wav",
+      "height": {
+        "imperial": "2'00\"",
+        "metric": "0,6m"
+      },
+      "weight": {
+        "imperial": "21.8lb",
+        "metric": "9,9kg"
+      },
+      "species": {
+        "de": "FUCHS",
+        "en": "FOX",
+        "fr": "RENARD"
+      },
+      "entry": {
+        "de": "Dieses Pokémon hat bei seiner Geburt nur einen Schweif, der sich mit zunehmendem Alter aufspaltet.",
+        "en": "When it is born, it has just one snow-white tail. The tail splits from its tip as it grows older.",
+        "fr": "Il n’a qu’une seule queue à la naissance. Sa queue se divise à la pointe au fil des ans."
+      }
+    },
+    {
+      "id": "038",
+      "name": {
+        "de": "VULNONA",
+        "en": "NINETALES",
+        "fr": "FEUNARD"
+      },
+      "image": "assets/img/sprites/38.png",
+      "audioFile": "assets/audio/cries/38.wav",
+      "height": {
+        "imperial": "3'07\"",
+        "metric": "1,1m"
+      },
+      "weight": {
+        "imperial": "43.9lb",
+        "metric": "19,9kg"
+      },
+      "species": {
+        "de": "FUCHS",
+        "en": "FOX",
+        "fr": "RENARD"
+      },
+      "entry": {
+        "de": "Es hat neun lange Schweife und sein Fell glänzt gülden. Man sagt, es soll 1 000 Jahre alt werden.",
+        "en": "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
+        "fr": "Il a neuf longues queues et une fourrure qui brille comme de l’or. On dit qu’il peut vivre 1000 ans."
+      }
+    },
+    {
+      "id": "039",
+      "name": {
+        "de": "PUMMELUFF",
+        "en": "JIGGLYPUFF",
+        "fr": "RONDOUDOU"
+      },
+      "image": "assets/img/sprites/39.png",
+      "audioFile": "assets/audio/cries/39.wav",
+      "height": {
+        "imperial": "1'08\"",
+        "metric": "0,5m"
+      },
+      "weight": {
+        "imperial": "12.1lb",
+        "metric": "5,5kg"
+      },
+      "species": {
+        "de": "BALLON",
+        "en": "BALLOON",
+        "fr": "BOUBOULE"
+      },
+      "entry": {
+        "de": "Es fesselt die Gegner mit seinen großen, runden Augen und versetzt sie in Schlaf, indem es eine beruhigende Melodie singt.",
+        "en": "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody.",
+        "fr": "Il hypnotise ses ennemis grâce à ses grands yeux avant de les plonger dans un profond sommeil en chantant une douce mélopée."
+      }
+    },
+    {
+      "id": "040",
+      "name": {
+        "de": "KNUDDELUFF",
+        "en": "WIGGLYTUFF",
+        "fr": "GRODOUDOU"
+      },
+      "image": "assets/img/sprites/40.png",
+      "audioFile": "assets/audio/cries/40.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "26.5lb",
+        "metric": "12,0kg"
+      },
+      "species": {
+        "de": "BALLON",
+        "en": "BALLOON",
+        "fr": "BOUBOULE"
+      },
+      "entry": {
+        "de": "Sein Fell ist so flauschig, dass, wenn zwei zusammenstehen, sie nicht getrennt werden möchten.",
+        "en": "Their fur feels so good that if two of them snuggle together, they won’t want to be separated.",
+        "fr": "Leur fourrure est si douce que s’ils se font des câlins, ils ne voudront plus se séparer."
+      }
+    },
+    {
+      "id": "041",
+      "name": {
+        "de": "ZUBAT",
+        "en": "ZUBAT",
+        "fr": "NOSFERAPTI"
+      },
+      "image": "assets/img/sprites/41.png",
+      "audioFile": "assets/audio/cries/41.wav",
+      "height": {
+        "imperial": "2'07\"",
+        "metric": "0,8m"
+      },
+      "weight": {
+        "imperial": "16.5lb",
+        "metric": "7,5kg"
+      },
+      "species": {
+        "de": "FLEDERMAUS",
+        "en": "BAT",
+        "fr": "CHOVSOURIS"
+      },
+      "entry": {
+        "de": "입에서 내는 초음파로 두 눈이 없어도 주위의 장애물을 탐색할 수 있다.",
+        "en": "Aunque carezca de ojos, puede detectar obstáculos con las ondas ultrasónicas que emite su boca.",
+        "fr": "くちから　だす　ちょうおんぱで りょうめが　なくても　まわりの しょうがいぶつを　さっちできる。"
+      }
+    },
+    {
+      "id": "042",
+      "name": {
+        "de": "GOLBAT",
+        "en": "GOLBAT",
+        "fr": "NOSFERALTO"
+      },
+      "image": "assets/img/sprites/42.png",
+      "audioFile": "assets/audio/cries/42.wav",
+      "height": {
+        "imperial": "5'03\"",
+        "metric": "1,6m"
+      },
+      "weight": {
+        "imperial": "121.3lb",
+        "metric": "55,0kg"
+      },
+      "species": {
+        "de": "FLEDERMAUS",
+        "en": "BAT",
+        "fr": "CHOVSOURIS"
+      },
+      "entry": {
+        "de": "Dieses Pokémon saugt dem Gegner selbst dann noch Energie ab, wenn es zu schwer zum Fliegen wird.",
+        "en": "Once it bites, it will not stop draining energy from the victim even if it gets too heavy to fly.",
+        "fr": "Il mord son adversaire et absorbe toute son énergie, même s’il devient trop lourd pour voler."
+      }
+    },
+    {
+      "id": "043",
+      "name": {
+        "de": "MYRAPLA",
+        "en": "ODDISH",
+        "fr": "MYSTHERBE"
+      },
+      "image": "assets/img/sprites/43.png",
+      "audioFile": "assets/audio/cries/43.wav",
+      "height": {
+        "imperial": "1'08\"",
+        "metric": "0,5m"
+      },
+      "weight": {
+        "imperial": "11.9lb",
+        "metric": "5,4kg"
+      },
+      "species": {
+        "de": "UNKRAUT",
+        "en": "WEED",
+        "fr": "RACINE"
+      },
+      "entry": {
+        "de": "Tagsüber versteckt es sich in der kalten Erde, um die Sonne zu meiden. Es wächst im Mondschein.",
+        "en": "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+        "fr": "Le jour, il reste en sous-sol et évite le soleil. Il grandit en se baignant au clair de lune."
+      }
+    },
+    {
+      "id": "044",
+      "name": {
+        "de": "DUFLOR",
+        "en": "GLOOM",
+        "fr": "ORTIDE"
+      },
+      "image": "assets/img/sprites/44.png",
+      "audioFile": "assets/audio/cries/44.wav",
+      "height": {
+        "imperial": "2'07\"",
+        "metric": "0,8m"
+      },
+      "weight": {
+        "imperial": "19.0lb",
+        "metric": "8,6kg"
+      },
+      "species": {
+        "de": "UNKRAUT",
+        "en": "WEED",
+        "fr": "RACINE"
+      },
+      "entry": {
+        "de": "Dieses Pokémon sondert einen übelriechenden Geruch ab. Trotzdem halten einige Leute es im Haus.",
+        "en": "Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink.",
+        "fr": "Il sent très mauvais! Mais une personne sur 1000 aime la puanteur de son corps nauséabond."
+      }
+    },
+    {
+      "id": "045",
+      "name": {
+        "de": "GIFLOR",
+        "en": "VILEPLUME",
+        "fr": "RAFFLESIA"
+      },
+      "image": "assets/img/sprites/45.png",
+      "audioFile": "assets/audio/cries/45.wav",
+      "height": {
+        "imperial": "3'11\"",
+        "metric": "1,2m"
+      },
+      "weight": {
+        "imperial": "41.0lb",
+        "metric": "18,6kg"
+      },
+      "species": {
+        "de": "BLUMEN",
+        "en": "FLOWER",
+        "fr": "FLEUR"
+      },
+      "entry": {
+        "de": "꽃잎이 클수록 많은 꽃가루를 만들어 내지만 머리가 무거워서 지쳐버린다고 한다.",
+        "en": "Cuanto mayores son sus pétalos, más tóxico es su polen. Le pesa la cabeza y le cuesta mantenerla erguida.",
+        "fr": "はなびらが　おおきいほど　たくさん かふんを　だすが　あたまが おもたくて　つかれてしまうという。"
+      }
+    },
+    {
+      "id": "046",
+      "name": {
+        "de": "PARAS",
+        "en": "PARAS",
+        "fr": "PARAS"
+      },
+      "image": "assets/img/sprites/46.png",
+      "audioFile": "assets/audio/cries/46.wav",
+      "height": {
+        "imperial": "1'00\"",
+        "metric": "0,3m"
+      },
+      "weight": {
+        "imperial": "11.9lb",
+        "metric": "5,4kg"
+      },
+      "species": {
+        "de": "PILZ",
+        "en": "MUSHROOM",
+        "fr": "CHAMPIGNON"
+      },
+      "entry": {
+        "de": "Auf seinem Rücken wachsen Pilze, die man Tochukaso nennt. Die Pilze wachsen mit ihrem Wirt.",
+        "en": "Growing out of the bug’s back are mushrooms called tochukaso. The mushrooms grow with the bug host.",
+        "fr": "Sur le dos de ce Pokémon se trouvent des champignons appelés tochukaso. Ils se développent au même rythme que leur hôte."
+      }
+    },
+    {
+      "id": "047",
+      "name": {
+        "de": "PARASEK",
+        "en": "PARASECT",
+        "fr": "PARASECT"
+      },
+      "image": "assets/img/sprites/47.png",
+      "audioFile": "assets/audio/cries/47.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "65.0lb",
+        "metric": "29,5kg"
+      },
+      "species": {
+        "de": "PILZ",
+        "en": "MUSHROOM",
+        "fr": "CHAMPIGNON"
+      },
+      "entry": {
+        "de": "Parasek wird von einem Pilz, der größer als das Pokémon ist, kontrolliert. Er gibt Giftsporen ab.",
+        "en": "A mushroom grown larger than the host’s body controls Parasect. It scatters poisonous spores.",
+        "fr": "Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées."
+      }
+    },
+    {
+      "id": "048",
+      "name": {
+        "de": "BLUZUK",
+        "en": "VENONAT",
+        "fr": "MIMITOSS"
+      },
+      "image": "assets/img/sprites/48.png",
+      "audioFile": "assets/audio/cries/48.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "66.1lb",
+        "metric": "30,0kg"
+      },
+      "species": {
+        "de": "INSEKT",
+        "en": "INSECT",
+        "fr": "VERMINE"
+      },
+      "entry": {
+        "de": "Seine großen Augen bestehen aus vielen kleinen Augen. Nachts wird es von Licht angezogen.",
+        "en": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+        "fr": "Ses grands yeux sont en fait des amas d’yeux minuscules. La nuit, il est attiré par la lumière."
+      }
+    },
+    {
+      "id": "049",
+      "name": {
+        "de": "OMOT",
+        "en": "VENOMOTH",
+        "fr": "AÉROMITE"
+      },
+      "image": "assets/img/sprites/49.png",
+      "audioFile": "assets/audio/cries/49.wav",
+      "height": {
+        "imperial": "4'11\"",
+        "metric": "1,5m"
+      },
+      "weight": {
+        "imperial": "27.6lb",
+        "metric": "12,5kg"
+      },
+      "species": {
+        "de": "GIFTMOTTE",
+        "en": "POISON MOTH",
+        "fr": "PAPIPOISON"
+      },
+      "entry": {
+        "de": "Wer die von ihm verstreuten Schuppen berührt, wird gelähmt und muss sich setzen.",
+        "en": "The scales it scatters will paralyze anyone who touches them, making that person unable to stand.",
+        "fr": "Les écailles qu’il sème ont le pouvoir de paralyser totalement un ennemi."
+      }
+    },
+    {
+      "id": "050",
+      "name": {
+        "de": "DIGDA",
+        "en": "DIGLETT",
+        "fr": "TAUPIQUEUR"
+      },
+      "image": "assets/img/sprites/50.png",
+      "audioFile": "assets/audio/cries/50.wav",
+      "height": {
+        "imperial": "0'08\"",
+        "metric": "0,2m"
+      },
+      "weight": {
+        "imperial": "1.8lb",
+        "metric": "0,8kg"
+      },
+      "species": {
+        "de": "MAULWURF",
+        "en": "MOLE",
+        "fr": "TAUPE"
+      },
+      "entry": {
+        "de": "Il vit à 1 m sous la terre et se nourrit de racines. Il apparaît rarement à la surface.",
+        "en": "Vive un metro sotto terra, dove si nutre di radici. Talvolta compare in superficie.",
+        "fr": "지하 1m 정도를 파고들어 가서 나무뿌리 등을 씹어 먹고 산다. 가끔 지상으로 얼굴을 내민다."
+      }
+    },
+    {
+      "id": "051",
+      "name": {
+        "de": "DIGDRI",
+        "en": "DUGTRIO",
+        "fr": "TRIOPIKEUR"
+      },
+      "image": "assets/img/sprites/51.png",
+      "audioFile": "assets/audio/cries/51.wav",
+      "height": {
+        "imperial": "2'04\"",
+        "metric": "0,7m"
+      },
+      "weight": {
+        "imperial": "73.4lb",
+        "metric": "33,3kg"
+      },
+      "species": {
+        "de": "MAULWURF",
+        "en": "MOLE",
+        "fr": "TAUPE"
+      },
+      "entry": {
+        "de": "Im Kampf gräbt es sich ein und attackiert den Gegner aus einer unvorhersehbaren Richtung.",
+        "en": "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
+        "fr": "Au combat, il s’enfouit sous terre pour pouvoir frapper ses adversaires depuis n’importe quelle direction."
+      }
+    },
+    {
+      "id": "052",
+      "name": {
+        "de": "MAUZI",
+        "en": "MEOWTH",
+        "fr": "MIAOUSS"
+      },
+      "image": "assets/img/sprites/52.png",
+      "audioFile": "assets/audio/cries/52.wav",
+      "height": {
+        "imperial": "1'04\"",
+        "metric": "0,4m"
+      },
+      "weight": {
+        "imperial": "9.3lb",
+        "metric": "4,2kg"
+      },
+      "species": {
+        "de": "KATZEN",
+        "en": "SCRATCH CAT",
+        "fr": "CHADÉGOUT"
+      },
+      "entry": {
+        "de": "Son regard s’anime à la vue d’un objet brillant. C’est un Pokémon nocturne.",
+        "en": "È un Pokémon attivo di notte. Se nota qualcosa di luccicante, i suoi occhi cominciano a brillare.",
+        "fr": "한밤중에 움직이는 습성이 있다. 반짝반짝 빛나는 것을 발견하면 그에 못지않게 눈동자가 반짝인다."
+      }
+    },
+    {
+      "id": "053",
+      "name": {
+        "de": "SNOBILIKAT",
+        "en": "PERSIAN",
+        "fr": "PERSIAN"
+      },
+      "image": "assets/img/sprites/53.png",
+      "audioFile": "assets/audio/cries/53.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "70.5lb",
+        "metric": "32,0kg"
+      },
+      "species": {
+        "de": "RASSEKATZEN",
+        "en": "CLASSY CAT",
+        "fr": "CHADEVILLE"
+      },
+      "entry": {
+        "de": "Dieses Pokémon hat sehr schönes Fell. Es ist jedoch ein schwer erziehbares Haustier.",
+        "en": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+        "fr": "Très apprécié pour sa fourrure, il est difficile à apprivoiser en raison de son caractère rétif."
+      }
+    },
+    {
+      "id": "054",
+      "name": {
+        "de": "ENTON",
+        "en": "PSYDUCK",
+        "fr": "PSYKOKWAK"
+      },
+      "image": "assets/img/sprites/54.png",
+      "audioFile": "assets/audio/cries/54.wav",
+      "height": {
+        "imperial": "2'07\"",
+        "metric": "0,8m"
+      },
+      "weight": {
+        "imperial": "43.2lb",
+        "metric": "19,6kg"
+      },
+      "species": {
+        "de": "ENTEN",
+        "en": "DUCK",
+        "fr": "CANARD"
+      },
+      "entry": {
+        "de": "Es wird permanent von Kopfschmerzen geplagt. Wird der Schmerz stärker, setzt es geheimnisvolle Kräfte ein.",
+        "en": "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+        "fr": "Ce Pokémon a tout le temps la migraine. Quand la douleur devient insupportable, il se met à utiliser ses pouvoirs psy."
+      }
+    },
+    {
+      "id": "055",
+      "name": {
+        "de": "ENTORON",
+        "en": "GOLDUCK",
+        "fr": "AKWAKWAK"
+      },
+      "image": "assets/img/sprites/55.png",
+      "audioFile": "assets/audio/cries/55.wav",
+      "height": {
+        "imperial": "5'07\"",
+        "metric": "1,7m"
+      },
+      "weight": {
+        "imperial": "168.9lb",
+        "metric": "76,6kg"
+      },
+      "species": {
+        "de": "ENTEN",
+        "en": "DUCK",
+        "fr": "CANARD"
+      },
+      "entry": {
+        "de": "Il apparaît dans les étendues d’eau au crépuscule. Si son front brille, il se sert de sa télékinésie.",
+        "en": "Appare presso i corsi d’acqua col buio. Acquisisce poteri telecinetici se la sua fronte diventa incandescente.",
+        "fr": "해 질 무렵 강가에 모습을 나타낸다. 이마가 이상하게 빛날 때 신통력을 발휘한다고 전해진다."
+      }
+    },
+    {
+      "id": "056",
+      "name": {
+        "de": "MENKI",
+        "en": "MANKEY",
+        "fr": "FÉROSINGE"
+      },
+      "image": "assets/img/sprites/56.png",
+      "audioFile": "assets/audio/cries/56.wav",
+      "height": {
+        "imperial": "1'08\"",
+        "metric": "0,5m"
+      },
+      "weight": {
+        "imperial": "61.7lb",
+        "metric": "28,0kg"
+      },
+      "species": {
+        "de": "SCHWEIN/AFFE",
+        "en": "PIG MONKEY",
+        "fr": "PORSINGE"
+      },
+      "entry": {
+        "de": "Da es grundlos angreift und nicht zwischen Freund oder Feind unterscheidet, ist es sehr gefährlich.",
+        "en": "It’s unsafe to approach if it gets violently enraged for no reason and can’t distinguish friends from foes.",
+        "fr": "Il ne peut dissocier ses amis de ses ennemis et a tendance à enrager lorsqu’on l’approche."
+      }
+    },
+    {
+      "id": "057",
+      "name": {
+        "de": "RASAFF",
+        "en": "PRIMEAPE",
+        "fr": "COLOSSINGE"
+      },
+      "image": "assets/img/sprites/57.png",
+      "audioFile": "assets/audio/cries/57.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "70.5lb",
+        "metric": "32,0kg"
+      },
+      "species": {
+        "de": "SCHWEIN/AFFE",
+        "en": "PIG MONKEY",
+        "fr": "PORSINGE"
+      },
+      "entry": {
+        "de": "In ganz seltenen Fällen beruhigt sich dieses sehr jähzornige Pokémon und ist für einen Moment friedlich.",
+        "en": "It stops being angry only when nobody else is around. To view this moment is very difficult.",
+        "fr": "Sa fureur prend fin quand il n’a plus personne à frapper. Il est difficile d’en être témoin."
+      }
+    },
+    {
+      "id": "058",
+      "name": {
+        "de": "FUKANO",
+        "en": "GROWLITHE",
+        "fr": "CANINOS"
+      },
+      "image": "assets/img/sprites/58.png",
+      "audioFile": "assets/audio/cries/58.wav",
+      "height": {
+        "imperial": "2'04\"",
+        "metric": "0,7m"
+      },
+      "weight": {
+        "imperial": "41.9lb",
+        "metric": "19,0kg"
+      },
+      "species": {
+        "de": "WELPEN",
+        "en": "PUPPY",
+        "fr": "CHIOT"
+      },
+      "entry": {
+        "de": "Es ist sehr freundlich und bleibt den Menschen treu. Durch Bellen und Beißen versucht es, Gegner zu verscheuchen.",
+        "en": "Very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+        "fr": "Ce Pokémon est particulièrement affectueux et loyal. Il aboie et il mord pour se débarrasser de ses adversaires."
+      }
+    },
+    {
+      "id": "059",
+      "name": {
+        "de": "ARKANI",
+        "en": "ARCANINE",
+        "fr": "ARCANIN"
+      },
+      "image": "assets/img/sprites/59.png",
+      "audioFile": "assets/audio/cries/59.wav",
+      "height": {
+        "imperial": "6'03\"",
+        "metric": "1,9m"
+      },
+      "weight": {
+        "imperial": "341.7lb",
+        "metric": "155,0kg"
+      },
+      "species": {
+        "de": "LEGENDÄR",
+        "en": "LEGENDARY",
+        "fr": "LÉGENDAIRE"
+      },
+      "entry": {
+        "de": "Dieses Pokémon trägt ein wunderschönes Fell. Es ist obendrein schnell und sehr wendig.",
+        "en": "A Pokémon that has long been admired for its beauty. It runs agilely as if on wings.",
+        "fr": "Un Pokémon très recherché pour sa grâce légendaire. Il court avec tellement d’agilité qu’on dirait qu’il vole."
+      }
+    },
+    {
+      "id": "060",
+      "name": {
+        "de": "QUAPSEL",
+        "en": "POLIWAG",
+        "fr": "PTITARD"
+      },
+      "image": "assets/img/sprites/60.png",
+      "audioFile": "assets/audio/cries/60.wav",
+      "height": {
+        "imperial": "2'00\"",
+        "metric": "0,6m"
+      },
+      "weight": {
+        "imperial": "27.3lb",
+        "metric": "12,4kg"
+      },
+      "species": {
+        "de": "KAULQUAPPEN",
+        "en": "TADPOLE",
+        "fr": "TÊTARD"
+      },
+      "entry": {
+        "de": "Seine glatte, schwarze Haut ist dünn und feucht. Teilweise sind seine Innereien als spiralförmige Muster sichtbar.",
+        "en": "Its slick black skin is thin and damp. A part of its internal organs can be seen through the skin as a spiral pattern.",
+        "fr": "Sa peau est humide, lisse et surtout très fine. La forme en spirale sur son ventre est en fait une partie de ses organes internes que l’on peut apercevoir."
+      }
+    },
+    {
+      "id": "061",
+      "name": {
+        "de": "QUAPUTZI",
+        "en": "POLIWHIRL",
+        "fr": "TÊTARTE"
+      },
+      "image": "assets/img/sprites/61.png",
+      "audioFile": "assets/audio/cries/61.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "44.1lb",
+        "metric": "20,0kg"
+      },
+      "species": {
+        "de": "KAULQUAPPEN",
+        "en": "TADPOLE",
+        "fr": "TÊTARD"
+      },
+      "entry": {
+        "de": "Dieses Pokémon kann im Wasser und auch an Land leben. An Land schwitzt es sich den Körper nass.",
+        "en": "It can live in or out of water. When out of water, it constantly sweats to keep its body slimy.",
+        "fr": "Ce Pokémon amphibie transpire continuellement quand il est hors de l’eau afin d’hydrater son corps."
+      }
+    },
+    {
+      "id": "062",
+      "name": {
+        "de": "QUAPPO",
+        "en": "POLIWRATH",
+        "fr": "TARTARD"
+      },
+      "image": "assets/img/sprites/62.png",
+      "audioFile": "assets/audio/cries/62.wav",
+      "height": {
+        "imperial": "4'03\"",
+        "metric": "1,3m"
+      },
+      "weight": {
+        "imperial": "119.0lb",
+        "metric": "54,0kg"
+      },
+      "species": {
+        "de": "KAULQUAPPEN",
+        "en": "TADPOLE",
+        "fr": "TÊTARD"
+      },
+      "entry": {
+        "de": "Es hat extrem starke Muskeln und kann durch den Ozean schwimmen, ohne sich ausruhen zu müssen.",
+        "en": "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+        "fr": "Il possède de sacrés biscoteaux. Il peut parcourir sans relâche l’océan Pacifique."
+      }
+    },
+    {
+      "id": "063",
+      "name": {
+        "de": "ABRA",
+        "en": "ABRA",
+        "fr": "ABRA"
+      },
+      "image": "assets/img/sprites/63.png",
+      "audioFile": "assets/audio/cries/63.wav",
+      "height": {
+        "imperial": "2'11\"",
+        "metric": "0,9m"
+      },
+      "weight": {
+        "imperial": "43.0lb",
+        "metric": "19,5kg"
+      },
+      "species": {
+        "de": "PSI",
+        "en": "PSI",
+        "fr": "PSY"
+      },
+      "entry": {
+        "de": "Es schläft 18 Stunden am Tag. Währenddessen setzt es eine Vielzahl zusätzlicher sensorischer Kräfte ein.",
+        "en": "It sleeps for 18 hours a day. It uses a variety of extrasensory powers even while asleep.",
+        "fr": "Il dort 18 h par jour. Il peut utiliser de nombreux pouvoirs psy, même pendant son sommeil."
+      }
+    },
+    {
+      "id": "064",
+      "name": {
+        "de": "KADABRA",
+        "en": "KADABRA",
+        "fr": "KADABRA"
+      },
+      "image": "assets/img/sprites/64.png",
+      "audioFile": "assets/audio/cries/64.wav",
+      "height": {
+        "imperial": "4'03\"",
+        "metric": "1,3m"
+      },
+      "weight": {
+        "imperial": "124.6lb",
+        "metric": "56,5kg"
+      },
+      "species": {
+        "de": "PSI",
+        "en": "PSI",
+        "fr": "PSY"
+      },
+      "entry": {
+        "de": "Son pouvoir psychique émet des ondes alpha qui brouillent les appareils électroniques.",
+        "en": "Quando usa i poteri psichici, emette forti onde alfa che possono rovinare strumenti di precisione.",
+        "fr": "초능력을 발휘하면 강한 알파파를 내어 정밀 기계를 고장 내 버린다."
+      }
+    },
+    {
+      "id": "065",
+      "name": {
+        "de": "SIMSALA",
+        "en": "ALAKAZAM",
+        "fr": "ALAKAZAM"
+      },
+      "image": "assets/img/sprites/65.png",
+      "audioFile": "assets/audio/cries/65.wav",
+      "height": {
+        "imperial": "4'11\"",
+        "metric": "1,5m"
+      },
+      "weight": {
+        "imperial": "105.8lb",
+        "metric": "48,0kg"
+      },
+      "species": {
+        "de": "PSI",
+        "en": "PSI",
+        "fr": "PSY"
+      },
+      "entry": {
+        "de": "Seine Gehirnzellen vervielfachen sich sein ganzes Leben lang. Daher kann es sich immer an alles erinnern.",
+        "en": "Its brain cells multiply continually until it dies. As a result, it remembers everything.",
+        "fr": "Ses cellules cérébrales se multiplient jusqu’à sa mort. Il se souvient donc de tout."
+      }
+    },
+    {
+      "id": "066",
+      "name": {
+        "de": "MACHOLLO",
+        "en": "MACHOP",
+        "fr": "MACHOC"
+      },
+      "image": "assets/img/sprites/66.png",
+      "audioFile": "assets/audio/cries/66.wav",
+      "height": {
+        "imperial": "2'07\"",
+        "metric": "0,8m"
+      },
+      "weight": {
+        "imperial": "43.0lb",
+        "metric": "19,5kg"
+      },
+      "species": {
+        "de": "KRAFTPROTZ",
+        "en": "SUPERPOWER",
+        "fr": "COLOSSE"
+      },
+      "entry": {
+        "de": "Es hebt Georok hoch, um seinen Körper zu trainieren. Außerdem übt es sich in jeder Art von Kampfsport.",
+        "en": "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.",
+        "fr": "Il muscle son corps en soulevant régulièrement un Gravalanch. Il est rompu à tous les arts martiaux."
+      }
+    },
+    {
+      "id": "067",
+      "name": {
+        "de": "MASCHOCK",
+        "en": "MACHOKE",
+        "fr": "MACHOPEUR"
+      },
+      "image": "assets/img/sprites/67.png",
+      "audioFile": "assets/audio/cries/67.wav",
+      "height": {
+        "imperial": "4'11\"",
+        "metric": "1,5m"
+      },
+      "weight": {
+        "imperial": "155.4lb",
+        "metric": "70,5kg"
+      },
+      "species": {
+        "de": "KRAFTPROTZ",
+        "en": "SUPERPOWER",
+        "fr": "COLOSSE"
+      },
+      "entry": {
+        "de": "Dieses Pokémon ist superstark. Es kann sich nur mit einem Kraft regulierenden Gürtel bewegen.",
+        "en": "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+        "fr": "Son corps est si puissant qu’il lui faut une ceinture de force pour équilibrer ses mouvements."
+      }
+    },
+    {
+      "id": "068",
+      "name": {
+        "de": "MACHOMEI",
+        "en": "MACHAMP",
+        "fr": "MACKOGNEUR"
+      },
+      "image": "assets/img/sprites/68.png",
+      "audioFile": "assets/audio/cries/68.wav",
+      "height": {
+        "imperial": "5'03\"",
+        "metric": "1,6m"
+      },
+      "weight": {
+        "imperial": "286.6lb",
+        "metric": "130,0kg"
+      },
+      "species": {
+        "de": "KRAFTPROTZ",
+        "en": "SUPERPOWER",
+        "fr": "COLOSSE"
+      },
+      "entry": {
+        "de": "Seine markigen Arme können innerhalb von nur zwei Sekunden 1 000 Schläge verteilen.",
+        "en": "Its four ruggedly developed arms can launch a flurry of 1,000 punches in just two seconds.",
+        "fr": "Ses deux paires de bras permettent à Mackogneur d’envoyer une série de 1000 coups de poing en 2 s."
+      }
+    },
+    {
+      "id": "069",
+      "name": {
+        "de": "KNOFENSA",
+        "en": "BELLSPROUT",
+        "fr": "CHÉTIFLOR"
+      },
+      "image": "assets/img/sprites/69.png",
+      "audioFile": "assets/audio/cries/69.wav",
+      "height": {
+        "imperial": "2'04\"",
+        "metric": "0,7m"
+      },
+      "weight": {
+        "imperial": "8.8lb",
+        "metric": "4,0kg"
+      },
+      "species": {
+        "de": "BLUME",
+        "en": "FLOWER",
+        "fr": "FLEUR"
+      },
+      "entry": {
+        "de": "Obwohl sein Körper sehr schmal ist, schnappt es blitzschnell nach Beute.",
+        "en": "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+        "fr": "Même si son corps est très frêle, ce Pokémon est extrêmement rapide quand il attaque ses adversaires."
+      }
+    },
+    {
+      "id": "070",
+      "name": {
+        "de": "ULTRIGARIA",
+        "en": "WEEPINBELL",
+        "fr": "BOUSTIFLOR"
+      },
+      "image": "assets/img/sprites/70.png",
+      "audioFile": "assets/audio/cries/70.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "14.1lb",
+        "metric": "6,4kg"
+      },
+      "species": {
+        "de": "FLIEGENTOD",
+        "en": "FLYCATCHER",
+        "fr": "CARNIVORE"
+      },
+      "entry": {
+        "de": "Die Blätter werden eingesetzt, um Gegner aufzuschlitzen. Dieses Pokémon spuckt eine Flüssigkeit, die alles auflöst.",
+        "en": "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
+        "fr": "Ses membres en forme de feuilles permettent à Boustiflor de trancher ses adversaires. Il crache un fluide capable de tout dissoudre."
+      }
+    },
+    {
+      "id": "071",
+      "name": {
+        "de": "SARZENIA",
+        "en": "VICTREEBEL",
+        "fr": "EMPIFLOR"
+      },
+      "image": "assets/img/sprites/71.png",
+      "audioFile": "assets/audio/cries/71.wav",
+      "height": {
+        "imperial": "5'07\"",
+        "metric": "1,7m"
+      },
+      "weight": {
+        "imperial": "34.2lb",
+        "metric": "15,5kg"
+      },
+      "species": {
+        "de": "FLIEGENTOD",
+        "en": "FLYCATCHER",
+        "fr": "CARNIVORE"
+      },
+      "entry": {
+        "de": "정글의 안쪽에 우츠보트만 있는 지대가 있어서 한 번 가면 두 번 다시 돌아올 수 없다.",
+        "en": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+        "fr": "ジャングルの　おくちに　ウツボット ばかり　いる　ちたいが　あって いったら　２どと　かえってこれない。"
+      }
+    },
+    {
+      "id": "072",
+      "name": {
+        "de": "TENTACHA",
+        "en": "TENTACOOL",
+        "fr": "TENTACOOL"
+      },
+      "image": "assets/img/sprites/72.png",
+      "audioFile": "assets/audio/cries/72.wav",
+      "height": {
+        "imperial": "2'11\"",
+        "metric": "0,9m"
+      },
+      "weight": {
+        "imperial": "100.3lb",
+        "metric": "45,5kg"
+      },
+      "species": {
+        "de": "QUALLEN",
+        "en": "JELLYFISH",
+        "fr": "MOLLUSQUE"
+      },
+      "entry": {
+        "de": "Sein Körper besteht aus Wasser. Aus seinen kristallartigen Augen verschießt es eigenartige Strahlen.",
+        "en": "Its body is virtually composed of water. It shoots strange beams from its crystal-like eyes.",
+        "fr": "Son corps est principalement composé d’eau. Ses yeux cristallins projettent d’étranges rayons."
+      }
+    },
+    {
+      "id": "073",
+      "name": {
+        "de": "TENTOXA",
+        "en": "TENTACRUEL",
+        "fr": "TENTACRUEL"
+      },
+      "image": "assets/img/sprites/73.png",
+      "audioFile": "assets/audio/cries/73.wav",
+      "height": {
+        "imperial": "5'03\"",
+        "metric": "1,6m"
+      },
+      "weight": {
+        "imperial": "121.3lb",
+        "metric": "55,0kg"
+      },
+      "species": {
+        "de": "QUALLEN",
+        "en": "JELLYFISH",
+        "fr": "MOLLUSQUE"
+      },
+      "entry": {
+        "de": "Dieses Pokémon kann die Tentakel bei der Jagd ausfahren, um die Beute leichter zu fangen.",
+        "en": "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
+        "fr": "Ses tentacules sont rétractés au repos. En situation de chasse, ils s’allongent pour prendre ses proies au piège."
+      }
+    },
+    {
+      "id": "074",
+      "name": {
+        "de": "KLEINSTEIN",
+        "en": "GEODUDE",
+        "fr": "RACAILLOU"
+      },
+      "image": "assets/img/sprites/74.png",
+      "audioFile": "assets/audio/cries/74.wav",
+      "height": {
+        "imperial": "1'04\"",
+        "metric": "0,4m"
+      },
+      "weight": {
+        "imperial": "44.1lb",
+        "metric": "20,0kg"
+      },
+      "species": {
+        "de": "GESTEIN",
+        "en": "ROCK",
+        "fr": "ROCHE"
+      },
+      "entry": {
+        "de": "Wanderer stolpern in den Bergen häufig über dieses Pokémon, da es wie ein Stein aussieht.",
+        "en": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+        "fr": "Il vit dans les plaines ou les montagnes. On le confond souvent avec un petit caillou."
+      }
+    },
+    {
+      "id": "075",
+      "name": {
+        "de": "GEOROK",
+        "en": "GRAVELER",
+        "fr": "GRAVALANCH"
+      },
+      "image": "assets/img/sprites/75.png",
+      "audioFile": "assets/audio/cries/75.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "231.5lb",
+        "metric": "105,0kg"
+      },
+      "species": {
+        "de": "GESTEIN",
+        "en": "ROCK",
+        "fr": "ROCHE"
+      },
+      "entry": {
+        "de": "D’une nature téméraire, il se moque de perdre des parties de son corps quand il dévale les pentes.",
+        "en": "With a free and uncaring nature, it doesn’t mind if pieces break off while it rolls down mountains.",
+        "fr": "산에서 굴러 떨어질 때 몸의 여기저기가 부서져도 신경 쓰지 않는 호쾌한 성격이다."
+      }
+    },
+    {
+      "id": "076",
+      "name": {
+        "de": "GEOWAZ",
+        "en": "GOLEM",
+        "fr": "GROLEM"
+      },
+      "image": "assets/img/sprites/76.png",
+      "audioFile": "assets/audio/cries/76.wav",
+      "height": {
+        "imperial": "4'07\"",
+        "metric": "1,4m"
+      },
+      "weight": {
+        "imperial": "661.4lb",
+        "metric": "300,0kg"
+      },
+      "species": {
+        "de": "URGESTEIN",
+        "en": "MEGATON",
+        "fr": "TITANESQUE"
+      },
+      "entry": {
+        "de": "Sie rollen Berge hinunter und hinterlassen Spurrillen. Halte dich von diesen Rillen fern.",
+        "en": "It tumbles down mountains, leaving grooves from peak to base. Stay clear of these grooves.",
+        "fr": "À force de dévaler les falaises, il a creusé de larges sillons. Mieux vaut ne pas s’en approcher."
+      }
+    },
+    {
+      "id": "077",
+      "name": {
+        "de": "PONITA",
+        "en": "PONYTA",
+        "fr": "PONYTA"
+      },
+      "image": "assets/img/sprites/77.png",
+      "audioFile": "assets/audio/cries/77.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "66.1lb",
+        "metric": "30,0kg"
+      },
+      "species": {
+        "de": "FEUERPFERD",
+        "en": "FIRE HORSE",
+        "fr": "CHEVAL FEU"
+      },
+      "entry": {
+        "de": "Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger.",
+        "en": "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.",
+        "fr": "Chancelantes à la naissance, ses pattes deviennent très vite sûres et solides à force de galoper."
+      }
+    },
+    {
+      "id": "078",
+      "name": {
+        "de": "GALLOPA",
+        "en": "RAPIDASH",
+        "fr": "GALOPA"
+      },
+      "image": "assets/img/sprites/78.png",
+      "audioFile": "assets/audio/cries/78.wav",
+      "height": {
+        "imperial": "5'07\"",
+        "metric": "1,7m"
+      },
+      "weight": {
+        "imperial": "209.4lb",
+        "metric": "95,0kg"
+      },
+      "species": {
+        "de": "FEUERPFERD",
+        "en": "FIRE HORSE",
+        "fr": "CHEVAL FEU"
+      },
+      "entry": {
+        "de": "Doté d’un esprit de compétition, il poursuit toute créature rapide pour faire la course.",
+        "en": "Pokémon molto competitivo, rincorre tutto ciò che si muove veloce, sperando di superarlo.",
+        "fr": "빠르게 움직이는 물체를 보면 경주를 하고 싶어져서 맹렬한 스피드로 쫓아가기 시작한다."
+      }
+    },
+    {
+      "id": "079",
+      "name": {
+        "de": "FLEGMON",
+        "en": "SLOWPOKE",
+        "fr": "RAMOLOSS"
+      },
+      "image": "assets/img/sprites/79.png",
+      "audioFile": "assets/audio/cries/79.wav",
+      "height": {
+        "imperial": "3'11\"",
+        "metric": "1,2m"
+      },
+      "weight": {
+        "imperial": "79.4lb",
+        "metric": "36,0kg"
+      },
+      "species": {
+        "de": "SCHNARCHER",
+        "en": "DOPEY",
+        "fr": "CRÉTIN"
+      },
+      "entry": {
+        "de": "항상 멍하니 있으므로 무슨 생각을 하고 있는지 알 수 없다. 꼬리로 먹이를 낚는 것이 특기다.",
+        "en": "Está siempre en su mundo, pero nadie sabe en qué piensa. Suele pescar con la cola.",
+        "fr": "いつも　ボーッとしていて　なにを かんがえているか　わからない。 しっぽで　エサを　つるのが　とくい。"
+      }
+    },
+    {
+      "id": "080",
+      "name": {
+        "de": "LAHMUS",
+        "en": "SLOWBRO",
+        "fr": "FLAGADOSS"
+      },
+      "image": "assets/img/sprites/80.png",
+      "audioFile": "assets/audio/cries/80.wav",
+      "height": {
+        "imperial": "5'03\"",
+        "metric": "1,6m"
+      },
+      "weight": {
+        "imperial": "173.1lb",
+        "metric": "78,5kg"
+      },
+      "species": {
+        "de": "SYMBIOSE",
+        "en": "HERMIT CRAB",
+        "fr": "SYMBIOSE"
+      },
+      "entry": {
+        "de": "Das Muschas an seiner Rute lässt nicht locker, da ein leckerer Geschmack aus seiner Rute strömt.",
+        "en": "An attached Shellder won’t let go because of the tasty flavor that oozes out of its tail.",
+        "fr": "Le Kokiyas accroché à sa queue est friand de ce qu’il dévore et ne veut pas lâcher prise."
+      }
+    },
+    {
+      "id": "081",
+      "name": {
+        "de": "MAGNETILO",
+        "en": "MAGNEMITE",
+        "fr": "MAGNÉTI"
+      },
+      "image": "assets/img/sprites/81.png",
+      "audioFile": "assets/audio/cries/81.wav",
+      "height": {
+        "imperial": "1'00\"",
+        "metric": "0,3m"
+      },
+      "weight": {
+        "imperial": "13.2lb",
+        "metric": "6,0kg"
+      },
+      "species": {
+        "de": "MAGNET",
+        "en": "MAGNET",
+        "fr": "MAGNÉTIQUE"
+      },
+      "entry": {
+        "de": "Die Magneten an seinem Körper erzeugen ein Antigravitationsfeld, um es ständig in der Schwebe zu halten.",
+        "en": "The units at the sides of its body generate antigravity energy to keep it aloft in the air.",
+        "fr": "Les parties sur les côtés de son corps génèrent une énergie lui permettant de léviter."
+      }
+    },
+    {
+      "id": "082",
+      "name": {
+        "de": "MAGNETON",
+        "en": "MAGNETON",
+        "fr": "MAGNÉTON"
+      },
+      "image": "assets/img/sprites/82.png",
+      "audioFile": "assets/audio/cries/82.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "132.3lb",
+        "metric": "60,0kg"
+      },
+      "species": {
+        "de": "MAGNET",
+        "en": "MAGNET",
+        "fr": "MAGNÉTIQUE"
+      },
+      "entry": {
+        "de": "Schließen sich mehrere Magnetilo zusammen, entsteht dieses Pokémon. Es entlädt kräftige Hochspannungsmagnetwellen.",
+        "en": "A linked cluster formed of several Magnemite. It discharges powerful magnetic waves at high voltage.",
+        "fr": "Ce Pokémon est composé de plusieurs Magnéti. Il est capable de projeter de puissantes décharges magnétiques à haute tension."
+      }
+    },
+    {
+      "id": "083",
+      "name": {
+        "de": "PORENTA",
+        "en": "FARFETCH’D",
+        "fr": "CANARTICHO"
+      },
+      "image": "assets/img/sprites/83.png",
+      "audioFile": "assets/audio/cries/83.wav",
+      "height": {
+        "imperial": "2'07\"",
+        "metric": "0,8m"
+      },
+      "weight": {
+        "imperial": "33.1lb",
+        "metric": "15,0kg"
+      },
+      "species": {
+        "de": "WILDENTEN",
+        "en": "WILD DUCK",
+        "fr": "CANARD FOU"
+      },
+      "entry": {
+        "de": "Dieses Pokémon nutzt eine Lauchstange als Waffe. Es setzt sie wie ein Schwert ein.",
+        "en": "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
+        "fr": "Il utilise le légume qu’il tient comme s’il s’agissait d’une épée."
+      }
+    },
+    {
+      "id": "084",
+      "name": {
+        "de": "DODU",
+        "en": "DODUO",
+        "fr": "DODUO"
+      },
+      "image": "assets/img/sprites/84.png",
+      "audioFile": "assets/audio/cries/84.wav",
+      "height": {
+        "imperial": "4'07\"",
+        "metric": "1,4m"
+      },
+      "weight": {
+        "imperial": "86.4lb",
+        "metric": "39,2kg"
+      },
+      "species": {
+        "de": "DUOVOGEL",
+        "en": "TWIN BIRD",
+        "fr": "DUOISEAU"
+      },
+      "entry": {
+        "de": "Dieses zweiköpfige Pokémon gilt als plötzliche Mutation. Es rennt bis zu 100 km/h schnell.",
+        "en": "A two-headed Pokémon that was discovered as a sudden mutation. It runs at a pace of over 60 miles per hour.",
+        "fr": "Ce Pokémon à deux têtes est le résultat d’une soudaine mutation. Il peut courir jusqu’à 100 km/h."
+      }
+    },
+    {
+      "id": "085",
+      "name": {
+        "de": "DODRI",
+        "en": "DODRIO",
+        "fr": "DODRIO"
+      },
+      "image": "assets/img/sprites/85.png",
+      "audioFile": "assets/audio/cries/85.wav",
+      "height": {
+        "imperial": "5'11\"",
+        "metric": "1,8m"
+      },
+      "weight": {
+        "imperial": "187.8lb",
+        "metric": "85,2kg"
+      },
+      "species": {
+        "de": "TRIVOGEL",
+        "en": "TRIPLE BIRD",
+        "fr": "TRIOISEAU"
+      },
+      "entry": {
+        "de": "Un ennemi ne faisant pas attention à l’une des trois têtes pendant une seconde se fait picorer.",
+        "en": "Occorre fare attenzione a tutte le sue tre teste, altrimenti si rischia d’essere colpiti duramente.",
+        "fr": "3개의 머리가 보고 있는 앞에서 조금이라도 빈틈을 보이면 부리로 격렬하게 쪼아댄다."
+      }
+    },
+    {
+      "id": "086",
+      "name": {
+        "de": "JUROB",
+        "en": "SEEL",
+        "fr": "OTARIA"
+      },
+      "image": "assets/img/sprites/86.png",
+      "audioFile": "assets/audio/cries/86.wav",
+      "height": {
+        "imperial": "3'07\"",
+        "metric": "1,1m"
+      },
+      "weight": {
+        "imperial": "198.4lb",
+        "metric": "90,0kg"
+      },
+      "species": {
+        "de": "SEEHUND",
+        "en": "SEA LION",
+        "fr": "OTARIE"
+      },
+      "entry": {
+        "de": "Dieses Pokémon lebt auf Eisbergen. Es schwimmt im Eiswasser und bricht das Eis mithilfe seines Horns.",
+        "en": "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice.",
+        "fr": "Un habitant des icebergs. En mer, il utilise la corne sur sa tête pour briser la banquise."
+      }
+    },
+    {
+      "id": "087",
+      "name": {
+        "de": "JUGONG",
+        "en": "DEWGONG",
+        "fr": "LAMANTINE"
+      },
+      "image": "assets/img/sprites/87.png",
+      "audioFile": "assets/audio/cries/87.wav",
+      "height": {
+        "imperial": "5'07\"",
+        "metric": "1,7m"
+      },
+      "weight": {
+        "imperial": "264.6lb",
+        "metric": "120,0kg"
+      },
+      "species": {
+        "de": "SEEHUND",
+        "en": "SEA LION",
+        "fr": "OTARIE"
+      },
+      "entry": {
+        "de": "Sein Körper ist mit reinem, weißem Fell überzogen. Je kälter es wird, desto aktiver wird dieses Pokémon.",
+        "en": "Its body is covered with a pure white fur. The colder the weather, the more active it becomes.",
+        "fr": "Son corps est recouvert d’une fourrure d’un blanc pur. Plus il fait froid, et plus ce Pokémon est actif."
+      }
+    },
+    {
+      "id": "088",
+      "name": {
+        "de": "SLEIMA",
+        "en": "GRIMER",
+        "fr": "TADMORV"
+      },
+      "image": "assets/img/sprites/88.png",
+      "audioFile": "assets/audio/cries/88.wav",
+      "height": {
+        "imperial": "2'11\"",
+        "metric": "0,9m"
+      },
+      "weight": {
+        "imperial": "66.1lb",
+        "metric": "30,0kg"
+      },
+      "species": {
+        "de": "SCHLAMM",
+        "en": "SLUDGE",
+        "fr": "DÉGUEU"
+      },
+      "entry": {
+        "de": "Schlamm, der Röntgenstrahlung vom Mond ausgesetzt war, wurde zu Sleima. Es isst am liebsten dreckige Dinge.",
+        "en": "Sludge exposed to X-rays from the moon transformed into Grimer. It loves feeding on filthy things.",
+        "fr": "Tadmorv est né d’un tas de déchets exposé aux rayons X lunaires. Ce Pokémon adore se nourrir de choses dégoûtantes."
+      }
+    },
+    {
+      "id": "089",
+      "name": {
+        "de": "SLEIMOK",
+        "en": "MUK",
+        "fr": "GROTADMORV"
+      },
+      "image": "assets/img/sprites/89.png",
+      "audioFile": "assets/audio/cries/89.wav",
+      "height": {
+        "imperial": "3'11\"",
+        "metric": "1,2m"
+      },
+      "weight": {
+        "imperial": "66.1lb",
+        "metric": "30,0kg"
+      },
+      "species": {
+        "de": "SCHLAMM",
+        "en": "SLUDGE",
+        "fr": "DÉGUEU"
+      },
+      "entry": {
+        "de": "Sie treffen sich an stinkenden Orten, an denen der Schleim sich türmt. Dies merkt man am Gestank.",
+        "en": "They love to gather in smelly areas where sludge accumulates, making the stench around them worse.",
+        "fr": "Il recherche les endroits sales où il y a des ordures pour y établir son habitat puant et infect."
+      }
+    },
+    {
+      "id": "090",
+      "name": {
+        "de": "MUSCHAS",
+        "en": "SHELLDER",
+        "fr": "KOKIYAS"
+      },
+      "image": "assets/img/sprites/90.png",
+      "audioFile": "assets/audio/cries/90.wav",
+      "height": {
+        "imperial": "1'00\"",
+        "metric": "0,3m"
+      },
+      "weight": {
+        "imperial": "8.8lb",
+        "metric": "4,0kg"
+      },
+      "species": {
+        "de": "MUSCHEL",
+        "en": "BIVALVE",
+        "fr": "BIVALVE"
+      },
+      "entry": {
+        "de": "Eine harte Schale schützt dieses Pokémon. Nur wenn es diese öffnet, wird es verwundbar.",
+        "en": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+        "fr": "Protégé par une carapace très résistante, il est vulnérable quand celle-ci s’ouvre."
+      }
+    },
+    {
+      "id": "091",
+      "name": {
+        "de": "AUSTOS",
+        "en": "CLOYSTER",
+        "fr": "CRUSTABRI"
+      },
+      "image": "assets/img/sprites/91.png",
+      "audioFile": "assets/audio/cries/91.wav",
+      "height": {
+        "imperial": "4'11\"",
+        "metric": "1,5m"
+      },
+      "weight": {
+        "imperial": "292.1lb",
+        "metric": "132,5kg"
+      },
+      "species": {
+        "de": "MUSCHEL",
+        "en": "BIVALVE",
+        "fr": "BIVALVE"
+      },
+      "entry": {
+        "de": "Austos, die im Meer mit starker Strömung leben, werden groß und entwickeln scharfe Stacheln.",
+        "en": "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
+        "fr": "Les Crustabri vivant dans des mers aux courants forts développent des dards sur leur coquille."
+      }
+    },
+    {
+      "id": "092",
+      "name": {
+        "de": "NEBULAK",
+        "en": "GASTLY",
+        "fr": "FANTOMINUS"
+      },
+      "image": "assets/img/sprites/92.png",
+      "audioFile": "assets/audio/cries/92.wav",
+      "height": {
+        "imperial": "4'03\"",
+        "metric": "1,3m"
+      },
+      "weight": {
+        "imperial": "0.2lb",
+        "metric": "0,1kg"
+      },
+      "species": {
+        "de": "GAS",
+        "en": "GAS",
+        "fr": "GAZ"
+      },
+      "entry": {
+        "de": "Es hat einen gasförmigen Körper. Es kann jeden Gegner mit Giftgas einnebeln und dadurch ersticken.",
+        "en": "Its body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation.",
+        "fr": "Son corps est composé de gaz. Il peut ainsi envelopper un adversaire et le faire suffoquer."
+      }
+    },
+    {
+      "id": "093",
+      "name": {
+        "de": "ALPOLLO",
+        "en": "HAUNTER",
+        "fr": "SPECTRUM"
+      },
+      "image": "assets/img/sprites/93.png",
+      "audioFile": "assets/audio/cries/93.wav",
+      "height": {
+        "imperial": "5'03\"",
+        "metric": "1,6m"
+      },
+      "weight": {
+        "imperial": "0.2lb",
+        "metric": "0,1kg"
+      },
+      "species": {
+        "de": "GAS",
+        "en": "GAS",
+        "fr": "GAZ"
+      },
+      "entry": {
+        "de": "Falls du im Dunkeln das Gefühl hast, beobachtet zu werden und niemand ist zu sehen, ist es bestimmt Alpollo.",
+        "en": "If you get the feeling of being watched in darkness when nobody is around, Haunter is there.",
+        "fr": "Si vous avez l’impression qu’on vous surveille dans le noir, c’est sûrement qu’un Spectrum est dans le coin."
+      }
+    },
+    {
+      "id": "094",
+      "name": {
+        "de": "GENGAR",
+        "en": "GENGAR",
+        "fr": "ECTOPLASMA"
+      },
+      "image": "assets/img/sprites/94.png",
+      "audioFile": "assets/audio/cries/94.wav",
+      "height": {
+        "imperial": "4'11\"",
+        "metric": "1,5m"
+      },
+      "weight": {
+        "imperial": "89.3lb",
+        "metric": "40,5kg"
+      },
+      "species": {
+        "de": "SCHATTEN",
+        "en": "SHADOW",
+        "fr": "OMBRE"
+      },
+      "entry": {
+        "de": "Es versteckt sich im Schatten. Man sagt, wenn sich ein Gengar versteckt, kühlt es sich um 5 °C ab.",
+        "en": "It hides in shadows. It is said that if Gengar is hiding, it cools the area by nearly 10 degrees Fahrenheit.",
+        "fr": "On dit que lorsqu’Ectoplasma se cache dans l’ombre, la température alentour chute de 5 °C."
+      }
+    },
+    {
+      "id": "095",
+      "name": {
+        "de": "ONIX",
+        "en": "ONIX",
+        "fr": "ONIX"
+      },
+      "image": "assets/img/sprites/95.png",
+      "audioFile": "assets/audio/cries/95.wav",
+      "height": {
+        "imperial": "28'10\"",
+        "metric": "8,8m"
+      },
+      "weight": {
+        "imperial": "463.0lb",
+        "metric": "210,0kg"
+      },
+      "species": {
+        "de": "FELSNATTER",
+        "en": "ROCK SNAKE",
+        "fr": "SERPENROC"
+      },
+      "entry": {
+        "de": "Dieses Pokémon gräbt auf seiner Suche nach Futter lange Tunnel, in denen sich später Digda einnisten.",
+        "en": "Burrows at high speed in search of food. The tunnels it leaves are used as homes by Diglett.",
+        "fr": "Il creuse sous terre en quête de nourriture. Ses tunnels servent de maison aux Taupiqueur."
+      }
+    },
+    {
+      "id": "096",
+      "name": {
+        "de": "TRAUMATO",
+        "en": "DROWZEE",
+        "fr": "SOPORIFIK"
+      },
+      "image": "assets/img/sprites/96.png",
+      "audioFile": "assets/audio/cries/96.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "71.4lb",
+        "metric": "32,4kg"
+      },
+      "species": {
+        "de": "HYPNOSE",
+        "en": "HYPNOSIS",
+        "fr": "HYPNOSE"
+      },
+      "entry": {
+        "de": "Traumato versetzt Gegner in den Schlaf und frisst deren Träume. Von Alpträumen wird ihm aber übel.",
+        "en": "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating only bad dreams.",
+        "fr": "Il endort ses ennemis et dévore leurs songes. S’il mange trop de cauchemars, il fait une indigestion."
+      }
+    },
+    {
+      "id": "097",
+      "name": {
+        "de": "HYPNO",
+        "en": "HYPNO",
+        "fr": "HYPNOMADE"
+      },
+      "image": "assets/img/sprites/97.png",
+      "audioFile": "assets/audio/cries/97.wav",
+      "height": {
+        "imperial": "5'03\"",
+        "metric": "1,6m"
+      },
+      "weight": {
+        "imperial": "166.7lb",
+        "metric": "75,6kg"
+      },
+      "species": {
+        "de": "HYPNOSE",
+        "en": "HYPNOSIS",
+        "fr": "HYPNOSE"
+      },
+      "entry": {
+        "de": "Es trägt ein Pendel. Man berichtet von einem Vorfall, bei dem es ein Kind mitnahm, das es zuvor hypnotisiert hatte.",
+        "en": "It carries a pendulum-like device. There once was an incident in which it took away a child it hypnotized.",
+        "fr": "Il transporte toujours un petit pendule. On raconte qu’il aurait un jour enlevé un enfant après l’avoir hypnotisé."
+      }
+    },
+    {
+      "id": "098",
+      "name": {
+        "de": "KRABBY",
+        "en": "KRABBY",
+        "fr": "KRABBY"
+      },
+      "image": "assets/img/sprites/98.png",
+      "audioFile": "assets/audio/cries/98.wav",
+      "height": {
+        "imperial": "1'04\"",
+        "metric": "0,4m"
+      },
+      "weight": {
+        "imperial": "14.3lb",
+        "metric": "6,5kg"
+      },
+      "species": {
+        "de": "KRABBEN",
+        "en": "RIVER CRAB",
+        "fr": "DOUX CRABE"
+      },
+      "entry": {
+        "de": "Wittert es Gefahr, hüllt es sich in Blasen aus seinem Maul, um größer zu erscheinen.",
+        "en": "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
+        "fr": "S’il est menacé, il se cache derrière les bulles émises par sa bouche pour paraître plus gros."
+      }
+    },
+    {
+      "id": "099",
+      "name": {
+        "de": "KINGLER",
+        "en": "KINGLER",
+        "fr": "KRABBOSS"
+      },
+      "image": "assets/img/sprites/99.png",
+      "audioFile": "assets/audio/cries/99.wav",
+      "height": {
+        "imperial": "4'03\"",
+        "metric": "1,3m"
+      },
+      "weight": {
+        "imperial": "132.3lb",
+        "metric": "60,0kg"
+      },
+      "species": {
+        "de": "KNEIFER",
+        "en": "PINCER",
+        "fr": "PINCE"
+      },
+      "entry": {
+        "de": "Die Kraft seiner großen und harten Schere entspricht 10 000 PS. Durch die Größe ist sie aber auch äußerst unhandlich und sperrig.",
+        "en": "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
+        "fr": "Sa grosse pince développe une puissance de 10000 CV. Toutefois, sa taille imposante la rend difficile à utiliser."
+      }
+    },
+    {
+      "id": "100",
+      "name": {
+        "de": "VOLTOBAL",
+        "en": "VOLTORB",
+        "fr": "VOLTORBE"
+      },
+      "image": "assets/img/sprites/100.png",
+      "audioFile": "assets/audio/cries/100.wav",
+      "height": {
+        "imperial": "1'08\"",
+        "metric": "0,5m"
+      },
+      "weight": {
+        "imperial": "22.9lb",
+        "metric": "10,4kg"
+      },
+      "species": {
+        "de": "BALL",
+        "en": "BALL",
+        "fr": "BALLE"
+      },
+      "entry": {
+        "de": "Es wurde entdeckt, als man Pokébälle einführte. Es scheint, als gäbe es da einen Zusammenhang.",
+        "en": "It was discovered when Poké Balls were introduced. It is said that there is some connection.",
+        "fr": "Découvert en même temps que les Poké Balls. Il paraît qu’il existe un lien entre les deux."
+      }
+    },
+    {
+      "id": "101",
+      "name": {
+        "de": "LEKTROBAL",
+        "en": "ELECTRODE",
+        "fr": "ÉLECTRODE"
+      },
+      "image": "assets/img/sprites/101.png",
+      "audioFile": "assets/audio/cries/101.wav",
+      "height": {
+        "imperial": "3'11\"",
+        "metric": "1,2m"
+      },
+      "weight": {
+        "imperial": "146.8lb",
+        "metric": "66,6kg"
+      },
+      "species": {
+        "de": "BALL",
+        "en": "BALL",
+        "fr": "BALLE"
+      },
+      "entry": {
+        "de": "Es explodiert schon bei kleinsten Reizen. Sein Spitzname „Die Bombenkugel“ spiegelt die Furcht der Menschen wider.",
+        "en": "It explodes in response to even minor stimuli. It is feared, with the nickname of “The Bomb Ball.”",
+        "fr": "Il explose au moindre choc. Son seul surnom de «Bomb Ball» suffit à effrayer ses adversaires."
+      }
+    },
+    {
+      "id": "102",
+      "name": {
+        "de": "OWEI",
+        "en": "EXEGGCUTE",
+        "fr": "NOEUNOEUF"
+      },
+      "image": "assets/img/sprites/102.png",
+      "audioFile": "assets/audio/cries/102.wav",
+      "height": {
+        "imperial": "1'04\"",
+        "metric": "0,4m"
+      },
+      "weight": {
+        "imperial": "5.5lb",
+        "metric": "2,5kg"
+      },
+      "species": {
+        "de": "EI",
+        "en": "EGG",
+        "fr": "ŒUF"
+      },
+      "entry": {
+        "de": "Die sechs Eier kommunizieren telepathisch. Werden sie getrennt, finden sie sich schnell wieder.",
+        "en": "Its six eggs converse using telepathy. They can quickly gather if they become separated.",
+        "fr": "Ces six œufs communiquent par télépathie. Ils peuvent se réunir rapidement si on les sépare."
+      }
+    },
+    {
+      "id": "103",
+      "name": {
+        "de": "KOKOWEI",
+        "en": "EXEGGUTOR",
+        "fr": "NOADKOKO"
+      },
+      "image": "assets/img/sprites/103.png",
+      "audioFile": "assets/audio/cries/103.wav",
+      "height": {
+        "imperial": "6'07\"",
+        "metric": "2,0m"
+      },
+      "weight": {
+        "imperial": "264.6lb",
+        "metric": "120,0kg"
+      },
+      "species": {
+        "de": "PALMFRUCHT",
+        "en": "COCONUT",
+        "fr": "FRUITPALME"
+      },
+      "entry": {
+        "de": "Seine drei Köpfe denken unabhängig voneinander. Dennoch sind sie nett zueinander und streiten nie.",
+        "en": "Its three heads think independently. However, they are friendly and never appear to squabble.",
+        "fr": "Ses trois têtes sont autonomes. Elles semblent toutefois en harmonie et ne se disputent jamais."
+      }
+    },
+    {
+      "id": "104",
+      "name": {
+        "de": "TRAGOSSO",
+        "en": "CUBONE",
+        "fr": "OSSELAIT"
+      },
+      "image": "assets/img/sprites/104.png",
+      "audioFile": "assets/audio/cries/104.wav",
+      "height": {
+        "imperial": "1'04\"",
+        "metric": "0,4m"
+      },
+      "weight": {
+        "imperial": "14.3lb",
+        "metric": "6,5kg"
+      },
+      "species": {
+        "de": "EINSAM",
+        "en": "LONELY",
+        "fr": "SOLITAIRE"
+      },
+      "entry": {
+        "de": "Es trägt den Schädel seiner verstorbenen Mutter auf seinem Kopf. Fühlt es sich einsam, soll es laut weinen.",
+        "en": "It wears the skull of its dead mother on its head. When it becomes lonesome, it is said to cry loudly.",
+        "fr": "Ce Pokémon porte le crâne de sa défunte mère sur sa tête. On raconte qu’il se met à pleurer dès qu’il se retrouve seul."
+      }
+    },
+    {
+      "id": "105",
+      "name": {
+        "de": "KNOGGA",
+        "en": "MAROWAK",
+        "fr": "OSSATUEUR"
+      },
+      "image": "assets/img/sprites/105.png",
+      "audioFile": "assets/audio/cries/105.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "99.2lb",
+        "metric": "45,0kg"
+      },
+      "species": {
+        "de": "KNOCHENFAN",
+        "en": "BONE KEEPER",
+        "fr": "GARD’OS"
+      },
+      "entry": {
+        "de": "Ce petit Pokémon était à l’origine très faible. Il est devenu redoutable le jour où il a appris à se servir de ses os.",
+        "en": "Di piccole dimensioni, un tempo era del tutto innocuo. È diventato più aggressivo brandendo un osso come arma.",
+        "fr": "몸집도 작으며 원래는 약했다. 뼈를 쓰기 시작하면서 성격이 흉포해졌다."
+      }
+    },
+    {
+      "id": "106",
+      "name": {
+        "de": "KICKLEE",
+        "en": "HITMONLEE",
+        "fr": "KICKLEE"
+      },
+      "image": "assets/img/sprites/106.png",
+      "audioFile": "assets/audio/cries/106.wav",
+      "height": {
+        "imperial": "4'11\"",
+        "metric": "1,5m"
+      },
+      "weight": {
+        "imperial": "109.8lb",
+        "metric": "49,8kg"
+      },
+      "species": {
+        "de": "KICKER",
+        "en": "KICKING",
+        "fr": "LATTEUR"
+      },
+      "entry": {
+        "de": "Die Beine ziehen und strecken sich unabhängig voneinander. Mit seinen dehnbaren Beinen kann es einen entfernten Gegner treffen.",
+        "en": "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
+        "fr": "Kicklee peut rétracter et allonger ses jambes à sa guise. La formidable allonge dont il dispose lui donne souvent l’avantage en plein combat."
+      }
+    },
+    {
+      "id": "107",
+      "name": {
+        "de": "NOCKCHAN",
+        "en": "HITMONCHAN",
+        "fr": "TYGNON"
+      },
+      "image": "assets/img/sprites/107.png",
+      "audioFile": "assets/audio/cries/107.wav",
+      "height": {
+        "imperial": "4'07\"",
+        "metric": "1,4m"
+      },
+      "weight": {
+        "imperial": "110.7lb",
+        "metric": "50,2kg"
+      },
+      "species": {
+        "de": "PUNCHER",
+        "en": "PUNCHING",
+        "fr": "PUNCHEUR"
+      },
+      "entry": {
+        "de": "Die Schläge, die es austeilt, können Beton pulverisieren. Es muss sich im Kampf alle drei Minuten ausruhen.",
+        "en": "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+        "fr": "Même le béton cède sous ses poings dévastateurs. Au combat, il s’essouffle au bout de trois minutes."
+      }
+    },
+    {
+      "id": "108",
+      "name": {
+        "de": "SCHLURP",
+        "en": "LICKITUNG",
+        "fr": "EXCELANGUE"
+      },
+      "image": "assets/img/sprites/108.png",
+      "audioFile": "assets/audio/cries/108.wav",
+      "height": {
+        "imperial": "3'11\"",
+        "metric": "1,2m"
+      },
+      "weight": {
+        "imperial": "144.4lb",
+        "metric": "65,5kg"
+      },
+      "species": {
+        "de": "SCHLECKER",
+        "en": "LICKING",
+        "fr": "LÉCHEUR"
+      },
+      "entry": {
+        "de": "Seine Zunge ist mit klebrigem Speichel bedeckt, der überall haftet. Dies ist sehr nützlich.",
+        "en": "Its long tongue, slathered with a gooey saliva, sticks to anything, so it is very useful.",
+        "fr": "Sa longue langue sécrète une salive gluante qui se colle à n’importe quoi. Elle est très efficace!"
+      }
+    },
+    {
+      "id": "109",
+      "name": {
+        "de": "SMOGON",
+        "en": "KOFFING",
+        "fr": "SMOGO"
+      },
+      "image": "assets/img/sprites/109.png",
+      "audioFile": "assets/audio/cries/109.wav",
+      "height": {
+        "imperial": "2'00\"",
+        "metric": "0,6m"
+      },
+      "weight": {
+        "imperial": "2.2lb",
+        "metric": "1,0kg"
+      },
+      "species": {
+        "de": "GIFTWOLKEN",
+        "en": "POISON GAS",
+        "fr": "GAZ MORTEL"
+      },
+      "entry": {
+        "de": "Sein dünner, ballonartiger Körper ist mit schrecklichem Giftgas gefüllt. Es verbreitet einen heftigen Gestank, wenn es in der Nähe ist.",
+        "en": "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby.",
+        "fr": "Son corps très fin en forme de ballon est rempli d’un horrible gaz toxique. L’air est nauséabond à proximité de ce Pokémon."
+      }
+    },
+    {
+      "id": "110",
+      "name": {
+        "de": "SMOGMOG",
+        "en": "WEEZING",
+        "fr": "SMOGOGO"
+      },
+      "image": "assets/img/sprites/110.png",
+      "audioFile": "assets/audio/cries/110.wav",
+      "height": {
+        "imperial": "3'11\"",
+        "metric": "1,2m"
+      },
+      "weight": {
+        "imperial": "20.9lb",
+        "metric": "9,5kg"
+      },
+      "species": {
+        "de": "GIFTWOLKEN",
+        "en": "POISON GAS",
+        "fr": "GAZ MORTEL"
+      },
+      "entry": {
+        "de": "Pumpt sich eines der zwei Smogon auf, lässt das andere Luft ab. So findet ein Giftgasaustausch statt.",
+        "en": "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+        "fr": "Si l’un des deux Smogo se gonfle, l’autre se dégonfle. Ils mélangent leurs gaz en permanence."
+      }
+    },
+    {
+      "id": "111",
+      "name": {
+        "de": "RIHORN",
+        "en": "RHYHORN",
+        "fr": "RHINOCORNE"
+      },
+      "image": "assets/img/sprites/111.png",
+      "audioFile": "assets/audio/cries/111.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "253.5lb",
+        "metric": "115,0kg"
+      },
+      "species": {
+        "de": "STACHLER",
+        "en": "SPIKES",
+        "fr": "PIQUANT"
+      },
+      "entry": {
+        "de": "Stark, aber nicht allzu klug, kann dieses Pokémon sogar Hochhäuser mit seinem Tackle-Angriff zum Einsturz bringen.",
+        "en": "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
+        "fr": "Costaud mais pas très intelligent, ce Pokémon est capable de détruire un immeuble entier en utilisant sa Charge."
+      }
+    },
+    {
+      "id": "112",
+      "name": {
+        "de": "RIZEROS",
+        "en": "RHYDON",
+        "fr": "RHINOFÉROS"
+      },
+      "image": "assets/img/sprites/112.png",
+      "audioFile": "assets/audio/cries/112.wav",
+      "height": {
+        "imperial": "6'03\"",
+        "metric": "1,9m"
+      },
+      "weight": {
+        "imperial": "264.6lb",
+        "metric": "120,0kg"
+      },
+      "species": {
+        "de": "BOHRER",
+        "en": "DRILL",
+        "fr": "PERCEUR"
+      },
+      "entry": {
+        "de": "Durch seine panzerähnliche Körperhülle kann es in bis zu 2 000 °C heißer Lava leben.",
+        "en": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
+        "fr": "Son épiderme très épais lui permet de survivre dans un environnement où il fait plus de 2000 °C."
+      }
+    },
+    {
+      "id": "113",
+      "name": {
+        "de": "CHANEIRA",
+        "en": "CHANSEY",
+        "fr": "LEVEINARD"
+      },
+      "image": "assets/img/sprites/113.png",
+      "audioFile": "assets/audio/cries/113.wav",
+      "height": {
+        "imperial": "3'07\"",
+        "metric": "1,1m"
+      },
+      "weight": {
+        "imperial": "76.3lb",
+        "metric": "34,6kg"
+      },
+      "species": {
+        "de": "EI",
+        "en": "EGG",
+        "fr": "ŒUF"
+      },
+      "entry": {
+        "de": "Man sagt, es bringe Glück. Es ist sehr mitfühlend und teilt seine Eier mit Verletzten.",
+        "en": "It is said to deliver happiness. Being compassionate, it shares its eggs with injured people.",
+        "fr": "Il est censé apporter la joie. Ce Pokémon charitable offre ses œufs aux blessés."
+      }
+    },
+    {
+      "id": "114",
+      "name": {
+        "de": "TANGELA",
+        "en": "TANGELA",
+        "fr": "SAQUEDENEU"
+      },
+      "image": "assets/img/sprites/114.png",
+      "audioFile": "assets/audio/cries/114.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "77.2lb",
+        "metric": "35,0kg"
+      },
+      "species": {
+        "de": "RANKEN",
+        "en": "VINE",
+        "fr": "VIGNE"
+      },
+      "entry": {
+        "de": "Aufgrund der Ranken, die seinen Körper bedecken, kennt keiner seine wahre Form. Die blauen Ranken wachsen immer weiter.",
+        "en": "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long.",
+        "fr": "Ses lianes s’allongent au fil du temps. Elles recouvrent tout son corps, dont on ignore la véritable forme."
+      }
+    },
+    {
+      "id": "115",
+      "name": {
+        "de": "KANGAMA",
+        "en": "KANGASKHAN",
+        "fr": "KANGOUREX"
+      },
+      "image": "assets/img/sprites/115.png",
+      "audioFile": "assets/audio/cries/115.wav",
+      "height": {
+        "imperial": "7'03\"",
+        "metric": "2,2m"
+      },
+      "weight": {
+        "imperial": "176.4lb",
+        "metric": "80,0kg"
+      },
+      "species": {
+        "de": "MUTTERTIER",
+        "en": "PARENT",
+        "fr": "MATERNEL"
+      },
+      "entry": {
+        "de": "Sein Nachwuchs wächst in seinem Beutel heran. Nur wenn es sicher ist, darf das Junge aus dem Beutel.",
+        "en": "It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe.",
+        "fr": "Il élève ses petits dans sa poche ventrale. Il attend d’être en lieu sûr pour les laisser jouer dehors."
+      }
+    },
+    {
+      "id": "116",
+      "name": {
+        "de": "SEEPER",
+        "en": "HORSEA",
+        "fr": "HYPOTREMPE"
+      },
+      "image": "assets/img/sprites/116.png",
+      "audioFile": "assets/audio/cries/116.wav",
+      "height": {
+        "imperial": "1'04\"",
+        "metric": "0,4m"
+      },
+      "weight": {
+        "imperial": "17.6lb",
+        "metric": "8,0kg"
+      },
+      "species": {
+        "de": "DRACHEN",
+        "en": "DRAGON",
+        "fr": "DRAGON"
+      },
+      "entry": {
+        "de": "Dieses Pokémon schießt mit Tinte auf über der Wasseroberfläche fliegende Insekten.",
+        "en": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
+        "fr": "Il abat les insectes volants en leur tirant un jet d’encre depuis la surface de l’eau. Ses tirs sont toujours précis."
+      }
+    },
+    {
+      "id": "117",
+      "name": {
+        "de": "SEEMON",
+        "en": "SEADRA",
+        "fr": "HYPOCÉAN"
+      },
+      "image": "assets/img/sprites/117.png",
+      "audioFile": "assets/audio/cries/117.wav",
+      "height": {
+        "imperial": "3'11\"",
+        "metric": "1,2m"
+      },
+      "weight": {
+        "imperial": "55.1lb",
+        "metric": "25,0kg"
+      },
+      "species": {
+        "de": "DRACHEN",
+        "en": "DRAGON",
+        "fr": "DRAGON"
+      },
+      "entry": {
+        "de": "Sein Körper ist mit scharfen Stacheln gespickt. Wenn man sorglos ist und es berührt, kann man durch die Stacheln bewusstlos werden.",
+        "en": "Its body bristles with sharp spikes. Carelessly trying to touch it could cause fainting from the spikes.",
+        "fr": "Son corps est recouvert de pointes tranchantes. Il faut la plus grande attention pour le saisir, sous peine de se faire piquer."
+      }
+    },
+    {
+      "id": "118",
+      "name": {
+        "de": "GOLDINI",
+        "en": "GOLDEEN",
+        "fr": "POISSIRÈNE"
+      },
+      "image": "assets/img/sprites/118.png",
+      "audioFile": "assets/audio/cries/118.wav",
+      "height": {
+        "imperial": "2'00\"",
+        "metric": "0,6m"
+      },
+      "weight": {
+        "imperial": "33.1lb",
+        "metric": "15,0kg"
+      },
+      "species": {
+        "de": "GOLDFISCH",
+        "en": "GOLDFISH",
+        "fr": "POISSON"
+      },
+      "entry": {
+        "de": "Es schwimmt mit fünf Knoten. Wird es angegriffen, wehrt es sich mit seinem scharfen Horn.",
+        "en": "It swims at a steady 5 knots. If it senses danger, it will strike back with its sharp horn.",
+        "fr": "Il nage à 5 nœuds. Quand on l’agresse, il réplique d’un bon coup de corne aiguisée."
+      }
+    },
+    {
+      "id": "119",
+      "name": {
+        "de": "GOLKING",
+        "en": "SEAKING",
+        "fr": "POISSOROY"
+      },
+      "image": "assets/img/sprites/119.png",
+      "audioFile": "assets/audio/cries/119.wav",
+      "height": {
+        "imperial": "4'03\"",
+        "metric": "1,3m"
+      },
+      "weight": {
+        "imperial": "86.0lb",
+        "metric": "39,0kg"
+      },
+      "species": {
+        "de": "GOLDFISCH",
+        "en": "GOLDFISH",
+        "fr": "POISSON"
+      },
+      "entry": {
+        "de": "Im Herbst, zur Paarungszeit, sieht man diese Pokémon kraftvoll Bäche und Flüsse hinaufschwimmen.",
+        "en": "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
+        "fr": "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs."
+      }
+    },
+    {
+      "id": "120",
+      "name": {
+        "de": "STERNDU",
+        "en": "STARYU",
+        "fr": "STARI"
+      },
+      "image": "assets/img/sprites/120.png",
+      "audioFile": "assets/audio/cries/120.wav",
+      "height": {
+        "imperial": "2'07\"",
+        "metric": "0,8m"
+      },
+      "weight": {
+        "imperial": "76.1lb",
+        "metric": "34,5kg"
+      },
+      "species": {
+        "de": "STERNFORM",
+        "en": "STAR SHAPE",
+        "fr": "ÉTOILE"
+      },
+      "entry": {
+        "de": "Auch wenn sein Körper nicht mehr intakt ist, kann es sich regenerieren, wenn der Kern leuchtet.",
+        "en": "Even if its body is torn, it can regenerate as long as the glowing central core remains intact.",
+        "fr": "Même si son corps est détruit, il peut se régénérer aussi longtemps que son cœur est en bon état."
+      }
+    },
+    {
+      "id": "121",
+      "name": {
+        "de": "STARMIE",
+        "en": "STARMIE",
+        "fr": "STAROSS"
+      },
+      "image": "assets/img/sprites/121.png",
+      "audioFile": "assets/audio/cries/121.wav",
+      "height": {
+        "imperial": "3'07\"",
+        "metric": "1,1m"
+      },
+      "weight": {
+        "imperial": "176.4lb",
+        "metric": "80,0kg"
+      },
+      "species": {
+        "de": "MYSTERIÖS",
+        "en": "MYSTERIOUS",
+        "fr": "MYSTÉRIEUX"
+      },
+      "entry": {
+        "de": "Der Kern dieses Pokémon leuchtet in den Farben des Regenbogens. Sein Kern gilt als Edelstein.",
+        "en": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
+        "fr": "Son cœur brille des couleurs de l’arc-en-ciel. On raconte que c’est une pierre précieuse."
+      }
+    },
+    {
+      "id": "122",
+      "name": {
+        "de": "PANTIMOS",
+        "en": "MR. MIME",
+        "fr": "M. MIME"
+      },
+      "image": "assets/img/sprites/122.png",
+      "audioFile": "assets/audio/cries/122.wav",
+      "height": {
+        "imperial": "4'03\"",
+        "metric": "1,3m"
+      },
+      "weight": {
+        "imperial": "120.2lb",
+        "metric": "54,5kg"
+      },
+      "species": {
+        "de": "SPERREN",
+        "en": "BARRIER",
+        "fr": "BLOQUEUR"
+      },
+      "entry": {
+        "de": "Seine Fingerspitzen sondern etwas ab, das die Luft zu einer schützenden Wand werden lässt.",
+        "en": "Emanations from its fingertips solidify the air into invisible walls that repel even harsh attacks.",
+        "fr": "Les murs invisibles qu’il matérialise du bout des doigts repoussent les attaques les plus puissantes."
+      }
+    },
+    {
+      "id": "123",
+      "name": {
+        "de": "SICHLOR",
+        "en": "SCYTHER",
+        "fr": "INSÉCATEUR"
+      },
+      "image": "assets/img/sprites/123.png",
+      "audioFile": "assets/audio/cries/123.wav",
+      "height": {
+        "imperial": "4'11\"",
+        "metric": "1,5m"
+      },
+      "weight": {
+        "imperial": "123.5lb",
+        "metric": "56,0kg"
+      },
+      "species": {
+        "de": "MANTIS",
+        "en": "MANTIS",
+        "fr": "MANTE"
+      },
+      "entry": {
+        "de": "Il déchiquette ses proies à l’aide de ses bras tranchants comme des faux. Il n’utilise ses ailes pour voler que très rarement.",
+        "en": "Fa a pezzi le prede con gli artigli spaventosamente affilati. Solo raramente spiega le ali per alzarsi in volo.",
+        "fr": "날카로운 낫으로 먹이를 베고 숨통을 끊는다. 매우 드물게 날개를 사용해서 난다."
+      }
+    },
+    {
+      "id": "124",
+      "name": {
+        "de": "ROSSANA",
+        "en": "JYNX",
+        "fr": "LIPPOUTOU"
+      },
+      "image": "assets/img/sprites/124.png",
+      "audioFile": "assets/audio/cries/124.wav",
+      "height": {
+        "imperial": "4'07\"",
+        "metric": "1,4m"
+      },
+      "weight": {
+        "imperial": "89.5lb",
+        "metric": "40,6kg"
+      },
+      "species": {
+        "de": "HUMANOTYP",
+        "en": "HUMAN SHAPE",
+        "fr": "HUMANOÏDE"
+      },
+      "entry": {
+        "de": "Der beschwingte Gang dieses Pokémon bezaubert Zuschauer und lässt sie im Takt dazu tanzen.",
+        "en": "It wiggles its hips as it walks. It can cause people to dance in unison with it.",
+        "fr": "Il ondule ses hanches en marchant et entraîne les gens dans des danses frénétiques."
+      }
+    },
+    {
+      "id": "125",
+      "name": {
+        "de": "ELEKTEK",
+        "en": "ELECTABUZZ",
+        "fr": "ÉLEKTEK"
+      },
+      "image": "assets/img/sprites/125.png",
+      "audioFile": "assets/audio/cries/125.wav",
+      "height": {
+        "imperial": "3'07\"",
+        "metric": "1,1m"
+      },
+      "weight": {
+        "imperial": "66.1lb",
+        "metric": "30,0kg"
+      },
+      "species": {
+        "de": "ELEKTRO",
+        "en": "ELECTRIC",
+        "fr": "ÉLECTRIQUE"
+      },
+      "entry": {
+        "de": "Elektrizität bedeckt seinen Körper. Im Dunkeln erstrahlt es in einem bläulichen Ton.",
+        "en": "Electricity runs across the surface of its body. In darkness, its entire body glows a whitish blue.",
+        "fr": "Des ondes électriques parcourent la surface de son corps. Il brille d’un éclat bleuté dans le noir."
+      }
+    },
+    {
+      "id": "126",
+      "name": {
+        "de": "MAGMAR",
+        "en": "MAGMAR",
+        "fr": "MAGMAR"
+      },
+      "image": "assets/img/sprites/126.png",
+      "audioFile": "assets/audio/cries/126.wav",
+      "height": {
+        "imperial": "4'03\"",
+        "metric": "1,3m"
+      },
+      "weight": {
+        "imperial": "98.1lb",
+        "metric": "44,5kg"
+      },
+      "species": {
+        "de": "BRENNER",
+        "en": "SPITFIRE",
+        "fr": "CRACHE-FEU"
+      },
+      "entry": {
+        "de": "Es wurde in der Nähe eines Vulkans gefunden. Die Körpertemperatur dieses Feuerspuckers liegt bei fast 1 200 °C.",
+        "en": "Found near the mouth of a volcano. This fire-breather’s body temperature is nearly 2,200 degrees Fahrenheit.",
+        "fr": "On trouve ce Pokémon près des bouches de volcans. Son corps incandescent atteint 1200 °C."
+      }
+    },
+    {
+      "id": "127",
+      "name": {
+        "de": "PINSIR",
+        "en": "PINSIR",
+        "fr": "SCARABRUTE"
+      },
+      "image": "assets/img/sprites/127.png",
+      "audioFile": "assets/audio/cries/127.wav",
+      "height": {
+        "imperial": "4'11\"",
+        "metric": "1,5m"
+      },
+      "weight": {
+        "imperial": "121.3lb",
+        "metric": "55,0kg"
+      },
+      "species": {
+        "de": "KNEIFKÄFER",
+        "en": "STAG BEETLE",
+        "fr": "SCARABÉE"
+      },
+      "entry": {
+        "de": "Es hält seine Beute mit seiner Zange fest und teilt sie dann. Was es nicht teilen kann, wirft es fort.",
+        "en": "It grips prey with its pincers until the prey is torn in half. What it can’t tear, it tosses far.",
+        "fr": "Il serre les proies dans ses pinces pour les trancher en deux. S’il n’y arrive pas, il les jette au loin."
+      }
+    },
+    {
+      "id": "128",
+      "name": {
+        "de": "TAUROS",
+        "en": "TAUROS",
+        "fr": "TAUROS"
+      },
+      "image": "assets/img/sprites/128.png",
+      "audioFile": "assets/audio/cries/128.wav",
+      "height": {
+        "imperial": "4'07\"",
+        "metric": "1,4m"
+      },
+      "weight": {
+        "imperial": "194.9lb",
+        "metric": "88,4kg"
+      },
+      "species": {
+        "de": "WILDBULLEN",
+        "en": "WILD BULL",
+        "fr": "BUFFLE"
+      },
+      "entry": {
+        "de": "Es kämpft mit vollem Einsatz, nachdem es sich mit seinen drei Schweifen auspeitschte, um sich anzustacheln.",
+        "en": "After heightening its will to fight by whipping itself with its three tails, it charges at full speed.",
+        "fr": "Après s’être fouetté avec ses trois queues pour augmenter son agressivité, il charge."
+      }
+    },
+    {
+      "id": "129",
+      "name": {
+        "de": "KARPADOR",
+        "en": "MAGIKARP",
+        "fr": "MAGICARPE"
+      },
+      "image": "assets/img/sprites/129.png",
+      "audioFile": "assets/audio/cries/129.wav",
+      "height": {
+        "imperial": "2'11\"",
+        "metric": "0,9m"
+      },
+      "weight": {
+        "imperial": "22.0lb",
+        "metric": "10,0kg"
+      },
+      "species": {
+        "de": "FISCH",
+        "en": "FISH",
+        "fr": "POISSON"
+      },
+      "entry": {
+        "de": "Es ist nutzlos, was Kraft und Geschwindigkeit angeht. Dieses ist das schwächste und erbärmlichste Pokémon der Welt.",
+        "en": "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world.",
+        "fr": "Magicarpe manque totalement de vitesse et de force. C’est le Pokémon le plus pathétique sur terre."
+      }
+    },
+    {
+      "id": "130",
+      "name": {
+        "de": "GARADOS",
+        "en": "GYARADOS",
+        "fr": "LÉVIATOR"
+      },
+      "image": "assets/img/sprites/130.png",
+      "audioFile": "assets/audio/cries/130.wav",
+      "height": {
+        "imperial": "21'04\"",
+        "metric": "6,5m"
+      },
+      "weight": {
+        "imperial": "518.1lb",
+        "metric": "235,0kg"
+      },
+      "species": {
+        "de": "GRAUSAM",
+        "en": "ATROCIOUS",
+        "fr": "TERRIFIANT"
+      },
+      "entry": {
+        "de": "In alten Schriften wird von einem Garados berichtet, das in einem Wutanfall ein Dorf zerstörte.",
+        "en": "In ancient literature, there is a record of a Gyarados that razed a village when violence flared.",
+        "fr": "La littérature ancienne fait état d’un Léviator qui aurait rasé un village sous le coup de la colère."
+      }
+    },
+    {
+      "id": "131",
+      "name": {
+        "de": "LAPRAS",
+        "en": "LAPRAS",
+        "fr": "LOKHLASS"
+      },
+      "image": "assets/img/sprites/131.png",
+      "audioFile": "assets/audio/cries/131.wav",
+      "height": {
+        "imperial": "8'02\"",
+        "metric": "2,5m"
+      },
+      "weight": {
+        "imperial": "485.0lb",
+        "metric": "220,0kg"
+      },
+      "species": {
+        "de": "TRANSPORT",
+        "en": "TRANSPORT",
+        "fr": "TRANSPORT"
+      },
+      "entry": {
+        "de": "Sie sind gutmütig. Da sie selten kämpfen, wurden sie oft gefangen. Ihre Anzahl ist stark reduziert.",
+        "en": "They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled.",
+        "fr": "Ils sont d’une nature gentille. Comme ils se défendent rarement, ils sont en voie d’extinction."
+      }
+    },
+    {
+      "id": "132",
+      "name": {
+        "de": "DITTO",
+        "en": "DITTO",
+        "fr": "MÉTAMORPH"
+      },
+      "image": "assets/img/sprites/132.png",
+      "audioFile": "assets/audio/cries/132.wav",
+      "height": {
+        "imperial": "1'00\"",
+        "metric": "0,3m"
+      },
+      "weight": {
+        "imperial": "8.8lb",
+        "metric": "4,0kg"
+      },
+      "species": {
+        "de": "TRANSFORM",
+        "en": "TRANSFORM",
+        "fr": "MORPHING"
+      },
+      "entry": {
+        "de": "Es kann seine Zellstruktur so verändern, dass es sich in alles verwandeln kann, was es sieht.",
+        "en": "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees.",
+        "fr": "Il a la capacité de modifier sa structure cellulaire pour prendre l’apparence de ce qu’il voit."
+      }
+    },
+    {
+      "id": "133",
+      "name": {
+        "de": "EVOLI",
+        "en": "EEVEE",
+        "fr": "ÉVOLI"
+      },
+      "image": "assets/img/sprites/133.png",
+      "audioFile": "assets/audio/cries/133.wav",
+      "height": {
+        "imperial": "1'00\"",
+        "metric": "0,3m"
+      },
+      "weight": {
+        "imperial": "14.3lb",
+        "metric": "6,5kg"
+      },
+      "species": {
+        "de": "EVOLUTIONS",
+        "en": "EVOLUTION",
+        "fr": "ÉVOLUTIF"
+      },
+      "entry": {
+        "de": "Ein seltenes Pokémon, das sich seiner Umgebung anpasst, indem es sich in unterschiedliche Formen entwickelt.",
+        "en": "A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms.",
+        "fr": "Un Pokémon rare qui s’adapte aux environnements hostiles en variant ses formes évolutives."
+      }
+    },
+    {
+      "id": "134",
+      "name": {
+        "de": "AQUANA",
+        "en": "VAPOREON",
+        "fr": "AQUALI"
+      },
+      "image": "assets/img/sprites/134.png",
+      "audioFile": "assets/audio/cries/134.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "63.9lb",
+        "metric": "29,0kg"
+      },
+      "species": {
+        "de": "BLUBBBLASEN",
+        "en": "BUBBLE JET",
+        "fr": "BULLEUR"
+      },
+      "entry": {
+        "de": "Es liebt schöne Ufer. Da seine Zellstruktur Wassermolekülen ähnlich ist, kann es mit Wasser verschmelzen.",
+        "en": "It prefers beautiful shores. With cells similar to water molecules, it could melt in water.",
+        "fr": "Il préfère les belles plages. Il peut se dissoudre à volonté grâce à ses cellules proches de l’eau."
+      }
+    },
+    {
+      "id": "135",
+      "name": {
+        "de": "BLITZA",
+        "en": "JOLTEON",
+        "fr": "VOLTALI"
+      },
+      "image": "assets/img/sprites/135.png",
+      "audioFile": "assets/audio/cries/135.wav",
+      "height": {
+        "imperial": "2'07\"",
+        "metric": "0,8m"
+      },
+      "weight": {
+        "imperial": "54.0lb",
+        "metric": "24,5kg"
+      },
+      "species": {
+        "de": "BLITZ",
+        "en": "LIGHTNING",
+        "fr": "ORAGE"
+      },
+      "entry": {
+        "de": "Lädt es sich mit Elektrizität auf, steht jedes einzelne seiner Körperhaare steil nach oben.",
+        "en": "Every hair on its body starts to stand sharply on end if it becomes charged with electricity.",
+        "fr": "Chaque poil sur son corps se dresse quand il se charge en électricité."
+      }
+    },
+    {
+      "id": "136",
+      "name": {
+        "de": "FLAMARA",
+        "en": "FLAREON",
+        "fr": "PYROLI"
+      },
+      "image": "assets/img/sprites/136.png",
+      "audioFile": "assets/audio/cries/136.wav",
+      "height": {
+        "imperial": "2'11\"",
+        "metric": "0,9m"
+      },
+      "weight": {
+        "imperial": "55.1lb",
+        "metric": "25,0kg"
+      },
+      "species": {
+        "de": "FEUER",
+        "en": "FLAME",
+        "fr": "FLAMME"
+      },
+      "entry": {
+        "de": "In seinem Körper befindet sich eine Flamme. Seine Körpertemperatur liegt vor dem Kampf bei 900 °C.",
+        "en": "It has a flame sac in its body. Its body temperature tops 1,650 degrees Fahrenheit before battle.",
+        "fr": "Son corps contient une glande enflammée. Sa température monte à 900 °C avant le combat."
+      }
+    },
+    {
+      "id": "137",
+      "name": {
+        "de": "PORYGON",
+        "en": "PORYGON",
+        "fr": "PORYGON"
+      },
+      "image": "assets/img/sprites/137.png",
+      "audioFile": "assets/audio/cries/137.wav",
+      "height": {
+        "imperial": "2'07\"",
+        "metric": "0,8m"
+      },
+      "weight": {
+        "imperial": "80.5lb",
+        "metric": "36,5kg"
+      },
+      "species": {
+        "de": "VIRTUELL",
+        "en": "VIRTUAL",
+        "fr": "VIRTUEL"
+      },
+      "entry": {
+        "de": "Un Pokémon créé par l’homme après de longues recherches. Il ne connaît que peu de mouvements.",
+        "en": "Questo Pokémon è il risultato di una ricerca umana. Esegue solo i movimenti più elementari.",
+        "fr": "연구 끝에 태어난 인공 포켓몬이다. 기본적인 동작만 프로그램되어 있다."
+      }
+    },
+    {
+      "id": "138",
+      "name": {
+        "de": "AMONITAS",
+        "en": "OMANYTE",
+        "fr": "AMONITA"
+      },
+      "image": "assets/img/sprites/138.png",
+      "audioFile": "assets/audio/cries/138.wav",
+      "height": {
+        "imperial": "1'04\"",
+        "metric": "0,4m"
+      },
+      "weight": {
+        "imperial": "16.5lb",
+        "metric": "7,5kg"
+      },
+      "species": {
+        "de": "SPIRALEN",
+        "en": "SPIRAL",
+        "fr": "SPIRALE"
+      },
+      "entry": {
+        "de": "Ein prähistorisches Pokémon, das zur Urzeit im Wasser lebte. Es schwimmt, indem es seine zehn Tentakel bewegt.",
+        "en": "A prehistoric Pokémon that lived in the primordial sea, it swims by twisting its 10 tentacles about.",
+        "fr": "Un Pokémon préhistorique qui vivait dans les profondeurs marines. Il se déplace en agitant ses 10 tentacules."
+      }
+    },
+    {
+      "id": "139",
+      "name": {
+        "de": "AMOROSO",
+        "en": "OMASTAR",
+        "fr": "AMONISTAR"
+      },
+      "image": "assets/img/sprites/139.png",
+      "audioFile": "assets/audio/cries/139.wav",
+      "height": {
+        "imperial": "3'03\"",
+        "metric": "1,0m"
+      },
+      "weight": {
+        "imperial": "77.2lb",
+        "metric": "35,0kg"
+      },
+      "species": {
+        "de": "SPIRALEN",
+        "en": "SPIRAL",
+        "fr": "SPIRALE"
+      },
+      "entry": {
+        "de": "Seine Tentakel sind hoch entwickelt und es setzt sie ähnlich Händen und Füßen ein. Sobald es Beute ergriffen hat, beißt es zu.",
+        "en": "Its tentacles are highly developed as if they are hands and feet. As soon as it ensnares prey, it bites.",
+        "fr": "Ses tentacules sont développés comme s’il s’agissait de bras ou de jambes. Dès qu’il attrape une proie, il la mord."
+      }
+    },
+    {
+      "id": "140",
+      "name": {
+        "de": "KABUTO",
+        "en": "KABUTO",
+        "fr": "KABUTO"
+      },
+      "image": "assets/img/sprites/140.png",
+      "audioFile": "assets/audio/cries/140.wav",
+      "height": {
+        "imperial": "1'08\"",
+        "metric": "0,5m"
+      },
+      "weight": {
+        "imperial": "25.4lb",
+        "metric": "11,5kg"
+      },
+      "species": {
+        "de": "SCHALTIER",
+        "en": "SHELLFISH",
+        "fr": "CARAPACE"
+      },
+      "entry": {
+        "de": "Man geht davon aus, dass dieses Pokémon vor 300 Millionen Jahren die Strände bevölkerte.",
+        "en": "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell.",
+        "fr": "On pense qu’il peuplait les plages il y a 300 millions d’années. Il est protégé par une coquille robuste."
+      }
+    },
+    {
+      "id": "141",
+      "name": {
+        "de": "KABUTOPS",
+        "en": "KABUTOPS",
+        "fr": "KABUTOPS"
+      },
+      "image": "assets/img/sprites/141.png",
+      "audioFile": "assets/audio/cries/141.wav",
+      "height": {
+        "imperial": "4'03\"",
+        "metric": "1,3m"
+      },
+      "weight": {
+        "imperial": "89.3lb",
+        "metric": "40,5kg"
+      },
+      "species": {
+        "de": "SCHALTIER",
+        "en": "SHELLFISH",
+        "fr": "CARAPACE"
+      },
+      "entry": {
+        "de": "Dans l’eau, il se recroqueville sur ses jambes et il agite sa coquille pour nager à très grande vitesse.",
+        "en": "In acqua raccoglie gli arti per diventare più compatto, agitando il guscio per nuotare veloce.",
+        "fr": "수중을 이동할 때 손발을 작게 접고 등껍질을 구부려 빠르게 헤엄친다."
+      }
+    },
+    {
+      "id": "142",
+      "name": {
+        "de": "AERODACTYL",
+        "en": "AERODACTYL",
+        "fr": "PTÉRA"
+      },
+      "image": "assets/img/sprites/142.png",
+      "audioFile": "assets/audio/cries/142.wav",
+      "height": {
+        "imperial": "5'11\"",
+        "metric": "1,8m"
+      },
+      "weight": {
+        "imperial": "130.1lb",
+        "metric": "59,0kg"
+      },
+      "species": {
+        "de": "FOSSIL",
+        "en": "FOSSIL",
+        "fr": "FOSSILE"
+      },
+      "entry": {
+        "de": "In Bernstein eingeschlossenes genetisches Material eines Dinosauriers war der Ursprung dieses Pokémon. Beim Fliegen schreit es schrill.",
+        "en": "It was regenerated from a dinosaur’s genetic matter that was found in amber. It flies with high-pitched cries.",
+        "fr": "Ce Pokémon a été reconstitué à partir d’une cellule de dinosaure trouvée dans un morceau d’ambre. Il vole très haut en poussant des cris très aigus."
+      }
+    },
+    {
+      "id": "143",
+      "name": {
+        "de": "RELAXO",
+        "en": "SNORLAX",
+        "fr": "RONFLEX"
+      },
+      "image": "assets/img/sprites/143.png",
+      "audioFile": "assets/audio/cries/143.wav",
+      "height": {
+        "imperial": "6'11\"",
+        "metric": "2,1m"
+      },
+      "weight": {
+        "imperial": "1014.1lb",
+        "metric": "460,0kg"
+      },
+      "species": {
+        "de": "TAGTRÄUMER",
+        "en": "SLEEPING",
+        "fr": "PIONCEUR"
+      },
+      "entry": {
+        "de": "Es ist erst satt, wenn es über 400 kg Nahrung am Tag gefressen hat. Ist es mit dem Essen fertig, schläft es sofort ein.",
+        "en": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+        "fr": "Ronflex n’est pas satisfait tant qu’il n’a pas avalé ses 400 kg de nourriture quotidienne. Dès qu’il a fini de manger, il commence une sieste pour digérer."
+      }
+    },
+    {
+      "id": "144",
+      "name": {
+        "de": "ARKTOS",
+        "en": "ARTICUNO",
+        "fr": "ARTIKODIN"
+      },
+      "image": "assets/img/sprites/144.png",
+      "audioFile": "assets/audio/cries/144.wav",
+      "height": {
+        "imperial": "5'07\"",
+        "metric": "1,7m"
+      },
+      "weight": {
+        "imperial": "122.1lb",
+        "metric": "55,4kg"
+      },
+      "species": {
+        "de": "EIS",
+        "en": "FREEZE",
+        "fr": "GLACIAIRE"
+      },
+      "entry": {
+        "de": "Ein Legendäres Vogel-Pokémon. Es kann Blizzards verursachen, indem es Feuchtigkeit gefriert.",
+        "en": "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
+        "fr": "Un Pokémon Oiseau légendaire. Il peut provoquer des blizzards en gelant l’humidité de l’air."
+      }
+    },
+    {
+      "id": "145",
+      "name": {
+        "de": "ZAPDOS",
+        "en": "ZAPDOS",
+        "fr": "ÉLECTHOR"
+      },
+      "image": "assets/img/sprites/145.png",
+      "audioFile": "assets/audio/cries/145.wav",
+      "height": {
+        "imperial": "5'03\"",
+        "metric": "1,6m"
+      },
+      "weight": {
+        "imperial": "116.0lb",
+        "metric": "52,6kg"
+      },
+      "species": {
+        "de": "ELEKTRO",
+        "en": "ELECTRIC",
+        "fr": "ÉLECTRIQUE"
+      },
+      "entry": {
+        "de": "L’oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d’énormes éclairs.",
+        "en": "Uccello leggendario, si dice appaia tra le nuvole scagliando enormi saette.",
+        "fr": "구름 위에서 거대한 번개를 내리치며 나타난다. 전설의 새포켓몬이다."
+      }
+    },
+    {
+      "id": "146",
+      "name": {
+        "de": "LAVADOS",
+        "en": "MOLTRES",
+        "fr": "SULFURA"
+      },
+      "image": "assets/img/sprites/146.png",
+      "audioFile": "assets/audio/cries/146.wav",
+      "height": {
+        "imperial": "6'07\"",
+        "metric": "2,0m"
+      },
+      "weight": {
+        "imperial": "132.3lb",
+        "metric": "60,0kg"
+      },
+      "species": {
+        "de": "FLAMMEN",
+        "en": "FLAME",
+        "fr": "FLAMME"
+      },
+      "entry": {
+        "de": "Dieses Pokémon ist der Legendäre Feuervogel. Sein Flügelschlag entfacht ein helles Feuermeer.",
+        "en": "It is said to be the legendary bird Pokémon of fire. Every flap of its wings creates a dazzling flare of flames.",
+        "fr": "Le légendaire oiseau du feu. Une pluie de flammes surgit à chaque battement de ses ailes."
+      }
+    },
+    {
+      "id": "147",
+      "name": {
+        "de": "DRATINI",
+        "en": "DRATINI",
+        "fr": "MINIDRACO"
+      },
+      "image": "assets/img/sprites/147.png",
+      "audioFile": "assets/audio/cries/147.wav",
+      "height": {
+        "imperial": "5'11\"",
+        "metric": "1,8m"
+      },
+      "weight": {
+        "imperial": "7.3lb",
+        "metric": "3,3kg"
+      },
+      "species": {
+        "de": "DRACHEN",
+        "en": "DRAGON",
+        "fr": "DRAGON"
+      },
+      "entry": {
+        "de": "Man nennt es „Illusion-Pokémon“, denn nur wenige haben es gesehen. Nur seine Haut wurde oft gefunden.",
+        "en": "It is called the “Mirage Pokémon” because so few have seen it. Its shed skin has been found.",
+        "fr": "On l’appelle «Pokémon mirage» en raison de sa rareté. On a découvert sa mue."
+      }
+    },
+    {
+      "id": "148",
+      "name": {
+        "de": "DRAGONIR",
+        "en": "DRAGONAIR",
+        "fr": "DRACO"
+      },
+      "image": "assets/img/sprites/148.png",
+      "audioFile": "assets/audio/cries/148.wav",
+      "height": {
+        "imperial": "13'01\"",
+        "metric": "4,0m"
+      },
+      "weight": {
+        "imperial": "36.4lb",
+        "metric": "16,5kg"
+      },
+      "species": {
+        "de": "DRACHEN",
+        "en": "DRAGON",
+        "fr": "DRAGON"
+      },
+      "entry": {
+        "de": "Ses orbes de cristal donnent le pouvoir de contrôler le climat.",
+        "en": "Pare che le sfere di cristallo diano a questo Pokémon il pieno controllo sulle condizioni atmosferiche.",
+        "fr": "수정 같은 구슬에는 날씨를 자유롭게 조종하는 능력이 담겨 있는 듯하다."
+      }
+    },
+    {
+      "id": "149",
+      "name": {
+        "de": "DRAGORAN",
+        "en": "DRAGONITE",
+        "fr": "DRACOLOSSE"
+      },
+      "image": "assets/img/sprites/149.png",
+      "audioFile": "assets/audio/cries/149.wav",
+      "height": {
+        "imperial": "7'03\"",
+        "metric": "2,2m"
+      },
+      "weight": {
+        "imperial": "463.0lb",
+        "metric": "210,0kg"
+      },
+      "species": {
+        "de": "DRACHEN",
+        "en": "DRAGON",
+        "fr": "DRAGON"
+      },
+      "entry": {
+        "de": "Trotz seines wuchtigen und massiven Körpers kann es fliegen. Es umrundet den Erdball in nur 16 Stunden.",
+        "en": "It can fly in spite of its big and bulky physique. It circles the globe in just 16 hours.",
+        "fr": "Malgré son poids et son physique imposant, Dracolosse est capable de voler. Il peut faire le tour du monde en 16 heures."
+      }
+    },
+    {
+      "id": "150",
+      "name": {
+        "de": "MEWTU",
+        "en": "MEWTWO",
+        "fr": "MEWTWO"
+      },
+      "image": "assets/img/sprites/150.png",
+      "audioFile": "assets/audio/cries/150.wav",
+      "height": {
+        "imperial": "6'07\"",
+        "metric": "2,0m"
+      },
+      "weight": {
+        "imperial": "269.0lb",
+        "metric": "122,0kg"
+      },
+      "species": {
+        "de": "GENMUTANTEN",
+        "en": "GENETIC",
+        "fr": "GÉNÉTIQUE"
+      },
+      "entry": {
+        "de": "Dieses Pokémon ist das Resultat eines jahrelangen und skrupellosen Experimentes.",
+        "en": "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments.",
+        "fr": "Il est le fruit de nombreuses expériences génétiques horribles et malsaines."
+      }
+    },
+    {
+      "id": "151",
+      "name": {
+        "de": "MEW",
+        "en": "MEW",
+        "fr": "MEW"
+      },
+      "image": "assets/img/sprites/151.png",
+      "audioFile": "assets/audio/cries/151.wav",
+      "height": {
+        "imperial": "1'04\"",
+        "metric": "0,4m"
+      },
+      "weight": {
+        "imperial": "8.8lb",
+        "metric": "4,0kg"
+      },
+      "species": {
+        "de": "NEUE ART",
+        "en": "NEW SPECIES",
+        "fr": "NOUVEAU"
+      },
+      "entry": {
+        "de": "Es beherrscht alle möglichen Attacken, daher sieht man in ihm den Vorfahren aller Pokémon.",
+        "en": "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
+        "fr": "Nombre de scientifiques voient en lui l’ancêtre des Pokémon car il maîtrise toutes leurs capacités."
+      }
+    }
+  ]
