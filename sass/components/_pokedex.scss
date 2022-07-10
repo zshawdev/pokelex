@@ -1,6 +1,29 @@
 /* Page */
 .pokedex {
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 69%);
+    // box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 69%);
+
+    &__language-select-button-group {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        background-color: rgba($color-gray-dark, .3);
+        padding: 1rem 4rem 1rem 1rem;
+    }
+
+    &__language-select-button {
+        font-family: inherit;
+        font-size: $font-size-medium;
+        color: $color-white;
+        padding: 1rem;
+        cursor: pointer;
+        border: 1px solid $color-gray;
+        background-color: rgba($color-gray-dark, .9);
+        border-radius: 2px;
+
+        &:hover {
+            border-color: $color-gray-light;
+        }
+    }
 
     &__body {
         @include absolute-center;

@@ -23,7 +23,7 @@ const pokemonObjectsFetch = async() => {
     pokemonObjectsArray = data;
 }
 
-const importantTest = async() => {
+const printPokedex = async() => {
     await pokemonObjectsFetch();
     generateList(pokemonObjectsArray);
     listInteractivity();
@@ -31,7 +31,7 @@ const importantTest = async() => {
     printSelectedLanguage(currentLanguage);
 }
 
-importantTest();
+printPokedex();
 
 const generateList = array => {
     array.forEach(({
@@ -86,7 +86,6 @@ let entryAudioFile;
 let currentActive;
 
 const selectActive = (poke) => {
-    console.log(poke);
     entryNumber.lastChild.textContent = poke.id;
     entryName.textContent = poke.name[currentLanguage];
     entrySprite.src = poke.image;
@@ -163,6 +162,21 @@ const multilingualHeadings = {
         en: "WT",
         fr: "PDS"
     },
+    languageSelectDe: {
+        de: "DEUTSCH",
+        en: "GERMAN",
+        fr: "ALLEMAND"
+    },
+    languageSelectEn: {
+        de: "ENGLISCH",
+        en: "ENGLISH",
+        fr: "ANGLAIS"
+    },
+    languageSelectFr: {
+        de: "FRANZÖSISCH",
+        en: "FRENCH",
+        fr: "FRANÇAIS"
+    },
 }
 
 const printAllHeadings = () => {
@@ -178,6 +192,9 @@ const printAllHeadings = () => {
     printHeading("entrySpeciesHeading");
     printHeading("entryHeightHeading");
     printHeading("entryWeightHeading");
+    printHeading("languageSelectDe");
+    printHeading("languageSelectEn");
+    printHeading("languageSelectFr");
     eval(nameOfPokemonHeading).innerHTML = multilingualHeadings["nameOfPokemonHeading"][currentLanguage];
 }
 
@@ -187,6 +204,22 @@ const printSelectedLanguage = (selectedLanguage) => {
     printPokemonLanguageName();
     printAllHeadings();
 }
+
+const languageSelectEn = document.querySelector("#language-select-en");
+const languageSelectFr = document.querySelector("#language-select-fr");
+const languageSelectDe = document.querySelector("#language-select-de");
+
+languageSelectEn.addEventListener("click", () => {
+    printSelectedLanguage("en")
+});
+
+languageSelectFr.addEventListener("click", () => {
+    printSelectedLanguage("fr")
+});
+
+languageSelectDe.addEventListener("click", () => {
+    printSelectedLanguage("de")
+});
 
 //Responsiveness
 
