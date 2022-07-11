@@ -1,99 +1,13 @@
-const pokeSelect = () => document.querySelector(".simplebar-content");
-const search = document.querySelector("#search");
-let mainArray, liAll, entryAudioFile;
-
-window.addEventListener('DOMContentLoaded', () => {
-    const pokeSelect = document.querySelector('.simplebar-content-wrapper');
-
-    function transformCardBall (scrollTop, scrollHeight, clientHeight) {
-        const degrees = Math.round((scrollTop / (scrollHeight - clientHeight)) * 360);
-        document.documentElement.style.setProperty('--deg', `${ degrees }deg`);
-    }
-    const scrollHeight = 5136;
-    // const scrollHeight = document.querySelector('.simplebar-content').clientHeight;
-    pokeSelect.addEventListener('scroll', e => {
-        transformCardBall(e.target.scrollTop, scrollHeight, e.target.clientHeight);
-    });
-});
-
-const fetchJson = url => fetch(url).then(r => r.json()).catch(console.log);
+let pokemonObjectsArray = [];
+let currentLanguage = "en";
 (async() => {
-    [arrayA, arrayB] = await Promise.all([
-        Promise.all(new Array(151).fill(0).map((_, i) => fetchJson(`https://pokeapi.co/api/v2/pokemon/${i + 1}`))),
-        Promise.all(new Array(151).fill(0).map((_, i) => fetchJson(`https://pokeapi.co/api/v2/pokemon-species/${i + 1}`)))
-    ]);
-
-    arrayAB(arrayA, arrayB);
-
-}
-)();
-
-const arrayAB = ((arrayA, arrayB) => {
-    arrayA.forEach(function(n) {
-        index = n.id - 1;
-        arrayA[index] = {
-            ...arrayA[index],
-            ...arrayB[index]
-        };
-    });
-    
-    mainArray = arrayA.map(poke => ({
-        id: `${poke.id}`.padStart(3, "0"),
-        name: poke.name.toUpperCase(),
-        image: `assets/img/sprites/${arrayA.indexOf(poke) + 1}.png`,
-        audioFile: `assets/audio/cries/${arrayA.indexOf(poke) + 1}.wav`,
-        ht: toFeet(poke.height),
-        wt: toPounds(poke.weight),
-        species: poke.genera[7].genus.replace(" Pokémon", "").toUpperCase(),
-        entry: poke.flavor_text_entries[6].flavor_text.replaceAll("\n", " ").replaceAll("\f", " ")
-    }));
-
-    mainArray[121].name = "MR. MIME";
-    mainArray[28].name = "NIDORAN (F)";
-    mainArray[31].name = "NIDORAN (M)";
-    mainArray[82].name = `FARFETCH"D`;
-
-    const removeEntrySpace = (index, text) => {
-        console.log(index, text);
-        mainArray[index].entry = mainArray[index].entry.replace(` ${text}`, `${text}`);
-    }
-
-    removeEntrySpace(18, "ity");
-    removeEntrySpace(19, "es");
-    removeEntrySpace(20, "pi");
-    removeEntrySpace(25, "cit");
-    removeEntrySpace(53, "ch");
-    removeEntrySpace(64, "l");
-    removeEntrySpace(68, "te");
-    removeEntrySpace(68, "cap");
-    removeEntrySpace(72, "er");
-    removeEntrySpace(74, "l");
-    removeEntrySpace(130, "ry");
-    removeEntrySpace(137, "s");
-
-    generateList(mainArray);
+    const fetchJson = file => fetch(file).then(r => r.json()).catch(console.log);
+    pokemonObjectsArray = await fetchJson("pokemonObjects.json");
+    generateList(pokemonObjectsArray);
     listInteractivity();
-    selectActive(mainArray[25 - 1]);
-})
-
-//Unit Conversion
-
-const toPounds = weight => {
-    const raw = (weight / 10) * 2.2046; //weight"s value: kg albeit misplaced (stored: 69, desired: 6.9), is converted to kg (via / 10) then kg-to-pounds
-    let pounds = raw.toFixed(1);
-    return `<span class="u-color-gray">WT</span> ${pounds}lbs`;
-}
-
-const toFeet = height => {
-    const raw = (height / 10) * 3.28084; //height"s value: meters albeit misplaced (stored: 69, desired: 6.9), is converted to meters (via / 10) then meters-to-feet
-    let feet = Math.floor(raw);
-    let inches = Math.round((raw - feet) * 12);
-    if (inches === 12) {
-        feet++;
-        inches = 0;
-    }
-    return `<span class="u-color-gray">HT</span> ${feet}'${String(inches).padStart(2, "0")}"`;
-}
+    selectActivePokemon(pokemonObjectsArray[24]); //24 contains Pikachu, the mascot of Pokemon, to open with recognizable character.
+    printSelectedLanguage(currentLanguage);
+})();
 
 const generateList = array => {
     array.forEach(({
@@ -101,12 +15,22 @@ const generateList = array => {
         name
     }) => {
         const newPoke = document.createElement("li");
-        newPoke.innerHTML = `<span>${id}</span> <span class="pokedex__list-item--name-of-pokemon">${name}</span>`;
+        newPoke.innerHTML = `<span>${id}</span> <span class="pokedex__list-item--name-of-pokemon">${name[currentLanguage]}</span>`;
         pokeSelect().append(newPoke);
         newPoke.tabIndex = -1;
     })
 };
 
+const parseIntIndex = index => parseInt(index, 10) - 1;
+printPokemonNameCurrentLanguage = () => {
+    for (let li of liAll) {
+        num = parseIntIndex(li.innerText);
+        li.children[1].innerHTML = pokemonObjectsArray[num].name[currentLanguage];
+    }
+}
+
+const search = document.querySelector("#search");
+let liAll;
 search.addEventListener("input", () => {
     for (let li of liAll) {
         if (!li.innerText.includes(search.value.toUpperCase())) {
@@ -122,8 +46,8 @@ const listInteractivity = () => {
     let liAll = document.querySelectorAll("li");
     for (let li of liAll) {
         li.addEventListener("click", () => {
-            num = parseInt(li.innerText, 10) - 1;
-            selectActive(mainArray[num]);
+            num = parseIntIndex(li.innerText);
+            selectActivePokemon(pokemonObjectsArray[num]);
         });
     }
 }
@@ -135,20 +59,28 @@ const entrySpecies = document.querySelector("#entry-species");
 const entryHeight = document.querySelector("#entry-height");
 const entryWeight = document.querySelector("#entry-weight");
 const entryFlavorText = document.querySelector("#entry-flavor-text");
+let entryAudioFile;
+let currentActivePokemon;
 
-const selectActive = poke => {
-    entryNumber.textContent = `No.${poke.id}`;
-    entryName.textContent = poke.name;
+const selectActivePokemon = (poke) => {
+    entryNumber.lastChild.textContent = poke.id;
+    entryName.textContent = poke.name[currentLanguage];
     entrySprite.src = poke.image;
-    entrySpecies.innerHTML = `<span class="u-color-gray">SPECIES</span> ${poke.species}`;
-    entryHeight.innerHTML = poke.ht;
-    entryWeight.innerHTML = poke.wt;
-    entryFlavorText.innerText = poke.entry;
+    entrySpecies.lastChild.textContent = ` ${poke.species[currentLanguage]}`;
+    if (currentLanguage === "en") {
+        entryHeight.lastChild.textContent = ` ${poke.height.imperial}`;
+        entryWeight.lastChild.textContent = ` ${poke.weight.imperial}`;
+    } else {
+        entryHeight.lastChild.textContent = ` ${poke.height.metric}`;
+        entryWeight.lastChild.textContent = ` ${poke.weight.metric}`;
+    }
+    entryFlavorText.innerText = poke.entry[currentLanguage];
     entryAudioFile = new Audio(poke.audioFile);
     focusPoke(poke);
+    currentActivePokemon = parseIntIndex(poke.id);;
 };
 
-// focus selected Poke's card
+// focus selected Poke"s card
 const focusPoke = poke => {
     search.value = "";
     liAll = document.querySelectorAll("li");
@@ -156,7 +88,7 @@ const focusPoke = poke => {
         li.classList.remove("u-display-none");
         li.classList.remove("u-border-color-white");
     };
-    const focusedPoke = pokeSelect().children[parseInt(poke.id, 10) - 1];
+    const focusedPoke = pokeSelect().children[parseIntIndex(poke.id)];
     focusedPoke.classList.add("u-border-color-white");
     focusedPoke.focus();
     resetPokedexPaneDisplay(window.innerWidth);
@@ -166,28 +98,25 @@ const entryAudioButton = document.querySelector("#entry-audio-button");
 
 window.addEventListener("DOMContentLoaded", () => {
     entryAudioButton.addEventListener("click", () => {
-        entryAudioFile.play()
+        entryAudioFile.play();
     });
 });
 
-<<<<<<< Updated upstream
-=======
-const nameOfPokemonHeading = document.querySelector("#name-of-pokemon-heading");
 const entryNumberHeading = document.querySelector("#entry-number-heading");
 const entrySpeciesHeading = document.querySelector("#entry-species-heading");
 const entryHeightHeading = document.querySelector("#entry-height-heading");
 const entryWeightHeading = document.querySelector("#entry-weight-heading");
 
+// (async() => {
+//     const fetchJson = file => fetch(file).then(r => r.json()).catch(console.log);
+//     multilingualHeadings = await fetchJson("pokemonObjects.json");
+// })();
+
 const multilingualHeadings = {
     search: {
         de: "SUCHE",
         en: "SEARCH",
-        fr: "RECHERCHER",
-    },
-    nameOfPokemonHeading: {
-        de: `POK&#233;MON`,
-        en: `POK&#233;MON`,
-        fr: `POK&#233;MON`
+        fr: "RECHERCHER"
     },
     entryNumberHeading: {
         de: "No.",
@@ -223,53 +152,51 @@ const multilingualHeadings = {
         de: "FRANZÖSISCH",
         en: "FRENCH",
         fr: "FRANÇAIS"
-    },
+    }
 }
 
 const printAllHeadings = () => {
-    const printHeading = (heading) => {
+    for (let heading in multilingualHeadings) {
         const passedInHeading = eval(heading);
         if (passedInHeading.placeholder) {
             passedInHeading.placeholder = multilingualHeadings[heading][currentLanguage];
+        } else {
+            passedInHeading.textContent = multilingualHeadings[heading][currentLanguage];
         }
-        passedInHeading.textContent = multilingualHeadings[heading][currentLanguage];
     }
-    //iterate over object, print headings like that
-    printHeading("search");
-    printHeading("entryNumberHeading");
-    printHeading("entrySpeciesHeading");
-    printHeading("entryHeightHeading");
-    printHeading("entryWeightHeading");
-    printHeading("languageSelectDe");
-    printHeading("languageSelectEn");
-    printHeading("languageSelectFr");
-    eval(nameOfPokemonHeading).innerHTML = multilingualHeadings["nameOfPokemonHeading"][currentLanguage];
 }
 
 const printSelectedLanguage = (selectedLanguage) => {
     currentLanguage = selectedLanguage;
-    selectActive(pokemonObjectsArray[currentActive]);
-    printPokemonLanguageName();
+    selectActivePokemon(pokemonObjectsArray[currentActivePokemon]);
+    printPokemonNameCurrentLanguage();
     printAllHeadings();
 }
 
-const languageSelectEn = document.querySelector("#language-select-en");
-const languageSelectFr = document.querySelector("#language-select-fr");
-const languageSelectDe = document.querySelector("#language-select-de");
-
-languageSelectEn.addEventListener("click", () => {
-    printSelectedLanguage("en")
+const languageSelectButtons = document.querySelectorAll("[data-language]");
+languageSelectButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        const language = button.getAttribute("data-language");
+        printSelectedLanguage(language);
+    });
 });
 
-languageSelectFr.addEventListener("click", () => {
-    printSelectedLanguage("fr")
+//cardBall Rotation
+const pokeSelect = () => document.querySelector(".simplebar-content");
+window.addEventListener("DOMContentLoaded", () => {
+    const pokeSelect = document.querySelector(".simplebar-content-wrapper");
+
+    function transformCardBall (scrollTop, scrollHeight, clientHeight) {
+        const degrees = Math.round((scrollTop / (scrollHeight - clientHeight)) * 360);
+        document.documentElement.style.setProperty("--deg", `${ degrees }deg`);
+    }
+    const scrollHeight = 5136;
+    // const scrollHeight = document.querySelector(".simplebar-content").clientHeight;
+    pokeSelect.addEventListener("scroll", e => {
+        transformCardBall(e.target.scrollTop, scrollHeight, e.target.clientHeight);
+    });
 });
 
-languageSelectDe.addEventListener("click", () => {
-    printSelectedLanguage("de")
-});
-
->>>>>>> Stashed changes
 //Responsiveness
 
 const toggleButton = document.querySelector("#toggle-button");

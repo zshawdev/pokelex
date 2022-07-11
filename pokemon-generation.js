@@ -1,4 +1,4 @@
-//Ultimately Construct An Array of Pokemon Objects from Third-Party API
+//Fetch Array of Pokemon Objects from Third-Party API
 const fetchJson = url => fetch(url).then(r => r.json()).catch(console.log);
 (async() => {
     [arrayA, arrayB] = await Promise.all([
@@ -62,7 +62,7 @@ const formatHeight = (unit, height) => {
         }
         return `${feet}'${String(inches).padStart(2, "0")}"`;
     } else if (unit === "metric") {
-        const metricHeight = height / 10;
+        const metricHeight = height / 10; //height's value: meters albeit misplaced (stored: 69, desired: 6.9), is converted to meters (via / 10) then meters-to-feet
         return `${metricHeight.toFixed(1).replace(".", ",")}m`;
     }
 };
@@ -73,7 +73,7 @@ const formatWeight = (unit, weight) => {
         let pounds = raw.toFixed(1);
         return `${pounds}lb`;
     } else if (unit === "metric") {
-        const metricWeight = weight / 10;
+        const metricWeight = weight / 10; //height"s value: meters albeit misplaced (stored: 69, desired: 6.9), is converted to meters (via / 10) then meters-to-feet
         return `${metricWeight.toFixed(1).replace(".", ",")}kg`;
     }
 };

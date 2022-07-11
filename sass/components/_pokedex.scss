@@ -1,12 +1,33 @@
 /* Page */
 .pokedex {
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 69%);
+    &__language-select-button-group {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        background-color: rgba($color-gray-dark, .3);
+        padding: 1rem 4rem 1rem 1rem;
+    }
+
+    &__language-select-button {
+        font-family: inherit;
+        font-size: $font-size-medium;
+        color: $color-white;
+        padding: 1rem;
+        cursor: pointer;
+        border: 1px solid $color-gray;
+        background-color: rgba($color-gray-dark, .9);
+        border-radius: 2px;
+
+        &:hover {
+            border-color: $color-gray-light;
+        }
+    }
 
     &__body {
         @include absolute-center;
         display: flex;
     
-        width: 81.5rem;
+        width: $main-body-width;
         height: 31rem;
         padding: 1.5rem 0 1.5rem 0;
         border-radius: 7.1rem 1rem 1rem 11.7rem;
@@ -21,7 +42,6 @@
         height: 100%;
         border-top: $border-pane;
         border-bottom: $border-pane;
-        z-index: -1;
     }
 
     &__select-pane {
@@ -30,12 +50,13 @@
     }
 
     &__entry-pane {
-        width: 55%;
+        width: $pane-width-wide-half;
         border-left: $border-pane;
     }
 
     &__search, &__list-heading-group {
-        margin-left: $select-pane-children-offset
+        $width: $pane-width-thin-half;
+        margin-left: $select-pane-children-offset;
     }
 
     &__search {
@@ -45,10 +66,10 @@
         color: inherit;
         font-size: $font-size-large;
         height: 2.85rem;
+        width: 30.4rem;
         margin-top: $margin-top;
         margin-bottom: .4rem;
         text-align: center;
-        width: 30.4rem;
 
         &:focus::placeholder {
             color: transparent;
@@ -105,12 +126,11 @@
 
         &-number {
             color: $color-gray;
-            margin-top: 0.5rem;
+            margin-top: $margin-top;
         }
 
         &-name {
             font-size: $font-size-large;
-            margin-top: -0.5rem;
         }
 
         &-sprite {
