@@ -1,25 +1,32 @@
-# Pokédex
+# PokéLex
 
-An interactive encyclopedia encompassing data on the various mythical creatures found throughout the world of the universally-loved, multimedia sensation that is Pokémon. 
+PokéLex ("Pokédex" + "lexicon") is a website that combines an immersive language learning approach with the universally-loved, multimedia sensation that is Pokémon. Practice your foreign language skills by learning about the world's favorite mythical creatures via this interactive, multilingual encyclopedia!
 
-[Try it out here!](https://zshawdev.github.io/pokedex/)
+[Try it out here!](https://pokelex.com/)
 
 ![Pokédex Preview](assets/img/readme/pokedex-demo.gif)
-
-See their might, hear them roar, and ultimately learn more about each of the beasts that reside throughout the region.
 
 ## Installation
 
 No installation is necessary! 
 
-Simply download the project and run the included index.html - it will load in your web browser.
+Simply [visit the website](https://pokelex.com/) or download the project and run the included index.html - it will load in your web browser.
 
 ## Usage
 
-Built with HTML, CSS, & JavaScript (via many features such as utilization of third-party APIs, async, await, & promises), Pokédex boasts a slick interface and parallels many of the functionalities of the actual Pokédex device as featured throughout the video game series:
+Built with HTML, CSS, & JavaScript (via features such as the utilization of third-party APIs & ES6's async-await and Promises), PokéLex boasts a slick interface and parallels many of the functionalities of the actual Pokédex device as featured throughout the famous video game series:
 
 ![Use Guide - Desktop](https://i.ibb.co/Pmzv5fZ/use-guide-desktop.png)
 ![Use Guide - Mobile](https://i.ibb.co/1Xs6RXh/use-guide-mobile.png)
 
+## Roadmap
 
+Future Goals:  
 
+•Spanish, Italian and Japanese as language options.
+
+•Additional encyclopedia entries for each Pokémon, for more learning material.
+
+•Additional Pokédex features, such as a map showing Pokémon locations in the world and additional search criteria.
+
+•Interaction-triggered sprite animation.
