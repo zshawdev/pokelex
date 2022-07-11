@@ -1,0 +1,42 @@
+{
+    "search": {
+      "de": "SUCHE",
+      "en": "SEARCH",
+      "fr": "RECHERCHER"
+    },
+    "entryNumberHeading": {
+      "de": "No.",
+      "en": "No.",
+      "fr": "No."
+    },
+    "entrySpeciesHeading": {
+      "de": "SPECIES",
+      "en": "SPECIES",
+      "fr": "ESPÈCES"
+    },
+    "entryHeightHeading": {
+      "de": "GR.",
+      "en": "HT",
+      "fr": "TAI"
+    },
+    "entryWeightHeading": {
+      "de": "GEW",
+      "en": "WT",
+      "fr": "PDS"
+    },
+    "languageSelectDe": {
+      "de": "DEUTSCH",
+      "en": "GERMAN",
+      "fr": "ALLEMAND"
+    },
+    "languageSelectEn": {
+      "de": "ENGLISCH",
+      "en": "ENGLISH",
+      "fr": "ANGLAIS"
+    },
+    "languageSelectFr": {
+      "de": "FRANZÖSISCH",
+      "en": "FRENCH",
+      "fr": "FRANÇAIS"
+    }
+  }
