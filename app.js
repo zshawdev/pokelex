@@ -1,14 +1,17 @@
 let pokemonObjectsArray = [];
 let currentLanguage = "en";
+let scrollHeight;
 (async() => {
     const fetchJson = file => fetch(file).then(r => r.json()).catch(console.log);
-    pokemonObjectsArray = await fetchJson("pokemonObjects.json");
+    pokemonObjectsArray = await fetchJson("assets/json/pokemon-objects.json");
     generateList(pokemonObjectsArray);
+    scrollHeight = document.querySelector(".simplebar-content").clientHeight;
     listInteractivity();
-    selectActivePokemon(pokemonObjectsArray[24]); //24 contains Pikachu, the mascot of Pokemon, to open with recognizable character.
+    selectActivePokemon(pokemonObjectsArray[24]); //24 contains Pikachu, the mascot of Pokemon, to open with a recognizable character.
     printSelectedLanguage(currentLanguage);
 })();
 
+const pokeSelect = () => document.querySelector(".simplebar-content");
 const generateList = array => {
     array.forEach(({
         id,
@@ -41,7 +44,6 @@ search.addEventListener("input", () => {
     }
 });
 
-// print clicked-li to viewer pane
 const listInteractivity = () => {
     let liAll = document.querySelectorAll("li");
     for (let li of liAll) {
@@ -80,7 +82,6 @@ const selectActivePokemon = (poke) => {
     currentActivePokemon = parseIntIndex(poke.id);;
 };
 
-// focus selected Poke"s card
 const focusPoke = poke => {
     search.value = "";
     liAll = document.querySelectorAll("li");
@@ -107,53 +108,11 @@ const entrySpeciesHeading = document.querySelector("#entry-species-heading");
 const entryHeightHeading = document.querySelector("#entry-height-heading");
 const entryWeightHeading = document.querySelector("#entry-weight-heading");
 
-// (async() => {
-//     const fetchJson = file => fetch(file).then(r => r.json()).catch(console.log);
-//     multilingualHeadings = await fetchJson("pokemonObjects.json");
-// })();
-
-const multilingualHeadings = {
-    search: {
-        de: "SUCHE",
-        en: "SEARCH",
-        fr: "RECHERCHER"
-    },
-    entryNumberHeading: {
-        de: "No.",
-        en: "No.",
-        fr: "No."
-    },
-    entrySpeciesHeading: {
-        de: "SPECIES",
-        en: "SPECIES",
-        fr: "ESPÈCES"
-    },
-    entryHeightHeading: {
-        de: "GR.",
-        en: "HT",
-        fr: "TAI"
-    },
-    entryWeightHeading: {
-        de: "GEW",
-        en: "WT",
-        fr: "PDS"
-    },
-    languageSelectDe: {
-        de: "DEUTSCH",
-        en: "GERMAN",
-        fr: "ALLEMAND"
-    },
-    languageSelectEn: {
-        de: "ENGLISCH",
-        en: "ENGLISH",
-        fr: "ANGLAIS"
-    },
-    languageSelectFr: {
-        de: "FRANZÖSISCH",
-        en: "FRENCH",
-        fr: "FRANÇAIS"
-    }
-}
+let multilingualHeadings;
+(async() => {
+    const fetchJson = file => fetch(file).then(r => r.json()).catch(console.log);
+    return multilingualHeadings = await fetchJson("assets/json/multilingual-headings.json");
+})();
 
 const printAllHeadings = () => {
     for (let heading in multilingualHeadings) {
@@ -174,6 +133,7 @@ const printSelectedLanguage = (selectedLanguage) => {
 }
 
 const languageSelectButtons = document.querySelectorAll("[data-language]");
+
 languageSelectButtons.forEach((button) => {
     button.addEventListener("click", () => {
         const language = button.getAttribute("data-language");
@@ -182,7 +142,6 @@ languageSelectButtons.forEach((button) => {
 });
 
 //cardBall Rotation
-const pokeSelect = () => document.querySelector(".simplebar-content");
 window.addEventListener("DOMContentLoaded", () => {
     const pokeSelect = document.querySelector(".simplebar-content-wrapper");
 
@@ -190,8 +149,6 @@ window.addEventListener("DOMContentLoaded", () => {
         const degrees = Math.round((scrollTop / (scrollHeight - clientHeight)) * 360);
         document.documentElement.style.setProperty("--deg", `${ degrees }deg`);
     }
-    const scrollHeight = 5136;
-    // const scrollHeight = document.querySelector(".simplebar-content").clientHeight;
     pokeSelect.addEventListener("scroll", e => {
         transformCardBall(e.target.scrollTop, scrollHeight, e.target.clientHeight);
     });
