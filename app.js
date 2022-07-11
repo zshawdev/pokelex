@@ -170,6 +170,106 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+<<<<<<< Updated upstream
+=======
+const nameOfPokemonHeading = document.querySelector("#name-of-pokemon-heading");
+const entryNumberHeading = document.querySelector("#entry-number-heading");
+const entrySpeciesHeading = document.querySelector("#entry-species-heading");
+const entryHeightHeading = document.querySelector("#entry-height-heading");
+const entryWeightHeading = document.querySelector("#entry-weight-heading");
+
+const multilingualHeadings = {
+    search: {
+        de: "SUCHE",
+        en: "SEARCH",
+        fr: "RECHERCHER",
+    },
+    nameOfPokemonHeading: {
+        de: `POK&#233;MON`,
+        en: `POK&#233;MON`,
+        fr: `POK&#233;MON`
+    },
+    entryNumberHeading: {
+        de: "No.",
+        en: "No.",
+        fr: "No."
+    },
+    entrySpeciesHeading: {
+        de: "SPECIES",
+        en: "SPECIES",
+        fr: "ESPÈCES"
+    },
+    entryHeightHeading: {
+        de: "GR.",
+        en: "HT",
+        fr: "TAI"
+    },
+    entryWeightHeading: {
+        de: "GEW",
+        en: "WT",
+        fr: "PDS"
+    },
+    languageSelectDe: {
+        de: "DEUTSCH",
+        en: "GERMAN",
+        fr: "ALLEMAND"
+    },
+    languageSelectEn: {
+        de: "ENGLISCH",
+        en: "ENGLISH",
+        fr: "ANGLAIS"
+    },
+    languageSelectFr: {
+        de: "FRANZÖSISCH",
+        en: "FRENCH",
+        fr: "FRANÇAIS"
+    },
+}
+
+const printAllHeadings = () => {
+    const printHeading = (heading) => {
+        const passedInHeading = eval(heading);
+        if (passedInHeading.placeholder) {
+            passedInHeading.placeholder = multilingualHeadings[heading][currentLanguage];
+        }
+        passedInHeading.textContent = multilingualHeadings[heading][currentLanguage];
+    }
+    //iterate over object, print headings like that
+    printHeading("search");
+    printHeading("entryNumberHeading");
+    printHeading("entrySpeciesHeading");
+    printHeading("entryHeightHeading");
+    printHeading("entryWeightHeading");
+    printHeading("languageSelectDe");
+    printHeading("languageSelectEn");
+    printHeading("languageSelectFr");
+    eval(nameOfPokemonHeading).innerHTML = multilingualHeadings["nameOfPokemonHeading"][currentLanguage];
+}
+
+const printSelectedLanguage = (selectedLanguage) => {
+    currentLanguage = selectedLanguage;
+    selectActive(pokemonObjectsArray[currentActive]);
+    printPokemonLanguageName();
+    printAllHeadings();
+}
+
+const languageSelectEn = document.querySelector("#language-select-en");
+const languageSelectFr = document.querySelector("#language-select-fr");
+const languageSelectDe = document.querySelector("#language-select-de");
+
+languageSelectEn.addEventListener("click", () => {
+    printSelectedLanguage("en")
+});
+
+languageSelectFr.addEventListener("click", () => {
+    printSelectedLanguage("fr")
+});
+
+languageSelectDe.addEventListener("click", () => {
+    printSelectedLanguage("de")
+});
+
+>>>>>>> Stashed changes
 //Responsiveness
 
 const toggleButton = document.querySelector("#toggle-button");
