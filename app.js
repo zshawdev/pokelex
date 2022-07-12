@@ -116,11 +116,17 @@ let multilingualHeadings;
 
 const printAllHeadings = () => {
     for (let heading in multilingualHeadings) {
-        const passedInHeading = eval(heading);
-        if (passedInHeading.placeholder) {
-            passedInHeading.placeholder = multilingualHeadings[heading][currentLanguage];
+        if (heading.includes("languageSelect")) {
+            let language = heading.replace("languageSelect", "").toLowerCase();
+            let languageButton = document.querySelector(`[data-language=${language}]`);
+            languageButton.textContent = multilingualHeadings[heading][currentLanguage];
         } else {
-            passedInHeading.textContent = multilingualHeadings[heading][currentLanguage];
+            const passedInHeading = eval(heading);
+            if (passedInHeading.placeholder) {
+                passedInHeading.placeholder = multilingualHeadings[heading][currentLanguage];
+            } else {
+                passedInHeading.textContent = multilingualHeadings[heading][currentLanguage];
+            }
         }
     }
 }
