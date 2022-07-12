@@ -918,9 +918,9 @@
         "fr": "VÉNÉPIC"
       },
       "entry": {
-        "de": "발달한 귀를 세워 주위의 낌새를 살핀다. 무슨 일이 생기면 바로 덤벼든다.",
-        "en": "Levanta sus grandes orejas para vigilar. Si detecta algo, atacará de inmediato.",
-        "fr": "はったつした　みみを　たてて まわりの　けはいを　さぐる。 なにかあると　すぐに　とびかかる。"
+        "de": "Seine steinharte Haut und sein ausgeprägtes Horn sind seine Markenzeichen. Achte auf das Horn, denn es enthält Gift.",
+        "en": "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn,as it contains venom.",
+        "fr": "On le reconnaît facilement grâce à sa peau dure comme de la pierre ainsi qu’à sa grosse corne pleine de poison."
       }
     },
     {
@@ -1142,9 +1142,9 @@
         "fr": "CHOVSOURIS"
       },
       "entry": {
-        "de": "입에서 내는 초음파로 두 눈이 없어도 주위의 장애물을 탐색할 수 있다.",
-        "en": "Aunque carezca de ojos, puede detectar obstáculos con las ondas ultrasónicas que emite su boca.",
-        "fr": "くちから　だす　ちょうおんぱで りょうめが　なくても　まわりの しょうがいぶつを　さっちできる。"
+        "de": "Obwohl es keine Augen hat, kann es Hindernisse mithilfe von Ultraschallwellen wahrnehmen.",
+        "en": "Even though it has no eyes, it can sense obstacles using ultrasonic waves it emits from its mouth.",
+        "fr": "Bien que dépourvu d’yeux, il repère les obstacles grâce aux ultrasons émis par sa gueule."
       }
     },
     {
@@ -1254,9 +1254,9 @@
         "fr": "FLEUR"
       },
       "entry": {
-        "de": "꽃잎이 클수록 많은 꽃가루를 만들어 내지만 머리가 무거워서 지쳐버린다고 한다.",
-        "en": "Cuanto mayores son sus pétalos, más tóxico es su polen. Le pesa la cabeza y le cuesta mantenerla erguida.",
-        "fr": "はなびらが　おおきいほど　たくさん かふんを　だすが　あたまが おもたくて　つかれてしまうという。"
+        "de": "Je größer die Blütenblätter, desto mehr giftige Pollen sind in der Blüte enthalten.",
+        "en": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+        "fr": "Plus ses pétales sont grands, plus ils contiennent de pollen toxique."
       }
     },
     {
@@ -1394,9 +1394,9 @@
         "fr": "TAUPE"
       },
       "entry": {
-        "de": "Il vit à 1 m sous la terre et se nourrit de racines. Il apparaît rarement à la surface.",
-        "en": "Vive un metro sotto terra, dove si nutre di radici. Talvolta compare in superficie.",
-        "fr": "지하 1m 정도를 파고들어 가서 나무뿌리 등을 씹어 먹고 산다. 가끔 지상으로 얼굴을 내민다."
+        "de": "Dieses Pokémon lebt 1 m unter der Erde. Es frisst Wurzeln und kommt selten an die Oberfläche.",
+        "en":  "Lives about one yard underground where it feeds on plant roots. It sometimes appears aboveground.",
+        "fr": "Il vit à 1 m sous la terre et se nourrit de racines. Il apparaît rarement à la surface."
       }
     },
     {
@@ -1450,9 +1450,9 @@
         "fr": "CHADÉGOUT"
       },
       "entry": {
-        "de": "Son regard s’anime à la vue d’un objet brillant. C’est un Pokémon nocturne.",
-        "en": "È un Pokémon attivo di notte. Se nota qualcosa di luccicante, i suoi occhi cominciano a brillare.",
-        "fr": "한밤중에 움직이는 습성이 있다. 반짝반짝 빛나는 것을 발견하면 그에 못지않게 눈동자가 반짝인다."
+        "de": "Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.",
+        "en": "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
+        "fr": "Son regard s’anime à la vue d’un objet brillant. C’est un Pokémon nocturne."
       }
     },
     {
@@ -1534,9 +1534,9 @@
         "fr": "CANARD"
       },
       "entry": {
-        "de": "Il apparaît dans les étendues d’eau au crépuscule. Si son front brille, il se sert de sa télékinésie.",
-        "en": "Appare presso i corsi d’acqua col buio. Acquisisce poteri telecinetici se la sua fronte diventa incandescente.",
-        "fr": "해 질 무렵 강가에 모습을 나타낸다. 이마가 이상하게 빛날 때 신통력을 발휘한다고 전해진다."
+        "de": "Es taucht bei Sonnenuntergang am Wasser auf. Leuchtet seine Stirn, setzt es telekinetische Kräfte ein.",
+        "en": "It appears by waterways at dusk. It may use telekinetic powers if its forehead glows mysteriously.",
+        "fr": "Il apparaît dans les étendues d’eau au crépuscule. Si son front brille, il se sert de sa télékinésie."
       }
     },
     {
@@ -1786,9 +1786,9 @@
         "fr": "PSY"
       },
       "entry": {
-        "de": "Son pouvoir psychique émet des ondes alpha qui brouillent les appareils électroniques.",
-        "en": "Quando usa i poteri psichici, emette forti onde alfa che possono rovinare strumenti di precisione.",
-        "fr": "초능력을 발휘하면 강한 알파파를 내어 정밀 기계를 고장 내 버린다."
+        "de": "Setzt es seine Psycho-Kräfte ein, sondert es Alphawellen ab, die Präzisionsgeräten schaden können.",
+        "en": "When it uses its psychic power, it emits strong alpha waves that can ruin precision devices.",
+        "fr": "Son pouvoir psychique émet des ondes alpha qui brouillent les appareils électroniques."
       }
     },
     {
@@ -1982,9 +1982,9 @@
         "fr": "CARNIVORE"
       },
       "entry": {
-        "de": "정글의 안쪽에 우츠보트만 있는 지대가 있어서 한 번 가면 두 번 다시 돌아올 수 없다.",
+        "de": "Dieses Pokémon soll in großen Kolonien tief im Dschungel leben, doch niemand kann dies bestätigen.",
         "en": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
-        "fr": "ジャングルの　おくちに　ウツボット ばかり　いる　ちたいが　あって いったら　２どと　かえってこれない。"
+        "fr": "On dit qu’il vit en colonie dans la jungle, mais personne n’en est jamais revenu vivant pour le confirmer."
       }
     },
     {
@@ -2094,9 +2094,9 @@
         "fr": "ROCHE"
       },
       "entry": {
-        "de": "D’une nature téméraire, il se moque de perdre des parties de son corps quand il dévale les pentes.",
+        "de": "Es ist ihm völlig gleichgültig, wenn Stücke aus ihm herausbrechen, während es Berge hinabrollt.",
         "en": "With a free and uncaring nature, it doesn’t mind if pieces break off while it rolls down mountains.",
-        "fr": "산에서 굴러 떨어질 때 몸의 여기저기가 부서져도 신경 쓰지 않는 호쾌한 성격이다."
+        "fr": "D’une nature téméraire, il se moque de perdre des parties de son corps quand il dévale les pentes."
       }
     },
     {
@@ -2178,9 +2178,9 @@
         "fr": "CHEVAL FEU"
       },
       "entry": {
-        "de": "Doté d’un esprit de compétition, il poursuit toute créature rapide pour faire la course.",
-        "en": "Pokémon molto competitivo, rincorre tutto ciò che si muove veloce, sperando di superarlo.",
-        "fr": "빠르게 움직이는 물체를 보면 경주를 하고 싶어져서 맹렬한 스피드로 쫓아가기 시작한다."
+        "de": "Dieses Pokémon verfolgt schnelle Objekte in der Hoffnung, ein Wettrennen gegen sie zu gewinnen.",
+        "en": "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it.",
+        "fr": "Doté d’un esprit de compétition, il poursuit toute créature rapide pour faire la course."
       }
     },
     {
@@ -2206,9 +2206,9 @@
         "fr": "CRÉTIN"
       },
       "entry": {
-        "de": "항상 멍하니 있으므로 무슨 생각을 하고 있는지 알 수 없다. 꼬리로 먹이를 낚는 것이 특기다.",
-        "en": "Está siempre en su mundo, pero nadie sabe en qué piensa. Suele pescar con la cola.",
-        "fr": "いつも　ボーッとしていて　なにを かんがえているか　わからない。 しっぽで　エサを　つるのが　とくい。"
+        "de": "Es ist stets in Gedanken versunken und niemand weiß, worüber es nachdenkt. Es kann mit seiner Rute gut angeln.",
+        "en": "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
+        "fr": "Ramoloss semble toujours perdu dans ses pensées, mais personne ne sait vraiment à quoi il pense. Il adore pêcher en utilisant sa queue."
       }
     },
     {
@@ -2374,9 +2374,9 @@
         "fr": "TRIOISEAU"
       },
       "entry": {
-        "de": "Un ennemi ne faisant pas attention à l’une des trois têtes pendant une seconde se fait picorer.",
-        "en": "Occorre fare attenzione a tutte le sue tre teste, altrimenti si rischia d’essere colpiti duramente.",
-        "fr": "3개의 머리가 보고 있는 앞에서 조금이라도 빈틈을 보이면 부리로 격렬하게 쪼아댄다."
+        "de": "Lässt ein Feind auch nur einen der drei Köpfe für nur eine Sekunde aus den Augen, wird er sofort gepickt.",
+        "en": "An enemy that takes its eyes off any of the three heads--even for a second--will get pecked severely.",
+        "fr": "Un ennemi ne faisant pas attention à l’une des trois têtes pendant une seconde se fait picorer."
       }
     },
     {
@@ -2934,9 +2934,9 @@
         "fr": "GARD’OS"
       },
       "entry": {
-        "de": "Ce petit Pokémon était à l’origine très faible. Il est devenu redoutable le jour où il a appris à se servir de ses os.",
-        "en": "Di piccole dimensioni, un tempo era del tutto innocuo. È diventato più aggressivo brandendo un osso come arma.",
-        "fr": "몸집도 작으며 원래는 약했다. 뼈를 쓰기 시작하면서 성격이 흉포해졌다."
+        "de": "Es ist klein und war ursprünglich sehr schwach. Erst als es anfing Knochen einzusetzen, wurde es wild.",
+        "en": "It is small and was originally very weak. Its temperament turned ferocious when it began using bones.",
+        "fr": "Ce petit Pokémon était à l’origine très faible. Il est devenu redoutable le jour où il a appris à se servir de ses os."
       }
     },
     {
@@ -3438,9 +3438,9 @@
         "fr": "MANTE"
       },
       "entry": {
-        "de": "Il déchiquette ses proies à l’aide de ses bras tranchants comme des faux. Il n’utilise ses ailes pour voler que très rarement.",
-        "en": "Fa a pezzi le prede con gli artigli spaventosamente affilati. Solo raramente spiega le ali per alzarsi in volo.",
-        "fr": "날카로운 낫으로 먹이를 베고 숨통을 끊는다. 매우 드물게 날개를 사용해서 난다."
+        "de": "Es zerreißt und zerkleinert seine Beute mit seinen unglaublich scharfen Sicheln. Selten breitet es seine Flügel aus, um zu fliegen.",
+        "en": "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly.",
+        "fr": "Il déchiquette ses proies à l’aide de ses bras tranchants comme des faux. Il n’utilise ses ailes pour voler que très rarement."
       }
     },
     {
@@ -3830,9 +3830,9 @@
         "fr": "VIRTUEL"
       },
       "entry": {
-        "de": "Un Pokémon créé par l’homme après de longues recherches. Il ne connaît que peu de mouvements.",
-        "en": "Questo Pokémon è il risultato di una ricerca umana. Esegue solo i movimenti più elementari.",
-        "fr": "연구 끝에 태어난 인공 포켓몬이다. 기본적인 동작만 프로그램되어 있다."
+        "de": "Ein künstlich produziertes Pokémon, welches das Ergebnis von Forschungen ist. Es ist simpel aufgebaut.",
+        "en": "A man-made Pokémon that came about as a result of research. It is programmed with only basic motions.",
+        "fr": "Un Pokémon créé par l’homme après de longues recherches. Il ne connaît que peu de mouvements."
       }
     },
     {
@@ -3942,9 +3942,9 @@
         "fr": "CARAPACE"
       },
       "entry": {
-        "de": "Dans l’eau, il se recroqueville sur ses jambes et il agite sa coquille pour nager à très grande vitesse.",
-        "en": "In acqua raccoglie gli arti per diventare più compatto, agitando il guscio per nuotare veloce.",
-        "fr": "수중을 이동할 때 손발을 작게 접고 등껍질을 구부려 빠르게 헤엄친다."
+        "de": "Im Wasser zieht es seine Beine an und bewegt seinen Panzer, um so schneller schwimmen zu können.",
+        "en": "In the water, it tucks in its limbs to become more compact, then it wiggles its shell to swim fast.",
+        "fr": "Dans l’eau, il se recroqueville sur ses jambes et il agite sa coquille pour nager à très grande vitesse."
       }
     },
     {
@@ -4054,9 +4054,9 @@
         "fr": "ÉLECTRIQUE"
       },
       "entry": {
-        "de": "L’oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d’énormes éclairs.",
-        "en": "Uccello leggendario, si dice appaia tra le nuvole scagliando enormi saette.",
-        "fr": "구름 위에서 거대한 번개를 내리치며 나타난다. 전설의 새포켓몬이다."
+        "de": "Ein Legendäres Vogel-Pokémon, das im Sturzflug aus den Wolken bricht und Blitze schleudert.",
+        "en": "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
+        "fr": "L’oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d’énormes éclairs."
       }
     },
     {
@@ -4138,9 +4138,9 @@
         "fr": "DRAGON"
       },
       "entry": {
-        "de": "Ses orbes de cristal donnent le pouvoir de contrôler le climat.",
-        "en": "Pare che le sfere di cristallo diano a questo Pokémon il pieno controllo sulle condizioni atmosferiche.",
-        "fr": "수정 같은 구슬에는 날씨를 자유롭게 조종하는 능력이 담겨 있는 듯하다."
+        "de": "Die kristallenen Bälle an seinem Schweif ermöglichen es ihm, das Wetter zu beeinflussen.",
+        "en": "Its crystalline orbs appear to give this Pokémon the power to freely control the weather.",
+        "fr": "Ses orbes de cristal donnent le pouvoir de contrôler le climat."
       }
     },
     {
