@@ -16,8 +16,8 @@ Simply [visit the website](https://pokelex.com/) or download the project and run
 
 Built with HTML, CSS, & JavaScript (via features such as the utilization of third-party APIs & ES6's async-await and Promises), PokéLex boasts a slick interface and parallels many of the functionalities of the actual Pokédex device as featured throughout the famous video game series:
 
-![Use Guide - Desktop](https://i.ibb.co/Pmzv5fZ/use-guide-desktop.png)
-![Use Guide - Mobile](https://i.ibb.co/1Xs6RXh/use-guide-mobile.png)
+![Use Guide - Desktop](assets/img/readme/pokedex-readme.png)
+![Use Guide - Mobile](assets/img/readme/pokedex-readme-m.png)
 
 ## Roadmap
 
